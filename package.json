@@ -21,7 +21,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build && electron-builder",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
