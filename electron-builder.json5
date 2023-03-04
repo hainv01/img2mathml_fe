@@ -3,6 +3,8 @@
  */
 {
   "appId": "YourAppID",
+  "productName": "Image2MathML",
+  "artifactName": "${productName}-${os}-${arch}-${version}.${ext}",
   "asar": true,
   "icon": "public/favicon.ico",
   "directories": {
@@ -13,7 +15,6 @@
     "dist"
   ],
   "mac": {
-    "artifactName": "${productName}_${version}.${ext}",
     "target": [
       "dmg"
     ]
@@ -26,8 +27,22 @@
           "x64"
         ]
       }
+    ]
+  },
+  "linux": {
+    "icon": "src/assets/256x256.png",
+    "target": [
+      {
+        "target": [
+          "AppImage",
+          "tar.gz"
+        ],
+        "arch": [
+          "x64"
+        ]
+      }
     ],
-    "artifactName": "${productName}_${version}.${ext}"
+    "category": "Tools"
   },
   "nsis": {
     "oneClick": false,
