@@ -27,16 +27,13 @@
           "x64"
         ]
       }
-    ]
+    ],
   },
   "linux": {
-    "icon": "src/assets/256x256.png",
+    "icon": "build/256x256.png",
     "target": [
       {
-        "target": [
-          "AppImage",
-          "tar.gz"
-        ],
+        "target": "AppImage",
         "arch": [
           "x64"
         ]
