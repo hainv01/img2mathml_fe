@@ -1,5 +1,4 @@
 <template>
-  <div class="">
     <button aria-controls="default-sidebar"
             class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
             data-drawer-target="default-sidebar"
@@ -48,8 +47,6 @@
     <div class="p-4 sm:ml-48">
       <component :is="currentView"/>
     </div>
-
-  </div>
 </template>
 
 <script lang="ts">

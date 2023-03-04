@@ -3,7 +3,7 @@
     <div class="font-bold text-3xl text-center container mx-auto mb-4">
       Snips
     </div>
-    <div class="grid grid-cols-2 gap-8">
+    <div class="grid lg:grid-cols-2 gap-8 sm:grid-cols-1">
       <div class="flex justify-center items-center border-2 border-slate-400 rounded-lg">
         <img class=""
              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSR5trrzk-SOBh6nCFujzaq5Lv4RJxojbb1w&usqp=CAU">
