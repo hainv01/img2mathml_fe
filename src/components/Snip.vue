@@ -1,17 +1,9 @@
-<script lang="ts" setup>
-// import { ref } from 'vue'
-
-// defineProps<{ msg: string }>()
-
-// const count = ref(0)
-</script>
-
 <template>
-  <div class="scrollbar-hide">
-    <div class="text-2xl font-bold text-center container mx-auto px-4">
-
+  <div>
+    <div class="font-bold text-3xl text-center container mx-auto mb-4">
+      Snips
     </div>
-    <div class="grid grid-cols-2 gap-4 ml-8 mt-8">
+    <div class="grid grid-cols-2 gap-8">
       <div class="flex justify-center items-center border-2 border-slate-400 rounded-lg">
         <img class=""
              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSR5trrzk-SOBh6nCFujzaq5Lv4RJxojbb1w&usqp=CAU">
@@ -34,3 +26,9 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Snip"
+}
+</script>
