@@ -1,24 +1,28 @@
 <template>
 
   <div>
-    <div class="font-bold text-3xl text-center container mx-auto mb-4">
+    <div class="container mx-auto mb-4 text-3xl font-bold text-center">
       Convert
     </div>
-    <div class="relative flex items-center justify-center sm:px-6 lg:px-8 bg-no-repeat bg-cover relative items-center">
+    <div class="flex relative justify-center items-center bg-no-repeat bg-cover sm:px-6 lg:px-8">
       <form action="#" class="space-y-3" method="POST">
         <div class="grid grid-cols-1 space-y-2">
-          <div class="flex items-center justify-center w-full">
-            <label class="flex flex-col rounded-lg border-4 border-dashed w-full h-60 p-10 group text-center">
-              <div class="h-full w-full text-center flex flex-col items-center justify-center items-center  ">
-                <div class="flex flex-auto max-h-48 w-2/5 mx-auto -mt-10">
-                  <img alt="freepik image"
-                       class="has-mask h-36 object-center"
-                       src="https://img.freepik.com/free-vector/image-upload-concept-landing-page_52683-27130.jpg?size=338&ext=jpg">
+          <div class="flex justify-center items-center w-full">
+            <label class="flex flex-col p-10 w-full  text-center rounded-lg border-4 border-dashed group">
+              <div class="flex flex-col justify-center items-center w-full h-full text-center">
+                <div class="flex flex-auto mx-auto ">
+                  <img alt="image"
+                       v-if="url"
+                       :src="url" class="object-contain object-cover"
+                  >
                 </div>
-                <p class="pointer-none text-gray-500 "><span class="text-sm">Drag and drop</span> files here <br/> or <a
-                    id="" class="text-blue-600 hover:underline" href="">select a file</a> from your computer</p>
+                <p v-if="!url" class="text-gray-500 pointer-none">Select a file from your computer</p>
               </div>
-              <input class="hidden" type="file">
+              <input
+                  class="hidden"
+                  accept="image/*"
+                  type="file"
+                  @change="($event) => onFileChange($event)">
             </label>
           </div>
         </div>
@@ -26,9 +30,9 @@
           <span>File type: jpg, png</span>
         </p>
         <div>
-          <button class="my-5 w-full flex justify-center bg-blue-500 text-gray-100 p-4  rounded-full tracking-wide
-                                    font-semibold  focus:outline-none focus:shadow-outline hover:bg-blue-600 shadow-lg cursor-pointer transition ease-in duration-300"
-                  type="submit">
+          <button
+              class="flex justify-center p-4 my-5 w-full font-semibold tracking-wide text-gray-100 bg-blue-500 rounded-full shadow-lg transition duration-300 ease-in cursor-pointer hover:bg-blue-600 focus:outline-none focus:shadow-outline"
+              type="submit">
             Convert to Docs
           </button>
         </div>
@@ -38,7 +42,54 @@
 </template>
 
 <script lang="ts">
-export default {
-  name: "Convert"
-}
+import {defineComponent} from "vue";
+const fs = require('fs');
+const { exec } = require("child_process");
+
+export default defineComponent({
+  name: "Convert",
+  data() {
+    return {
+      image: '',
+      url: '',
+    }
+  },
+  methods: {
+    onFileChange(e: Event) {
+      e.stopPropagation();
+      e.preventDefault();
+      const target = e.target as HTMLInputElement;
+      if (!target) return
+      const file = target.files;
+      if (!file) return
+      this.url = URL.createObjectURL(file[0]);
+      console.log(file[0], "url", this.url)
+//      fs.writeFileSync('./test', file[0]);
+      exec(`mkdir test`, (error: { message: any; }, stdout: any, stderr: any) => {
+        if (error) {
+          console.log(`error: ${error.message}`);
+          return;
+        }
+        if (stderr) {
+          console.log(`stderr: ${stderr}`);
+          return;
+        }
+        console.log(`stdout: ${stdout}`);
+      });
+      exec(`cp ${file[0].path} ./test/`, (error: { message: any; }, stdout: any, stderr: any) => {
+        if (error) {
+          console.log(`error: ${error.message}`);
+          return;
+        }
+        if (stderr) {
+          console.log(`stderr: ${stderr}`);
+          return;
+        }
+        console.log(`stdout: ${stdout}`);
+      });
+    }
+  }
+})
+
+
 </script>
