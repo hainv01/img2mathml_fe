@@ -31,8 +31,9 @@
         </p>
         <div>
           <button
+              :disabled="wait === true"
               class="flex justify-center p-4 my-5 w-full font-semibold tracking-wide text-gray-100 bg-blue-500 rounded-full shadow-lg transition duration-300 ease-in cursor-pointer hover:bg-blue-600 focus:outline-none focus:shadow-outline"
-              type="submit">
+              type="submit" @click="onConvert">
             Convert to Docs
           </button>
         </div>
@@ -52,6 +53,7 @@ export default defineComponent({
     return {
       image: '',
       url: '',
+      wait: false,
     }
   },
   methods: {
@@ -65,7 +67,7 @@ export default defineComponent({
       this.url = URL.createObjectURL(file[0]);
       console.log(file[0], "url", this.url)
 //      fs.writeFileSync('./test', file[0]);
-      exec(`mkdir test`, (error: { message: any; }, stdout: any, stderr: any) => {
+      exec(`mkdir imgs`, (error: { message: any; }, stdout: any, stderr: any) => {
         if (error) {
           console.log(`error: ${error.message}`);
           return;
@@ -76,7 +78,7 @@ export default defineComponent({
         }
         console.log(`stdout: ${stdout}`);
       });
-      exec(`cp ${file[0].path} ./test/`, (error: { message: any; }, stdout: any, stderr: any) => {
+      exec(`cp ${file[0].path} ./imgs/`, (error: { message: any; }, stdout: any, stderr: any) => {
         if (error) {
           console.log(`error: ${error.message}`);
           return;
@@ -85,11 +87,33 @@ export default defineComponent({
           console.log(`stderr: ${stderr}`);
           return;
         }
+        let img = file[0].path.split("/")
+        this.image = `./test/${img[img.length  - 1]}`
         console.log(`stdout: ${stdout}`);
       });
+    },
+    onConvert(e: Event) {
+      e.preventDefault()
+      e.stopPropagation()
+      this.wait = true
+      let command = `docker run -i -v "$(pwd)"/imgs:/usr/src/app/test --rm --name my-app hainv01/img2latex:0.0.4 ${this.image}`
+      exec(command, (error: { message: any; }, stdout: any, stderr: any) => {
+        if (error) {
+          console.log(`error: ${error.message}`);
+          return;
+        }
+        if (stderr) {
+          console.log(`stderr: ${stderr}`);
+        }
+        console.log(`stdout: ${stdout}`);
+        let blob = new Blob([ stdout ], { "type" : "text/plain" });
+        let link = document.createElement('a')
+        link.href = window.URL.createObjectURL(blob)
+        link.download = 'output.txt'
+        link.click()
+      });
+      this.wait = false
     }
   }
 })
-
-
 </script>
