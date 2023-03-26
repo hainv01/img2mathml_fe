@@ -31,7 +31,11 @@
         </p>
         <div>
           <button
-              :disabled="wait === true"
+              class="flex justify-center p-5 my-5 w-full font-semibold tracking-wide text-gray-100 bg-blue-500 rounded-full shadow-lg transition duration-300 ease-in cursor-pointer hover:bg-blue-600 focus:outline-none focus:shadow-outline"
+              @click="capture">
+            Convert to Docs
+          </button>
+          <button
               class="flex justify-center p-4 my-5 w-full font-semibold tracking-wide text-gray-100 bg-blue-500 rounded-full shadow-lg transition duration-300 ease-in cursor-pointer hover:bg-blue-600 focus:outline-none focus:shadow-outline"
               type="submit" @click="onConvert">
             Convert to Docs
@@ -44,8 +48,9 @@
 
 <script lang="ts">
 import {defineComponent} from "vue";
+const electron = require('electron');
 const fs = require('fs');
-const { exec } = require("child_process");
+const {exec} = require("child_process");
 
 export default defineComponent({
   name: "Convert",
@@ -106,14 +111,45 @@ export default defineComponent({
           console.log(`stderr: ${stderr}`);
         }
         console.log(`stdout: ${stdout}`);
-        let blob = new Blob([ stdout ], { "type" : "text/plain" });
+        let blob = new Blob([stdout], {"type": "text/plain"});
         let link = document.createElement('a')
         link.href = window.URL.createObjectURL(blob)
         link.download = 'output.txt'
         link.click()
       });
       this.wait = false
-    }
+    },
+    capture(e: Event) {
+     // e.stopPropagation();
+     e.preventDefault();
+      exec(`mkdir imgs`, (error: { message: any; }, stdout: any, stderr: any) => {
+        if (error) {
+          console.log(`error: ${error.message}`);
+          return;
+        }
+        if (stderr) {
+          console.log(`stderr: ${stderr}`);
+          return;
+        }
+        console.log(`stdout: ${stdout}`);
+      });
+      let r = Date.now()
+      electron.ipcRenderer.send('minimize-win')
+      exec(`xfce4-screenshooter -r -s ./imgs/${r}.png`, (error: { message: any; }, stdout: any, stderr: any) => {
+        if (error) {
+          console.log(`error: ${error.message}`);
+          return;
+        }
+        if (stderr) {
+          console.log(`stderr: ${stderr}`);
+        }
+
+        this.url = `./imgs/${r}.png`
+        this.image = `./test/${r}.png`
+        console.log(`stdout: ${this.url}`);
+        electron.ipcRenderer.send('unhide-win')
+      });
+    },
   }
 })
 </script>

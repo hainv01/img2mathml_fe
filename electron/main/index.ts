@@ -1,4 +1,4 @@
-import { app, BrowserWindow, shell, ipcMain } from 'electron'
+import { app, BrowserWindow, shell, ipcMain, dialog } from 'electron'
 import { release } from 'node:os'
 import { join } from 'node:path'
 
@@ -72,6 +72,7 @@ async function createWindow() {
     if (url.startsWith('https:')) shell.openExternal(url)
     return { action: 'deny' }
   })
+  win.minimize()
   // win.webContents.on('will-navigate', (event, url) => { }) #344
 }
 
@@ -114,4 +115,10 @@ ipcMain.handle('open-win', (_, arg) => {
   } else {
     childWindow.loadFile(indexHtml, { hash: arg })
   }
+})
+ipcMain.on('minimize-win', (_, arg) => {
+  win.minimize()
+})
+ipcMain.on('unhide-win', (_, arg) => {
+  win.restore()
 })
