@@ -32,11 +32,11 @@ const routes = [
   //   path: "/profile",
   //   component: ProfileViewVue,
   // },
-  {
-    name: "main",
-    path: "/main",
-    component: Main,
-  },
+  // {
+  //   name: "main",
+  //   path: "/main",
+  //   component: Main,
+  // },
 ];
 
 const router = createRouter({

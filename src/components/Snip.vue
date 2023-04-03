@@ -4,9 +4,12 @@
       Snips
     </div>
     <div class="grid lg:grid-cols-2 gap-8 sm:grid-cols-1">
+      <div v-for="file in files" class="flex justify-center items-center border-2 border-slate-400 rounded-lg">
+        <img :src="file.url">
+      </div>
       <div class="flex justify-center items-center border-2 border-slate-400 rounded-lg">
         <img class=""
-             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSR5trrzk-SOBh6nCFujzaq5Lv4RJxojbb1w&usqp=CAU">
+             src="http://157.245.144.181:9000/shitty/100a0894ac.png">
       </div>
 
       <div class="flex justify-center items-center border-2 border-slate-400 rounded-lg">
@@ -28,7 +31,18 @@
 </template>
 
 <script lang="ts">
+import {useFileStore} from '@/stores/snips'
+import {storeToRefs} from "pinia";
+
 export default {
-  name: "Snip"
+  name: "Snip",
+  async data() {
+    const fileStore = useFileStore();
+    const files = await fileStore.getFiles();
+    console.log(files[1].url)
+    return {
+      files: files
+    }
+  }
 }
 </script>
