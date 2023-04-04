@@ -114,7 +114,9 @@ export default defineComponent({
       const res = await authApi.post('/files/upload-image/', formData, {headers: {
           "Content-Type": "multipart/form-data"
         },})
-      if (res.data.mathml.length != 0) {
+      console.log("1")
+      if (res.data.mathml.length !== 0) {
+        console.log("0")
         let blob = new Blob([res.data.mathml.length], {"type": "text/plain"});
         let link = document.createElement('a')
         link.href = window.URL.createObjectURL(blob)
@@ -123,6 +125,7 @@ export default defineComponent({
         this.wait = false
         return
       }
+      console.log("2")
       let command = `docker run -i -v "$(pwd)"/imgs:/usr/src/app/test --rm --name my-app hainv01/img2latex:0.0.4 ${this.image}`
       // let command = `docker run -i -v "$(pwd)"/imgs:/usr/src/app/test --rm --name my-app hainv01/img2latex:0.0.4 a`
       exec(command, (error, stdout, stderr) => {
@@ -138,7 +141,9 @@ export default defineComponent({
         if (stderr) {
           console.log(`stderr: ${stderr}`);
         }
+        console.log("3")
         console.log(`stdout: ${stdout}`);
+        authApi.patch(`/files/${res.data._id}`, {mathml: stdout})
         let blob = new Blob([stdout], {"type": "text/plain"});
         let link = document.createElement('a')
         link.href = window.URL.createObjectURL(blob)
@@ -146,6 +151,7 @@ export default defineComponent({
         link.click()
         this.wait = false
       });
+      console.log("4")
     },
     capture(e) {
       // e.stopPropagation();
