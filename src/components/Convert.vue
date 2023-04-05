@@ -79,7 +79,7 @@ export default defineComponent({
       this.file = file[0]
       console.log(this.file)
       this.url = URL.createObjectURL(file[0]);
-      console.log(file[0], "url", this.url)
+      // console.log(file[0], "url", this.url)
       exec(`mkdir imgs`, (error, stdout, stderr) => {
         if (error) {
           console.log(`error: ${error.message}`);
@@ -100,10 +100,10 @@ export default defineComponent({
           console.log(`stderr: ${stderr}`);
           return;
         }
-        let img = file[0].path.split("/")
-        this.image = `./test/${img[img.length - 1]}`
         console.log(`stdout: ${stdout}`);
       });
+      let img = file[0].path.split("/")
+      this.image = `./test/${img[img.length - 1]}`
     },
     async convert(e) {
       e.preventDefault()
@@ -165,7 +165,7 @@ export default defineComponent({
       });
       let r = Date.now()
       electron.ipcRenderer.send('minimize-win')
-      exec(`xfce4-screenshooter -r -s ./imgs/${r}.png`, (error, stdout, stderr) => {
+      exec(`xfce4-screenshooter -r -s ./imgs/${r}.png`, async (error, stdout, stderr) => {
         if (error) {
           console.log(`error: ${error.message}`);
           return;
@@ -175,8 +175,17 @@ export default defineComponent({
         }
 
         this.url = `./imgs/${r}.png`
-        this.image = `./test/${r}.png`
+//        this.image = `./test/${r}.png`
         console.log(`stdout: ${this.url}`);
+        let img = this.url.split("/")
+        this.image = `./test/${img[img.length - 1]}`
+        let response = await fetch(`http://localhost:5173/imgs/${r}.png`);
+        let data = await response.blob();
+        let metadata = {
+          type: 'image/jpeg'
+        };
+        this.file = new File([data], `${r}.png`, metadata);
+        console.log(this.file)
         electron.ipcRenderer.send('unhide-win')
       });
     },
