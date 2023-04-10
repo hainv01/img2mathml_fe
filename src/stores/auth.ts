@@ -33,7 +33,6 @@ export const useAuthStore = defineStore({
     state: () => ({
         // initialize state from local storage to enable user to stay logged in
         user: JSON.parse(localStorage.getItem('user')!),
-        auth: false,
         returnUrl: null
     }),
     actions: {
@@ -49,14 +48,12 @@ export const useAuthStore = defineStore({
 
             // redirect to previous url or default to home page
             router.push(this.returnUrl || '/');
-            this.auth = true
         },
-        signOut() {
+        logout() {
             this.user = null;
-            this.auth = false
             localStorage.removeItem('user');
             router.push('/login');
-        },
+        }
     }
 });
 
