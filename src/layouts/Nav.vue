@@ -38,7 +38,7 @@
             <span class="flex-1 ml-3 whitespace-nowrap">Snips</span>
           </router-link>
         </li>
-        <li v-if="users == false">
+        <li v-if="!auth">
           <router-link class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg  hover:bg-gray-100"
                        to="/login">
             <svg aria-hidden="true"
@@ -52,7 +52,7 @@
           </router-link>
         </li>
         <li v-else>
-          <a class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100" href="#" @click="signout">
+          <a class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100" href="#" @click="authStore.signOut">
             <svg aria-hidden="true"
                  class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900"
                  fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -72,47 +72,11 @@
   </div>
 </template>
 
-<script lang="ts">
-import {defineComponent} from 'vue'
+<script setup lang="ts">
 import {useAuthStore} from '@/stores/auth';
-import {useUsersStore} from '@/stores/user'
 import {storeToRefs} from "pinia";
 
-// const routes: { [Key: string]: Component } = {
-//   '/snip': Snip,
-//   '/convert': Convert,
-//   '/register': Register
+const authStore = useAuthStore()
 
-// }
-export default defineComponent({
-  name: "NavSide",
-  data() {
-    const usersStore = useUsersStore();
-    const {users} = storeToRefs(usersStore);
-    const result = usersStore.check();
-    console.log(users)
-    return {
-      users: result
-    }
-  },
-  watch: {
-    // a computed getter
-    isLogin() {
-      const usersStore = useUsersStore();
-      const {users} = storeToRefs(usersStore);
-      const result = usersStore.check();
-      console.log(result)
-      this.users = result
-    }
-  },
-  methods: {
-    signout(e: Event) {
-      this.users = false
-      const authStore = useAuthStore();
-      authStore.logout()
-    }
-  }
-})
-
-// console.log("[App.vue]", `Hello world from Electron ${process.versions.electron}!`)
+const { auth } = storeToRefs(useAuthStore())
 </script>
