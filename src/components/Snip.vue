@@ -8,7 +8,7 @@
     </div>
     <div v-else class="grid lg:grid-cols-2 gap-8 sm:grid-cols-1">
       <div @click="onClick(index)" v-for="(file, index) in files" :key="file._id" class="flex justify-center items-center border-2 border-slate-400 rounded-lg">
-        <img :src="file.url">
+        <img :src="file.url" alt="">
       </div>
     </div>
   </div>
