@@ -4,7 +4,7 @@ import Snip from "@/components/Snip.vue";
 import Register from "@/components/Register.vue";
 import Main from '@/layouts/Nav.vue'
 import Login from "@/components/Login.vue";
-// import ProfileViewVue from "@/components/ProfileView.vue";
+import Detail from "@/components/Detail.vue";
 
 const routes = [
   {
@@ -26,6 +26,11 @@ const routes = [
     name: "register",
     path: "/register",
     component: Register,
+  },
+  {
+    name: "detail",
+    path: "/detail",
+    component: Detail,
   },
   // {
   //   name: "profile",

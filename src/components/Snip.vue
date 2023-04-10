@@ -7,7 +7,7 @@
       <div></div>
     </div>
     <div v-else class="grid lg:grid-cols-2 gap-8 sm:grid-cols-1">
-      <div @click="onClick(file.url, file.mathml)" v-for="file in files" :key="file._id" class="flex justify-center items-center border-2 border-slate-400 rounded-lg">
+      <div @click="onClick(index)" v-for="(file, index) in files" :key="file._id" class="flex justify-center items-center border-2 border-slate-400 rounded-lg">
         <img :src="file.url">
       </div>
     </div>
@@ -16,6 +16,7 @@
 
 <script lang="js">
 import {useFileStore} from '@/stores/snips'
+import router from "@/router";
 
 export default {
   name: "Snip",
@@ -38,8 +39,11 @@ export default {
         console.log(this.files[1]._id)
       })
     },
-    onClick(url, mathml) {
-      console.log(url, mathml)
+    onClick(index) {
+      const fileStore = useFileStore();
+      fileStore.setCur(index)
+      console.log(index)
+      router.push('/detail')
     }
   }
 }
