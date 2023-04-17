@@ -47,8 +47,8 @@
                 </button>
                 <button v-else
                         class="bg-blue-500 text-white rounded-r-md py-2 border-l border-gray-200 hover:bg-blue-600 hover:text-white px-3"
-                        @click="onNex"
-                        type="button">
+                        type="button"
+                        @click="onNex">
                     <div class="flex flex-row align-middle">
                         <span class="mr-2">Next</span>
                         <svg class="w-5 ml-2" fill="currentColor" viewBox="0 0 20 20"
@@ -75,11 +75,12 @@
             </div>
         </div>
         <div class="mb-6 p-8 flex">
-<!--            <label for="default-input" class="block mb-2 text-sm font-medium text-gray-900">MathML</label>-->
-            <input id="default-input w-full" disabled
+            <!--            <label for="default-input" class="block mb-2 text-sm font-medium text-gray-900">MathML</label>-->
+            <input id="default-input w-full" :value="file.mathml"
                    class="bg-gray-50 w-10/12 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5"
-                   type="text" :value="file.mathml">
-            <button @click="showClicked" v-clipboard="file.mathml" class="bg-gray-50 right-auto border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/12 p-2.5">
+                   disabled type="text">
+            <button v-clipboard="file.mathml" class="bg-gray-50 right-auto border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/12 p-2.5"
+                    @click="showClicked">
                 <div>{{ !copied ? "Copy" : "Copied" }}</div>
             </button>
             <button class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/12 p-2.5">
@@ -117,10 +118,12 @@ export default {
         onPrev() {
             this.fileStore.setCur(this.cur - 1)
             this.getData()
+            this.copied = false
         },
         onNex() {
             this.fileStore.setCur(this.cur + 1)
             this.getData()
+            this.copied = false
         },
         showClicked() {
             this.copied = true

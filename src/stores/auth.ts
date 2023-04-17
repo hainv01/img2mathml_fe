@@ -1,32 +1,37 @@
 import axios from "axios";
 import router from '@/router';
-import { defineStore } from 'pinia';
+import {defineStore} from 'pinia';
 
 const BASE_URL = `http://localhost:3000/`;
 
+export const convertApi = axios.create({
+    baseURL: 'http://127.0.0.1:8502/',
+    withCredentials: false,
+})
+
 export const authApi = axios.create({
-  baseURL: BASE_URL,
-  withCredentials: false,
+    baseURL: BASE_URL,
+    withCredentials: false,
 });
 
 authApi.defaults.headers.common["Content-Type"] = "application/json";
 authApi.defaults.headers.common["Authorization"] = setAuth();
 
-
-authApi.interceptors.response.use(
-  (response) => {
-    return response;
-  },
-  async (error) => {
-    const originalRequest = error.config;
-    const errMessage = error.response.data.message as string;
-    if (errMessage.includes("not logged in") && !originalRequest._retry) {
-      originalRequest._retry = true;
-      return authApi(originalRequest);
-    }
-    return Promise.reject(error);
-  }
-);
+//
+// authApi.interceptors.response.use(
+//     (response) => {
+//         return response;
+//     },
+//     async (error) => {
+//         const originalRequest = error.config;
+//         const errMessage = error.response.data.message as string;
+//         if (errMessage.includes("not logged in") && !originalRequest._retry) {
+//             originalRequest._retry = true;
+//             return authApi(originalRequest);
+//         }
+//         return Promise.reject(error);
+//     }
+// );
 
 export const useAuthStore = defineStore({
     id: 'auth',
@@ -37,7 +42,7 @@ export const useAuthStore = defineStore({
     }),
     actions: {
         async login(email: string, password: string) {
-            const user = await authApi.post(`/auth/login`, { email, password });
+            const user = await authApi.post(`/auth/login`, {email, password});
             authApi.defaults.headers.common["Authorization"] = `Bearer ${user.data.access_token}`;
 
             // update pinia state
@@ -47,12 +52,10 @@ export const useAuthStore = defineStore({
             localStorage.setItem('user', JSON.stringify(user.data.access_token));
 
             // redirect to previous url or default to home page
-            router.push(this.returnUrl || '/');
+            await router.push(this.returnUrl || '/');
         },
-        logout() {
-            this.user = null;
-            localStorage.removeItem('user');
-            router.push('/login');
+        setUser(user: any) {
+            this.user = user
         }
     }
 });
