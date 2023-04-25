@@ -5,7 +5,7 @@ import {defineStore} from 'pinia';
 const BASE_URL = `http://localhost:3000/`;
 
 export const convertApi = axios.create({
-    baseURL: 'http://127.0.0.1:8502/',
+    baseURL: 'http://157.245.150.161:8502/',
     withCredentials: false,
 })
 
