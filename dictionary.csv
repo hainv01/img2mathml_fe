@@ -1,0 +1,2758 @@
+Latex,Mathml,Description
+,&#x00020;,SPACE
+!,&#x00021;,EXCLAMATION MARK
+\#,&#x00023;,"# \# (oz), NUMBER SIGN"
+\$,&#x00024;,"= \mathdollar, DOLLAR SIGN"
+\%,&#x00025;,PERCENT SIGN
+\&,&#x00026;,# \binampersand (stmaryrd)
+(,&#x00028;,LEFT PARENTHESIS
+),&#x00029;,RIGHT PARENTHESIS
+*,&#x0002A;,"# \ast, (high) ASTERISK, star"
++,&#x0002B;,PLUS SIGN
+",",&#x0002C;,COMMA
+,&#x0002D;,"t -, HYPHEN-MINUS (deprecated for math)"
+.,&#x0002E;,"FULL STOP, period"
+/,&#x0002F;,"# \slash, SOLIDUS"
+0,&#x00030;,DIGIT ZERO
+1,&#x00031;,DIGIT ONE
+2,&#x00032;,DIGIT TWO
+3,&#x00033;,DIGIT THREE
+4,&#x00034;,DIGIT FOUR
+5,&#x00035;,DIGIT FIVE
+6,&#x00036;,DIGIT SIX
+7,&#x00037;,DIGIT SEVEN
+8,&#x00038;,DIGIT EIGHT
+9,&#x00039;,DIGIT NINE
+:,&#x0003A;,"= \colon (literal), COLON (not ratio)"
+;,&#x0003B;,SEMICOLON p:
+<,&#x0003C;,LESS-THAN SIGN r:
+=,&#x0003D;,EQUALS SIGN r:
+>,&#x0003E;,GREATER-THAN SIGN r:
+?,&#x0003F;,QUESTION MARK
+@,&#x00040;,at
+A,&#x00041;,"= \mathrm{A}, LATIN CAPITAL LETTER A"
+B,&#x00042;,"= \mathrm{B}, LATIN CAPITAL LETTER B"
+C,&#x00043;,"= \mathrm{C}, LATIN CAPITAL LETTER C"
+D,&#x00044;,"= \mathrm{D}, LATIN CAPITAL LETTER D"
+E,&#x00045;,"= \mathrm{E}, LATIN CAPITAL LETTER E"
+F,&#x00046;,"= \mathrm{F}, LATIN CAPITAL LETTER F"
+G,&#x00047;,"= \mathrm{G}, LATIN CAPITAL LETTER G"
+H,&#x00048;,"= \mathrm{H}, LATIN CAPITAL LETTER H"
+I,&#x00049;,"= \mathrm{I}, LATIN CAPITAL LETTER I"
+J,&#x0004A;,"= \mathrm{J}, LATIN CAPITAL LETTER J"
+K,&#x0004B;,"= \mathrm{K}, LATIN CAPITAL LETTER K"
+L,&#x0004C;,"= \mathrm{L}, LATIN CAPITAL LETTER L"
+M,&#x0004D;,"= \mathrm{M}, LATIN CAPITAL LETTER M"
+N,&#x0004E;,"= \mathrm{N}, LATIN CAPITAL LETTER N"
+O,&#x0004F;,"= \mathrm{O}, LATIN CAPITAL LETTER O"
+P,&#x00050;,"= \mathrm{P}, LATIN CAPITAL LETTER P"
+Q,&#x00051;,"= \mathrm{Q}, LATIN CAPITAL LETTER Q"
+R,&#x00052;,"= \mathrm{R}, LATIN CAPITAL LETTER R"
+S,&#x00053;,"= \mathrm{S}, LATIN CAPITAL LETTER S"
+T,&#x00054;,"= \mathrm{T}, LATIN CAPITAL LETTER T"
+U,&#x00055;,"= \mathrm{U}, LATIN CAPITAL LETTER U"
+V,&#x00056;,"= \mathrm{V}, LATIN CAPITAL LETTER V"
+W,&#x00057;,"= \mathrm{W}, LATIN CAPITAL LETTER W"
+X,&#x00058;,"= \mathrm{X}, LATIN CAPITAL LETTER X"
+Y,&#x00059;,"= \mathrm{Y}, LATIN CAPITAL LETTER Y"
+Z,&#x0005A;,"= \mathrm{Z}, LATIN CAPITAL LETTER Z"
+\lbrack,&#x0005B;,LEFT SQUARE BRACKET
+\backslash,&#x0005C;,REVERSE SOLIDUS
+\rbrack,&#x0005D;,RIGHT SQUARE BRACKET
+\sphat,&#x0005E;,"CIRCUMFLEX ACCENT, TeX superscript operator"
+\_,&#x0005F;,"LOW LINE, TeX subscript operator"
+,&#x00060;,"grave, alias for 0300"
+a,&#x00061;,"= \mathrm{a}, LATIN SMALL LETTER A"
+b,&#x00062;,"= \mathrm{b}, LATIN SMALL LETTER B"
+c,&#x00063;,"= \mathrm{c}, LATIN SMALL LETTER C"
+d,&#x00064;,"= \mathrm{d}, LATIN SMALL LETTER D"
+e,&#x00065;,"= \mathrm{e}, LATIN SMALL LETTER E"
+f,&#x00066;,"= \mathrm{f}, LATIN SMALL LETTER F"
+g,&#x00067;,"= \mathrm{g}, LATIN SMALL LETTER G"
+h,&#x00068;,"= \mathrm{h}, LATIN SMALL LETTER H"
+i,&#x00069;,"= \mathrm{i}, LATIN SMALL LETTER I"
+j,&#x0006A;,"= \mathrm{j}, LATIN SMALL LETTER J"
+k,&#x0006B;,"= \mathrm{k}, LATIN SMALL LETTER K"
+l,&#x0006C;,"= \mathrm{l}, LATIN SMALL LETTER L"
+m,&#x0006D;,"= \mathrm{m}, LATIN SMALL LETTER M"
+n,&#x0006E;,"= \mathrm{n}, LATIN SMALL LETTER N"
+o,&#x0006F;,"= \mathrm{o}, LATIN SMALL LETTER O"
+p,&#x00070;,"= \mathrm{p}, LATIN SMALL LETTER P"
+q,&#x00071;,"= \mathrm{q}, LATIN SMALL LETTER Q"
+r,&#x00072;,"= \mathrm{r}, LATIN SMALL LETTER R"
+s,&#x00073;,"= \mathrm{s}, LATIN SMALL LETTER S"
+t,&#x00074;,"= \mathrm{t}, LATIN SMALL LETTER T"
+u,&#x00075;,"= \mathrm{u}, LATIN SMALL LETTER U"
+v,&#x00076;,"= \mathrm{v}, LATIN SMALL LETTER V"
+w,&#x00077;,"= \mathrm{w}, LATIN SMALL LETTER W"
+x,&#x00078;,"= \mathrm{x}, LATIN SMALL LETTER X"
+y,&#x00079;,"= \mathrm{y}, LATIN SMALL LETTER Y"
+z,&#x0007A;,"= \mathrm{z}, LATIN SMALL LETTER Z"
+\{,&#x0007B;,"= \lbrace, LEFT CURLY BRACKET"
+|,&#x0007C;,"= \vert, vertical bar"
+\},&#x0007D;,"= \rbrace, RIGHT CURLY BRACKET"
+\sptilde,&#x0007E;,"# \sim, TILDE"
+,&#x000A0;,nbsp
+,&#x000A1;,iexcl
+\cent,&#x000A2;,"= \mathcent (txfonts), cent"
+\pounds,&#x000A3;,"= \mathsterling (txfonts), POUND SIGN, fourier prints a dollar sign"
+,&#x000A4;,"t \currency (wasysym), curren"
+\yen,&#x000A5;,YEN SIGN
+,&#x000A6;,brvbar (vertical)
+\S,&#x000A7;,sect
+\spddot,&#x000A8;,"Dot /die, alias for 0308"
+\neg,&#x000AC;,"= \lnot, NOT SIGN"
+\circledR,&#x000AE;,REGISTERED SIGN
+,&#x000AF;,"macr, alias for 0304"
+,&#x000B0;,deg
+\pm,&#x000B1;,plus-or-minus sign
+,&#x000B2;,sup2
+,&#x000B3;,sup3
+,&#x000B4;,"acute, alias for 0301"
+\Micro,&#x000B5;,"= \tcmu (mathcomp), t \textmu (textcomp), # \mathrm{\mu} (omlmathrm), # \muup (kpfonts mathdesign), MICRO SIGN"
+,&#x000B6;,"para (paragraph sign, pilcrow)"
+,&#x000B7;,"# \cdot, x \centerdot, b: MIDDLE DOT"
+,&#x000B9;,sup1
+,&#x000BC;,frac14
+,&#x000BD;,frac12
+,&#x000BE;,frac34
+,&#x000BF;,iquest
+\times,&#x000D7;,"MULTIPLICATION SIGN, z notation Cartesian product"
+\eth,&#x000F0;,eth
+\div,&#x000F7;,divide sign
+\imath,&#x00131;,imath
+,&#x001B5;,impedance
+\jmath,&#x00237;,jmath
+,&#x002C6;,"circ, alias for 0302"
+,&#x002C7;,"CARON, alias for 030C"
+,&#x002D8;,"BREVE, alias for 0306"
+,&#x002D9;,"dot, alias for 0307"
+,&#x002DA;,"ring, alias for 030A"
+,&#x002DC;,"tilde, alias for 0303"
+\grave,&#x00300;,grave accent
+\acute,&#x00301;,acute accent
+\hat,&#x00302;,"# \widehat (amssymb), circumflex accent"
+\tilde,&#x00303;,"# \widetilde (yhmath, fourier), tilde"
+\bar,&#x00304;,macron
+\overline,&#x00305;,overbar embellishment
+\breve,&#x00306;,breve
+\dot,&#x00307;,"= \Dot (wrisym), dot above"
+\ddot,&#x00308;,"= \DDot (wrisym), dieresis"
+,&#x00309;,COMBINING HOOK ABOVE
+\mathring,&#x0030A;,"= \ring (yhmath), ring"
+\check,&#x0030C;,caron
+,&#x00310;,candrabindu (non-spacing)
+,&#x00311;,COMBINING INVERTED BREVE
+,&#x00312;,COMBINING TURNED COMMA ABOVE
+,&#x00315;,COMBINING COMMA ABOVE RIGHT
+,&#x0031A;,left angle above (non-spacing)
+,&#x00323;,COMBINING DOT BELOW
+,&#x0032C;,COMBINING CARON BELOW
+,&#x0032D;,COMBINING CIRCUMFLEX ACCENT BELOW
+,&#x0032E;,COMBINING BREVE BELOW
+,&#x0032F;,COMBINING INVERTED BREVE BELOW
+\utilde,&#x00330;,under tilde accent (multiple characters and non-spacing)
+\underbar,&#x00331;,COMBINING MACRON BELOW
+\underline,&#x00332;,COMBINING LOW LINE
+,&#x00333;,2lowbar
+\not,&#x00338;,COMBINING LONG SOLIDUS OVERLAY
+,&#x0033A;,COMBINING INVERTED BRIDGE BELOW
+,&#x0033F;,COMBINING DOUBLE OVERLINE
+,&#x00346;,COMBINING BRIDGE ABOVE
+,&#x00391;,"capital alpha, greek"
+,&#x00392;,"capital beta, greek"
+\Gamma,&#x00393;,"= \Gamma (-slantedGreek), = \mathrm{\Gamma}, capital gamma, greek"
+\Delta,&#x00394;,"= \Delta (-slantedGreek), = \mathrm{\Delta}, capital delta, greek"
+,&#x00395;,"capital epsilon, greek"
+,&#x00396;,"capital zeta, greek"
+,&#x00397;,"capital eta, greek"
+\Theta,&#x00398;,"= \Theta (-slantedGreek), = \mathrm{\Theta}, capital theta, greek"
+,&#x00399;,"capital iota, greek"
+,&#x0039A;,"capital kappa, greek"
+\Lambda,&#x0039B;,"= \Lambda (-slantedGreek), = \mathrm{\Lambda}, capital lambda, greek"
+,&#x0039C;,"capital mu, greek"
+,&#x0039D;,"capital nu, greek"
+\Xi,&#x0039E;,"= \Xi (-slantedGreek), = \mathrm{\Xi}, capital xi, greek"
+,&#x0039F;,"capital omicron, greek"
+\Pi,&#x003A0;,"= \Pi (-slantedGreek), = \mathrm{\Pi}, capital pi, greek"
+,&#x003A1;,"capital rho, greek"
+\Sigma,&#x003A3;,"= \Sigma (-slantedGreek), = \mathrm{\Sigma}, capital sigma, greek"
+,&#x003A4;,"capital tau, greek"
+\Upsilon,&#x003A5;,"= \Upsilon (-slantedGreek), = \mathrm{\Upsilon}, capital upsilon, greek"
+\Phi,&#x003A6;,"= \Phi (-slantedGreek), = \mathrm{\Phi}, capital phi, greek"
+,&#x003A7;,"capital chi, greek"
+\Psi,&#x003A8;,"= \Psi (-slantedGreek), = \mathrm{\Psi}, capital psi, greek"
+\Omega,&#x003A9;,"= \Omega (-slantedGreek), = \mathrm{\Omega}, capital omega, greek"
+\alpha,&#x003B1;,"= \mathrm{\alpha} (omlmathrm), = \alphaup (kpfonts mathdesign), = \upalpha (upgreek), alpha, greek"
+\beta,&#x003B2;,"= \mathrm{\beta} (omlmathrm), = \betaup (kpfonts mathdesign), = \upbeta (upgreek), beta, greek"
+\gamma,&#x003B3;,"= \mathrm{\gamma} (omlmathrm), = \gammaup (kpfonts mathdesign), = \upgamma (upgreek), gamma, greek"
+\delta,&#x003B4;,"= \mathrm{\delta} (omlmathrm), = \deltaup (kpfonts mathdesign), = \updelta (upgreek), delta, greek"
+\varepsilon,&#x003B5;,"= \mathrm{\varepsilon} (omlmathrm), = \varepsilonup (kpfonts mathdesign), = \upepsilon (upgreek), rounded epsilon, greek"
+\zeta,&#x003B6;,"= \mathrm{\zeta} (omlmathrm), = \zetaup (kpfonts mathdesign), = \upzeta (upgreek), zeta, greek"
+\eta,&#x003B7;,"= \mathrm{\eta} (omlmathrm), = \etaup (kpfonts mathdesign), = \upeta (upgreek), eta, greek"
+\theta,&#x003B8;,"= \mathrm{\theta} (omlmathrm), = \thetaup (kpfonts mathdesign), straight theta, = \uptheta (upgreek), theta, greek"
+\iota,&#x003B9;,"= \mathrm{\iota} (omlmathrm), = \iotaup (kpfonts mathdesign), = \upiota (upgreek), iota, greek"
+\kappa,&#x003BA;,"= \mathrm{\kappa} (omlmathrm), = \kappaup (kpfonts mathdesign), = \upkappa (upgreek), kappa, greek"
+\lambda,&#x003BB;,"= \mathrm{\lambda} (omlmathrm), = \lambdaup (kpfonts mathdesign), = \uplambda (upgreek), lambda, greek"
+\mu,&#x003BC;,"= \mathrm{\mu} (omlmathrm), = \muup (kpfonts mathdesign), = \upmu (upgreek), mu, greek"
+\nu,&#x003BD;,"= \mathrm{\nu} (omlmathrm), = \nuup (kpfonts mathdesign), = \upnu (upgreek), nu, greek"
+\xi,&#x003BE;,"= \mathrm{\xi} (omlmathrm), = \xiup (kpfonts mathdesign), = \upxi (upgreek), xi, greek"
+,&#x003BF;,"small omicron, greek"
+\pi,&#x003C0;,"= \mathrm{\pi} (omlmathrm), = \piup (kpfonts mathdesign), = \uppi (upgreek), pi, greek"
+\rho,&#x003C1;,"= \mathrm{\rho} (omlmathrm), = \rhoup (kpfonts mathdesign), = \uprho (upgreek), rho, greek"
+\varsigma,&#x003C2;,"= \mathrm{\varsigma} (omlmathrm), = \varsigmaup (kpfonts mathdesign), = \upvarsigma (upgreek), terminal sigma, greek"
+\sigma,&#x003C3;,"= \mathrm{\sigma} (omlmathrm), = \sigmaup (kpfonts mathdesign), = \upsigma (upgreek), sigma, greek"
+\tau,&#x003C4;,"= \mathrm{\tau} (omlmathrm), = \tauup (kpfonts mathdesign), = \uptau (upgreek), tau, greek"
+\upsilon,&#x003C5;,"= \mathrm{\upsilon} (omlmathrm), = \upsilonup (kpfonts mathdesign), = \upupsilon (upgreek), upsilon, greek"
+\varphi,&#x003C6;,"= \mathrm{\varphi} (omlmathrm), = \varphiup (kpfonts mathdesign), = \upvarphi (upgreek), curly or open phi, greek"
+\chi,&#x003C7;,"= \mathrm{\chi} (omlmathrm), = \chiup (kpfonts mathdesign), = \upchi (upgreek), chi, greek"
+\psi,&#x003C8;,"= \mathrm{\psi} (omlmathrm), = \psiup (kpfonts mathdesign), = \uppsi (upgreek), psi, greek"
+\omega,&#x003C9;,"= \mathrm{\omega} (omlmathrm), = \omegaup (kpfonts mathdesign), = \upomega (upgreek), omega, greek"
+\varbeta,&#x003D0;,"rounded beta, greek"
+\vartheta,&#x003D1;,"= \mathrm{\vartheta} (omlmathrm), = \varthetaup (kpfonts mathdesign), curly or open theta"
+,&#x003D2;,"# \mathrm{\Upsilon}, GREEK UPSILON WITH HOOK SYMBOL"
+\phi,&#x003D5;,"= \mathrm{\phi} (omlmathrm), = \phiup (kpfonts mathdesign), GREEK PHI SYMBOL (straight)"
+\varpi,&#x003D6;,"= \mathrm{\varpi} (omlmathrm), = \varpiup (kpfonts mathdesign), GREEK PI SYMBOL (pomega)"
+\Qoppa,&#x003D8;,"= \Koppa (wrisym), t \Qoppa (LGR), GREEK LETTER ARCHAIC KOPPA"
+\qoppa,&#x003D9;,"= \koppa (wrisym), t \qoppa (LGR), GREEK SMALL LETTER ARCHAIC KOPPA"
+\Stigma,&#x003DA;,capital stigma
+\stigma,&#x003DB;,GREEK SMALL LETTER STIGMA
+\Digamma,&#x003DC;,capital digamma
+\digamma,&#x003DD;,GREEK SMALL LETTER DIGAMMA
+\Koppa,&#x003DE;,capital koppa
+\koppa,&#x003DF;,GREEK SMALL LETTER KOPPA
+\Sampi,&#x003E0;,capital sampi
+\sampi,&#x003E1;,"# \sampi (wrisym), GREEK SMALL LETTER SAMPI"
+\varkappa,&#x003F0;,GREEK KAPPA SYMBOL (round)
+\varrho,&#x003F1;,"= \mathrm{\varrho} (omlmathrm), = \varrhoup (kpfonts mathdesign), GREEK RHO SYMBOL (round)"
+,&#x003F4;,"x \varTheta (amssymb), GREEK CAPITAL THETA SYMBOL"
+\epsilon,&#x003F5;,"= \mathrm{\epsilon} (omlmathrm), = \epsilonup (kpfonts mathdesign), GREEK LUNATE EPSILON SYMBOL"
+\backepsilon,&#x003F6;,GREEK REVERSED LUNATE EPSILON SYMBOL
+,&#x00428;,"t \CYRSHA (T2A), Shcy, CYRILLIC CAPITAL LETTER SHA"
+,&#x00606;,ARABIC-INDIC CUBE ROOT
+,&#x00607;,ARABIC-INDIC FOURTH ROOT
+,&#x00608;,ARABIC RAY
+,&#x02000;,enquad
+\quad,&#x02001;,emquad
+,&#x02002;,ensp (half an em)
+,&#x02003;,emsp
+,&#x02004;,THREE-PER-EM SPACE
+,&#x02005;,"FOUR-PER-EM SPACE, mid space"
+,&#x02006;,SIX-PER-EM SPACE
+,&#x02007;,FIGURE SPACE
+,&#x02009;,THIN SPACE
+,&#x0200A;,HAIR SPACE
+,&#x0200B;,"# \hspace{0pt}, zwsp"
+,&#x02010;,HYPHEN (true graphic)
+,&#x02012;,dash
+,&#x02013;,ndash
+,&#x02014;,mdash
+,&#x02015;,HORIZONTAL BAR
+\|,&#x02016;,"= \Vert, double vertical bar"
+,&#x02017;,DOUBLE LOW LINE (spacing)
+\dagger,&#x02020;,DAGGER relation
+\ddagger,&#x02021;,DOUBLE DAGGER relation
+\bullet,&#x02022;,"BULLET (small, filled)"
+,&#x02025;,double baseline dot (en leader)
+\ldots,&#x02026;,ellipsis (horizontal)
+\prime,&#x02032;,"PRIME or minute, not superscripted"
+\second,&#x02033;,"DOUBLE PRIME or second, not superscripted"
+\third,&#x02034;,TRIPLE PRIME (not superscripted)
+\backprime,&#x02035;,"reverse prime, not superscripted"
+,&#x02036;,"double reverse prime, not superscripted"
+,&#x02037;,"triple reverse prime, not superscripted"
+,&#x02038;,CARET (insertion mark)
+,&#x0203B;,"REFERENCE MARK, Japanese kome jirushi"
+,&#x0203C;,"# !!, DOUBLE EXCLAMATION MARK"
+\cat,&#x02040;,"CHARACTER TIE, z notation sequence concatenation"
+,&#x02043;,"rectangle, filled (HYPHEN BULLET)"
+,&#x02044;,"# /, FRACTION SLASH"
+,&#x02047;,"# ??, DOUBLE QUESTION MARK"
+,&#x0204E;,"# \ast, lowast, LOW ASTERISK"
+,&#x0204F;,"bsemi, REVERSED SEMICOLON"
+,&#x02050;,CLOSE UP (editing mark)
+,&#x02051;,Ast
+,&#x02052;,"# ./., COMMERCIAL MINUS SIGN"
+\fourth,&#x02057;,"QUADRUPLE PRIME, not superscripted"
+\:,&#x0205F;,"= \medspace (amsmath), MEDIUM MATHEMATICAL SPACE, four-eighteenths of an em"
+,&#x02061;,FUNCTION APPLICATION
+,&#x02062;,INVISIBLE TIMES
+,&#x02063;,INVISIBLE SEPARATOR
+,&#x02064;,INVISIBLE PLUS
+,&#x0207A;,SUPERSCRIPT PLUS SIGN subscript operators
+,&#x0207B;,SUPERSCRIPT MINUS subscript operators
+,&#x0207C;,SUPERSCRIPT EQUALS SIGN subscript operators
+,&#x0207D;,SUPERSCRIPT LEFT PARENTHESIS subscript operators
+,&#x0207E;,SUPERSCRIPT RIGHT PARENTHESIS subscript operators
+,&#x0208A;,SUBSCRIPT PLUS SIGN superscript operators
+,&#x0208B;,SUBSCRIPT MINUS superscript operators
+,&#x0208C;,SUBSCRIPT EQUALS SIGN superscript operators
+,&#x0208D;,SUBSCRIPT LEFT PARENTHESIS superscript operators
+,&#x0208E;,SUBSCRIPT RIGHT PARENTHESIS superscript operators
+,&#x020AC;,EURO SIGN
+\lvec,&#x020D0;,COMBINING LEFT HARPOON ABOVE
+\vec,&#x020D1;,COMBINING RIGHT HARPOON ABOVE
+,&#x020D2;,COMBINING LONG VERTICAL LINE OVERLAY
+,&#x020D3;,COMBINING SHORT VERTICAL LINE OVERLAY
+,&#x020D4;,COMBINING ANTICLOCKWISE ARROW ABOVE
+,&#x020D5;,COMBINING CLOCKWISE ARROW ABOVE
+\LVec,&#x020D6;,"# \overleftarrow, COMBINING LEFT ARROW ABOVE"
+\vec,&#x020D7;,"= \Vec (wrisym), # \overrightarrow, COMBINING RIGHT ARROW ABOVE"
+,&#x020D8;,COMBINING RING OVERLAY
+,&#x020D9;,COMBINING CLOCKWISE RING OVERLAY
+,&#x020DA;,COMBINING ANTICLOCKWISE RING OVERLAY
+\dddot,&#x020DB;,"= \DDDot (wrisym), COMBINING THREE DOTS ABOVE"
+\ddddot,&#x020DC;,COMBINING FOUR DOTS ABOVE
+,&#x020DD;,COMBINING ENCLOSING CIRCLE
+,&#x020DE;,COMBINING ENCLOSING SQUARE
+,&#x020DF;,COMBINING ENCLOSING DIAMOND
+\overleftrightarrow,&#x020E1;,COMBINING LEFT RIGHT ARROW ABOVE
+,&#x020E4;,COMBINING ENCLOSING UPWARD POINTING TRIANGLE
+,&#x020E5;,COMBINING REVERSE SOLIDUS OVERLAY
+,&#x020E6;,"COMBINING DOUBLE VERTICAL STROKE OVERLAY, z notation finite function diacritic"
+,&#x020E7;,COMBINING ANNUITY SYMBOL
+,&#x020E8;,COMBINING TRIPLE UNDERDOT
+,&#x020E9;,COMBINING WIDE BRIDGE ABOVE
+,&#x020EA;,COMBINING LEFTWARDS ARROW OVERLAY
+,&#x020EB;,COMBINING LONG DOUBLE SOLIDUS OVERLAY
+,&#x020EC;,COMBINING RIGHTWARDS HARPOON WITH BARB DOWNWARDS
+,&#x020ED;,COMBINING LEFTWARDS HARPOON WITH BARB DOWNWARDS
+\underleftarrow,&#x020EE;,COMBINING LEFT ARROW BELOW
+\underrightarrow,&#x020EF;,COMBINING RIGHT ARROW BELOW
+,&#x020F0;,COMBINING ASTERISK ABOVE
+\mathbb{C},&#x02102;,"= \mathds{C} (dsfont), open face C"
+\Euler,&#x02107;,EULER CONSTANT
+\mathcal{g},&#x0210A;,"/scr g, script small letter g"
+\mathcal{H},&#x0210B;,hamiltonian (script capital H)
+\mathfrak{H},&#x0210C;,"/frak H, black-letter capital H"
+\mathbb{H},&#x0210D;,"= \mathds{H} (dsfont), open face capital H"
+,&#x0210E;,"# h, Planck constant"
+\hslash,&#x0210F;,"=\HBar (wrisym), #\hbar, Planck's h over 2pi"
+\mathcal{I},&#x02110;,"/scr I, script capital I"
+\Im,&#x02111;,"= \mathfrak{I} (eufrak), imaginary part"
+\mathcal{L},&#x02112;,lagrangian (script capital L)
+\ell,&#x02113;,cursive small l
+\mathbb{N},&#x02115;,"= \mathds{N} (dsfont), open face N"
+\wp,&#x02118;,weierstrass p
+\mathbb{P},&#x02119;,"= \mathds{P} (dsfont), open face P"
+\mathbb{Q},&#x0211A;,"= \mathds{Q} (dsfont), open face Q"
+\mathcal{R},&#x0211B;,"/scr R, script capital R"
+\Re,&#x0211C;,"= \mathfrak{R} (eufrak), real part"
+\mathbb{R},&#x0211D;,"= \mathds{R} (dsfont), open face R"
+\mathbb{Z},&#x02124;,"= \mathds{Z} (dsfont), open face Z"
+\tcohm,&#x02126;,"# \mathrm{\Omega}, ohm (deprecated in math, use greek letter)"
+\mho,&#x02127;,"= \Mho (wrisym), t \agemO (wasysym), conductance"
+\mathfrak{Z},&#x02128;,"/frak Z, black-letter capital Z"
+,&#x02129;,turned iota
+\Angstroem,&#x0212B;,"# \mathring{\mathrm{A}}, Ångström capital A with ring"
+\mathcal{B},&#x0212C;,bernoulli function (script capital B)
+\mathfrak{C},&#x0212D;,black-letter capital C
+\mathcal{e},&#x0212F;,"/scr e, script small letter e"
+\mathcal{E},&#x02130;,"/scr E, script capital E"
+\mathcal{F},&#x02131;,"/scr F, script capital F"
+\Finv,&#x02132;,TURNED CAPITAL F
+\mathcal{M},&#x02133;,physics m-matrix (SCRIPT CAPITAL M)
+\mathcal{o},&#x02134;,order of (SCRIPT SMALL O)
+\aleph,&#x02135;,"aleph, hebrew"
+\beth,&#x02136;,"beth, hebrew"
+\gimel,&#x02137;,"gimel, hebrew"
+\daleth,&#x02138;,"daleth, hebrew"
+\mathbb{\pi},&#x0213C;,"\DoublePi (wrisym), DOUBLE-STRUCK SMALL PI"
+\mathbb{\gamma},&#x0213D;,"\EulerGamma (wrisym), DOUBLE-STRUCK SMALL GAMMA"
+\mathbb{\Gamma},&#x0213E;,DOUBLE-STRUCK CAPITAL GAMMA
+\mathbb{\Pi},&#x0213F;,DOUBLE-STRUCK CAPITAL PI
+\mathbb{\Sigma},&#x02140;,DOUBLE-STRUCK N-ARY SUMMATION
+,&#x02141;,"# \Game (amssymb), TURNED SANS-SERIF CAPITAL G (amssymb has mirrored G)"
+,&#x02142;,TURNED SANS-SERIF CAPITAL L
+,&#x02143;,REVERSED SANS-SERIF CAPITAL L
+\Yup,&#x02144;,TURNED SANS-SERIF CAPITAL Y
+\CapitalDifferentialD,&#x02145;,"= \DD (wrisym), DOUBLE-STRUCK ITALIC CAPITAL D"
+\DifferentialD,&#x02146;,"= \dd (wrisym), DOUBLE-STRUCK ITALIC SMALL D"
+\ExponetialE,&#x02147;,"= \ee (wrisym), DOUBLE-STRUCK ITALIC SMALL E"
+\ComplexI,&#x02148;,"= \ii (wrisym), DOUBLE-STRUCK ITALIC SMALL I"
+\ComplexJ,&#x02149;,"= \jj (wrisym), DOUBLE-STRUCK ITALIC SMALL J"
+,&#x0214A;,PROPERTY LINE
+\invamp,&#x0214B;,"# \bindnasrepma (stmaryrd), TURNED AMPERSAND"
+\leftarrow,&#x02190;,"= \gets, a: leftward arrow"
+\uparrow,&#x02191;,upward arrow
+\rightarrow,&#x02192;,"= \to, = \tfun (oz), = \fun (oz), rightward arrow, z notation total function"
+\downarrow,&#x02193;,downward arrow
+\leftrightarrow,&#x02194;,"= \rel (oz), LEFT RIGHT ARROW, z notation relation"
+\updownarrow,&#x02195;,up and down arrow
+\nwarrow,&#x02196;,nw pointing arrow
+\nearrow,&#x02197;,ne pointing arrow
+\searrow,&#x02198;,se pointing arrow
+\swarrow,&#x02199;,sw pointing arrow
+\nleftarrow,&#x0219A;,not left arrow
+\nrightarrow,&#x0219B;,not right arrow
+,&#x0219C;,left arrow-wavy
+,&#x0219D;,right arrow-wavy
+\twoheadleftarrow,&#x0219E;,left two-headed arrow
+,&#x0219F;,up two-headed arrow
+\twoheadrightarrow,&#x021A0;,"= \tsur (oz), = \surj (oz), right two-headed arrow, z notation total surjection"
+,&#x021A1;,down two-headed arrow
+\leftarrowtail,&#x021A2;,left arrow-tailed
+\rightarrowtail,&#x021A3;,"= \tinj (oz), = \inj (oz), right arrow-tailed, z notation total injection"
+\mapsfrom,&#x021A4;,"= \mappedfrom (kpfonts), maps to, leftward"
+\MapsUp,&#x021A5;,"maps to, upward"
+\mapsto,&#x021A6;,"maps to, rightward, z notation maplet"
+\MapsDown,&#x021A7;,"maps to, downward"
+,&#x021A8;,UP DOWN ARROW WITH BASE (perpendicular)
+\hookleftarrow,&#x021A9;,left arrow-hooked
+\hookrightarrow,&#x021AA;,right arrow-hooked
+\looparrowleft,&#x021AB;,left arrow-looped
+\looparrowright,&#x021AC;,right arrow-looped
+\leftrightsquigarrow,&#x021AD;,left and right arr-wavy
+\nleftrightarrow,&#x021AE;,not left and right arrow
+\lightning,&#x021AF;,"t \Lightning (marvosym), DOWNWARDS ZIGZAG ARROW"
+\Lsh,&#x021B0;,a: UPWARDS ARROW WITH TIP LEFTWARDS
+\Rsh,&#x021B1;,a: UPWARDS ARROW WITH TIP RIGHTWARDS
+\dlsh,&#x021B2;,left down angled arrow
+\drsh,&#x021B3;,right down angled arrow
+,&#x021B4;,RIGHTWARDS ARROW WITH CORNER DOWNWARDS
+,&#x021B5;,downwards arrow with corner leftward = carriage return
+\curvearrowleft,&#x021B6;,left curved arrow
+\curvearrowright,&#x021B7;,right curved arrow
+,&#x021B8;,NORTH WEST ARROW TO LONG BAR
+,&#x021B9;,LEFTWARDS ARROW TO BAR OVER RIGHTWARDS ARROW TO BAR
+\circlearrowleft,&#x021BA;,"= \leftturn (wasysym), ANTICLOCKWISE OPEN CIRCLE ARROW"
+\circlearrowright,&#x021BB;,"= \rightturn (wasysym), CLOCKWISE OPEN CIRCLE ARROW"
+\leftharpoonup,&#x021BC;,left harpoon-up
+\leftharpoondown,&#x021BD;,left harpoon-down
+\upharpoonright,&#x021BE;,"= \restriction (amssymb), = \upharpoonrightup (wrisym), a: up harpoon-right"
+\upharpoonleft,&#x021BF;,"= \upharpoonleftup (wrisym), up harpoon-left"
+\rightharpoonup,&#x021C0;,right harpoon-up
+\rightharpoondown,&#x021C1;,right harpoon-down
+\downharpoonright,&#x021C2;,"= \upharpoonrightdown (wrisym), down harpoon-right"
+\downharpoonleft,&#x021C3;,"= \upharpoonleftdown (wrisym), down harpoon-left"
+\rightleftarrows,&#x021C4;,"= \rightleftarrow (wrisym), right arrow over left arrow"
+\updownarrows,&#x021C5;,"= \uparrowdownarrow (wrisym), up arrow, down arrow"
+\leftrightarrows,&#x021C6;,"= \leftrightarrow (wrisym), left arrow over right arrow"
+\leftleftarrows,&#x021C7;,two left arrows
+\upuparrows,&#x021C8;,two up arrows
+\rightrightarrows,&#x021C9;,two right arrows
+\downdownarrows,&#x021CA;,two down arrows
+\leftrightharpoons,&#x021CB;,"= \revequilibrium (wrisym), left harpoon over right"
+\rightleftharpoons,&#x021CC;,"= \equilibrium (wrisym), right harpoon over left"
+\nLeftarrow,&#x021CD;,not implied by
+\nLeftrightarrow,&#x021CE;,not left and right double arrows
+\nRightarrow,&#x021CF;,not implies
+\Leftarrow,&#x021D0;,left double arrow
+\Uparrow,&#x021D1;,up double arrow
+\Rightarrow,&#x021D2;,right double arrow
+\Downarrow,&#x021D3;,down double arrow
+\Leftrightarrow,&#x021D4;,left and right double arrow
+\Updownarrow,&#x021D5;,up and down double arrow
+\Nwarrow,&#x021D6;,nw pointing double arrow
+\Nearrow,&#x021D7;,ne pointing double arrow
+\Searrow,&#x021D8;,se pointing double arrow
+\Swarrow,&#x021D9;,sw pointing double arrow
+\Lleftarrow,&#x021DA;,left triple arrow
+\Rrightarrow,&#x021DB;,right triple arrow
+\leftsquigarrow,&#x021DC;,LEFTWARDS SQUIGGLE ARROW
+\rightsquigarrow,&#x021DD;,RIGHTWARDS SQUIGGLE ARROW
+,&#x021DE;,UPWARDS ARROW WITH DOUBLE STROKE
+,&#x021DF;,DOWNWARDS ARROW WITH DOUBLE STROKE
+\dashleftarrow,&#x021E0;,LEFTWARDS DASHED ARROW
+,&#x021E1;,UPWARDS DASHED ARROW
+\dashrightarrow,&#x021E2;,"= \dasharrow (amsfonts), RIGHTWARDS DASHED ARROW"
+,&#x021E3;,DOWNWARDS DASHED ARROW
+\LeftArrowBar,&#x021E4;,LEFTWARDS ARROW TO BAR
+\RightArrowBar,&#x021E5;,RIGHTWARDS ARROW TO BAR
+,&#x021E6;,LEFTWARDS WHITE ARROW
+,&#x021E7;,UPWARDS WHITE ARROW
+,&#x021E8;,RIGHTWARDS WHITE ARROW
+,&#x021E9;,DOWNWARDS WHITE ARROW
+,&#x021EA;,UPWARDS WHITE ARROW FROM BAR
+,&#x021EB;,UPWARDS WHITE ARROW ON PEDESTAL
+,&#x021EC;,UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR
+,&#x021ED;,UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR
+,&#x021EE;,UPWARDS WHITE DOUBLE ARROW
+,&#x021EF;,UPWARDS WHITE DOUBLE ARROW ON PEDESTAL
+,&#x021F0;,RIGHTWARDS WHITE ARROW FROM WALL
+,&#x021F1;,NORTH WEST ARROW TO CORNER
+,&#x021F2;,SOUTH EAST ARROW TO CORNER
+,&#x021F3;,UP DOWN WHITE ARROW
+,&#x021F4;,RIGHT ARROW WITH SMALL CIRCLE
+\downuparrows,&#x021F5;,"= \downarrowuparrow (wrisym), DOWNWARDS ARROW LEFTWARDS OF UPWARDS ARROW"
+,&#x021F6;,THREE RIGHTWARDS ARROWS
+,&#x021F7;,LEFTWARDS ARROW WITH VERTICAL STROKE
+\pfun,&#x021F8;,"RIGHTWARDS ARROW WITH VERTICAL STROKE, z notation partial function"
+,&#x021F9;,"LEFT RIGHT ARROW WITH VERTICAL STROKE, z notation partial relation"
+,&#x021FA;,LEFTWARDS ARROW WITH DOUBLE VERTICAL STROKE
+\ffun,&#x021FB;,"RIGHTWARDS ARROW WITH DOUBLE VERTICAL STROKE, z notation finite function"
+,&#x021FC;,"LEFT RIGHT ARROW WITH DOUBLE VERTICAL STROKE, z notation finite relation"
+\leftarrowtriangle,&#x021FD;,LEFTWARDS OPEN-HEADED ARROW
+\rightarrowtriangle,&#x021FE;,RIGHTWARDS OPEN-HEADED ARROW
+\leftrightarrowtriangle,&#x021FF;,LEFT RIGHT OPEN-HEADED ARROW
+\forall,&#x02200;,FOR ALL
+\complement,&#x02201;,COMPLEMENT sign
+\partial,&#x02202;,"= \partialup (kpfonts), PARTIAL DIFFERENTIAL"
+\exists,&#x02203;,"= \exi (oz), at least one exists"
+\nexists,&#x02204;,"= \nexi (oz), negated exists"
+\varnothing,&#x02205;,"circle, slash"
+,&#x02206;,"# \mathrm{\Delta}, laplacian (Delta; nabla square)"
+\nabla,&#x02207;,"NABLA, del, hamilton operator"
+\in,&#x02208;,"set membership, variant"
+\notin,&#x02209;,"= \nin (wrisym), negated set membership"
+,&#x0220A;,set membership (small set membership)
+\ni,&#x0220B;,"= \owns, contains, variant"
+\nni,&#x0220C;,"= \notni (txfonts), = \notowner (mathabx), = \notowns (fourier), negated contains, variant"
+,&#x0220D;,r: contains (SMALL CONTAINS AS MEMBER)
+,&#x0220E;,"# \blacksquare (amssymb), END OF PROOF"
+\prod,&#x0220F;,product operator
+\coprod,&#x02210;,coproduct operator
+\sum,&#x02211;,summation operator
+-,&#x02212;,MINUS SIGN
+\mp,&#x02213;,MINUS-OR-PLUS SIGN
+\dotplus,&#x02214;,"plus sign, dot above"
+\slash,&#x02215;,DIVISION SLASH
+\smallsetminus,&#x02216;,small SET MINUS (cf. reverse solidus)
+\ast,&#x02217;,ASTERISK OPERATOR (Hodge star operator)
+\circ,&#x02218;,composite function (small circle)
+\bullet,&#x02219;,BULLET OPERATOR
+\sqrt,&#x0221A;,radical
+\sqrt[3],&#x0221B;,CUBE ROOT
+\sqrt[4],&#x0221C;,FOURTH ROOT
+\propto,&#x0221D;,"# \varpropto (amssymb), is PROPORTIONAL TO"
+\infty,&#x0221E;,INFINITY
+\rightangle,&#x0221F;,right (90 degree) angle
+\angle,&#x02220;,ANGLE
+\measuredangle,&#x02221;,MEASURED ANGLE
+\sphericalangle,&#x02222;,SPHERICAL ANGLE
+\mid,&#x02223;,r: DIVIDES
+\nmid,&#x02224;,"negated mid, DOES NOT DIVIDE"
+\parallel,&#x02225;,parallel
+\nparallel,&#x02226;,not parallel
+\wedge,&#x02227;,"= \land, b: LOGICAL AND"
+\vee,&#x02228;,"= \lor, b: LOGICAL OR"
+\cap,&#x02229;,INTERSECTION
+\cup,&#x0222A;,UNION or logical sum
+\int,&#x0222B;,INTEGRAL operator
+\iint,&#x0222C;,DOUBLE INTEGRAL operator
+\iiint,&#x0222D;,TRIPLE INTEGRAL operator
+\oint,&#x0222E;,CONTOUR INTEGRAL operator
+\oiint,&#x0222F;,"= \dbloint (wrisym), double contour integral operator"
+\oiiint,&#x02230;,triple contour integral operator
+,&#x02231;,CLOCKWISE INTEGRAL
+\varointclockwise,&#x02232;,"= \clockoint (wrisym), contour integral, clockwise"
+\ointctrclockwise,&#x02233;,"= \cntclockoint (wrisym), contour integral, anticlockwise"
+\therefore,&#x02234;,"= \wasytherefore (wasysym), THEREFORE"
+\because,&#x02235;,BECAUSE
+:,&#x02236;,"x \colon, RATIO"
+\Proportion,&#x02237;,"# ::, two colons"
+,&#x02238;,"minus sign, dot above"
+\eqcolon,&#x02239;,"# -: ,EXCESS"
+,&#x0223A;,"minus with four dots, GEOMETRIC PROPORTION"
+,&#x0223B;,HOMOTHETIC
+\sim,&#x0223C;,"similar to, TILDE OPERATOR"
+\backsim,&#x0223D;,reverse similar
+,&#x0223E;,"most positive, INVERTED LAZY S"
+\AC,&#x0223F;,"SINE WAVE, alternating current"
+\wr,&#x02240;,WREATH PRODUCT
+\nsim,&#x02241;,not similar
+\eqsim,&#x02242;,"equals, similar"
+\simeq,&#x02243;,"similar, equals"
+\nsimeq,&#x02244;,"not similar, equals"
+\cong,&#x02245;,congruent with
+,&#x02246;,"similar, not equals [vert only for 9573 entity]"
+\ncong,&#x02247;,not congruent with
+\approx,&#x02248;,approximate
+\napprox,&#x02249;,not approximate
+\approxeq,&#x0224A;,"approximate, equals"
+,&#x0224B;,approximately identical to
+,&#x0224C;,ALL EQUAL TO
+\asymp,&#x0224D;,asymptotically equal to
+\Bumpeq,&#x0224E;,bumpy equals
+\bumpeq,&#x0224F;,"bumpy equals, equals"
+\doteq,&#x02250;,"= \dotequal (wrisym), equals, single dot above"
+\Doteq,&#x02251;,"= \doteqdot (amssymb), /doteq r: equals, even dots"
+\fallingdotseq,&#x02252;,"equals, falling dots"
+\risingdotseq,&#x02253;,"equals, rising dots"
+\coloneq,&#x02254;,"= \coloneqq (txfonts), = \SetDelayed (wrisym), # := colon, equals"
+\eqcolon,&#x02255;,"= \eqqcolon (txfonts), # =:, equals, colon"
+\eqcirc,&#x02256;,circle on equals sign
+\circeq,&#x02257;,"circle, equals"
+,&#x02258;,"arc, equals; CORRESPONDS TO"
+\corresponds,&#x02259;,"= \sdef (oz), t \Corresponds (marvosym), corresponds to (wedge over equals)"
+,&#x0225A;,"logical or, equals"
+,&#x0225B;,STAR EQUALS
+\triangleq,&#x0225C;,"= \varsdef (oz), triangle, equals"
+,&#x0225D;,equals by definition
+,&#x0225E;,MEASURED BY (m over equals)
+,&#x0225F;,equal with questionmark
+\neq,&#x02260;,"= \ne, r: not equal"
+\equiv,&#x02261;,identical with
+\nequiv,&#x02262;,not identical with
+,&#x02263;,strict equivalence (4 lines)
+\leq,&#x02264;,"= \le, r: less-than-or-equal"
+\geq,&#x02265;,"= \ge, r: greater-than-or-equal"
+\leqq,&#x02266;,"less, double equals"
+\geqq,&#x02267;,"greater, double equals"
+\lneqq,&#x02268;,"less, not double equals"
+\gneqq,&#x02269;,"greater, not double equals"
+\ll,&#x0226A;,"much less than, type 2"
+\gg,&#x0226B;,"much greater than, type 2"
+\between,&#x0226C;,BETWEEN
+\notasymp,&#x0226D;,"= \nasymp (wrisym), not asymptotically equal to"
+\nless,&#x0226E;,NOT LESS-THAN
+\ngtr,&#x0226F;,NOT GREATER-THAN
+\nleq,&#x02270;,"= \nleqslant (fourier), not less-than-or-equal"
+\ngeq,&#x02271;,"= \ngeqslant (fourier), not greater-than-or-equal"
+\lesssim,&#x02272;,"= \apprle (wasysym), = \LessTilde (wrisym), less, similar"
+\gtrsim,&#x02273;,"= \apprge (wasysym), = \GreaterTilde (wrisym), greater, similar"
+\NotLessTilde,&#x02274;,"not less, similar"
+\NotGreaterTilde,&#x02275;,"not greater, similar"
+\lessgtr,&#x02276;,"less, greater"
+\gtrless,&#x02277;,"= \GreaterLess (wrisym), greater, less"
+,&#x02278;,"not less, greater"
+\NotGreaterLess,&#x02279;,"not greater, less"
+\prec,&#x0227A;,PRECEDES
+\succ,&#x0227B;,SUCCEEDS
+\preccurlyeq,&#x0227C;,"= \PrecedesSlantEqual (wrisym), precedes, curly equals"
+\succcurlyeq,&#x0227D;,"= \SucceedsSlantEqual (wrisym), succeeds, curly equals"
+\precsim,&#x0227E;,"= \PrecedesTilde (wrisym), precedes, similar"
+\succsim,&#x0227F;,"= \SucceedsTilde (wrisym), succeeds, similar"
+\nprec,&#x02280;,not precedes
+\nsucc,&#x02281;,not succeeds
+\subset,&#x02282;,subset or is implied by
+\supset,&#x02283;,superset or implies
+\nsubset,&#x02284;,"not subset, variant [slash negation]"
+\nsupset,&#x02285;,"not superset, variant [slash negation]"
+\subseteq,&#x02286;,"subset, equals"
+\supseteq,&#x02287;,"superset, equals"
+\nsubseteq,&#x02288;,"not subset, equals"
+\nsupseteq,&#x02289;,"not superset, equals"
+\subsetneq,&#x0228A;,"= \varsubsetneq (fourier), subset, not equals"
+\supsetneq,&#x0228B;,"superset, not equals"
+,&#x0228C;,MULTISET
+,&#x0228D;,"union, with dot"
+\uplus,&#x0228E;,"= \buni (oz), plus sign in union"
+\sqsubset,&#x0228F;,square subset
+\sqsupset,&#x02290;,square superset
+\sqsubseteq,&#x02291;,"square subset, equals"
+\sqsupseteq,&#x02292;,"square superset, equals"
+\sqcap,&#x02293;,square intersection
+\sqcup,&#x02294;,square union
+\oplus,&#x02295;,plus sign in circle
+\ominus,&#x02296;,minus sign in circle
+\otimes,&#x02297;,multiply sign in circle
+\oslash,&#x02298;,solidus in circle
+\odot,&#x02299;,middle dot in circle
+\circledcirc,&#x0229A;,small circle in circle
+\circledast,&#x0229B;,asterisk in circle
+,&#x0229C;,equal in circle
+\circleddash,&#x0229D;,hyphen in circle
+\boxplus,&#x0229E;,plus sign in box
+\boxminus,&#x0229F;,minus sign in box
+\boxtimes,&#x022A0;,multiply sign in box
+\boxdot,&#x022A1;,/dotsquare /boxdot b: small dot in box
+\vdash,&#x022A2;,"RIGHT TACK, proves, implies, yields, (vertical, dash)"
+\dashv,&#x022A3;,"LEFT TACK, non-theorem, does not yield, (dash, vertical)"
+\top,&#x022A4;,"DOWN TACK, top"
+\bot,&#x022A5;,"UP TACK, bottom"
+,&#x022A6;,"# \vdash, ASSERTION (vertical, short dash)"
+\models,&#x022A7;,"MODELS (vertical, short double dash)"
+\vDash,&#x022A8;,"TRUE (vertical, double dash)"
+\Vdash,&#x022A9;,"double vertical, dash"
+\Vvdash,&#x022AA;,"triple vertical, dash"
+\VDash,&#x022AB;,"double vert, double dash"
+\nvdash,&#x022AC;,"not vertical, dash"
+\nvDash,&#x022AD;,"not vertical, double dash"
+\nVdash,&#x022AE;,"not double vertical, dash"
+\nVDash,&#x022AF;,"not double vert, double dash"
+,&#x022B0;,element PRECEDES UNDER RELATION
+,&#x022B1;,SUCCEEDS UNDER RELATION
+\vartriangleleft,&#x022B2;,"left triangle, open, variant"
+\vartriangleright,&#x022B3;,"right triangle, open, variant"
+\trianglelefteq,&#x022B4;,"= \unlhd (wrisym), left triangle, equals"
+\trianglerighteq,&#x022B5;,"= \unrhd (wrisym), right triangle, equals"
+\multimapdotbothA,&#x022B6;,ORIGINAL OF
+\multimapdotbothB,&#x022B7;,IMAGE OF
+\multimap,&#x022B8;,/MULTIMAP a:
+,&#x022B9;,HERMITIAN CONJUGATE MATRIX
+\intercal,&#x022BA;,intercal
+\veebar,&#x022BB;,"logical or, bar below (large vee); exclusive disjunction"
+\barwedge,&#x022BC;,logical NAND (bar over wedge)
+,&#x022BD;,"bar, vee (large vee)"
+,&#x022BE;,right angle-measured [with arc]
+,&#x022BF;,RIGHT TRIANGLE
+\bigwedge,&#x022C0;,logical or operator
+\bigvee,&#x022C1;,logical and operator
+\bigcap,&#x022C2;,"= \dint (oz), \dinter (oz), intersection operator"
+\bigcup,&#x022C3;,"= \duni (oz), \dunion (oz), union operator"
+\diamond,&#x022C4;,DIAMOND OPERATOR (white diamond)
+\cdot,&#x022C5;,DOT OPERATOR (small middle dot)
+\star,&#x022C6;,"small star, filled, low"
+\divideontimes,&#x022C7;,division on times
+\bowtie,&#x022C8;,"= \lrtimes (txfonts), BOWTIE"
+\ltimes,&#x022C9;,"times sign, left closed"
+\rtimes,&#x022CA;,"times sign, right closed"
+\leftthreetimes,&#x022CB;,LEFT SEMIDIRECT PRODUCT
+\rightthreetimes,&#x022CC;,RIGHT SEMIDIRECT PRODUCT
+\backsimeq,&#x022CD;,"reverse similar, equals"
+\curlyvee,&#x022CE;,CURLY LOGICAL OR
+\curlywedge,&#x022CF;,CURLY LOGICAL AND
+\Subset,&#x022D0;,DOUBLE SUBSET
+\Supset,&#x022D1;,DOUBLE SUPERSET
+\Cap,&#x022D2;,/cap /doublecap b: DOUBLE INTERSECTION
+\Cup,&#x022D3;,/cup /doublecup b: DOUBLE UNION
+\pitchfork,&#x022D4;,PITCHFORK
+\hash,&#x022D5;,"parallel, equal; equal or parallel"
+\lessdot,&#x022D6;,"less than, with dot"
+\gtrdot,&#x022D7;,"greater than, with dot"
+\lll,&#x022D8;,triple less-than
+\ggg,&#x022D9;,triple greater-than
+\lesseqgtr,&#x022DA;,"less, equals, greater"
+\gtreqless,&#x022DB;,"greater, equals, less"
+,&#x022DC;,equal-or-less
+,&#x022DD;,equal-or-greater
+\curlyeqprec,&#x022DE;,"curly equals, precedes"
+\curlyeqsucc,&#x022DF;,"curly equals, succeeds"
+\npreceq,&#x022E0;,DOES NOT PRECEDE OR EQUAL
+\nsucceq,&#x022E1;,"not succeeds, curly equals"
+\nsqsubseteq,&#x022E2;,"not, square subset, equals"
+\nsqsupseteq,&#x022E3;,"not, square superset, equals"
+,&#x022E4;,"square subset, not equals"
+,&#x022E5;,"square superset, not equals"
+\lnsim,&#x022E6;,"less, not similar"
+\gnsim,&#x022E7;,"greater, not similar"
+\precnsim,&#x022E8;,"precedes, not similar"
+\succnsim,&#x022E9;,"succeeds, not similar"
+\ntriangleleft,&#x022EA;,"= \NotLeftTriangle (wrisym), not left triangle"
+\ntriangleright,&#x022EB;,"= \NotRightTriangle (wrisym), not right triangle"
+\ntrianglelefteq,&#x022EC;,"= \nunlhd (wrisym), not left triangle, equals"
+\ntrianglerighteq,&#x022ED;,"= \nunrhd (wrisym), not right triangle, equals"
+\vdots,&#x022EE;,VERTICAL ELLIPSIS
+\cdots,&#x022EF;,"three dots, centered"
+\iddots,&#x022F0;,"= \adots (yhmath), three dots, ascending"
+\ddots,&#x022F1;,"three dots, descending"
+,&#x022F2;,ELEMENT OF WITH LONG HORIZONTAL STROKE
+,&#x022F3;,ELEMENT OF WITH VERTICAL BAR AT END OF HORIZONTAL STROKE
+,&#x022F4;,SMALL ELEMENT OF WITH VERTICAL BAR AT END OF HORIZONTAL STROKE
+,&#x022F5;,ELEMENT OF WITH DOT ABOVE
+\barin,&#x022F6;,ELEMENT OF WITH OVERBAR
+,&#x022F7;,SMALL ELEMENT OF WITH OVERBAR
+,&#x022F8;,ELEMENT OF WITH UNDERBAR
+,&#x022F9;,ELEMENT OF WITH TWO HORIZONTAL STROKES
+,&#x022FA;,CONTAINS WITH LONG HORIZONTAL STROKE
+,&#x022FB;,CONTAINS WITH VERTICAL BAR AT END OF HORIZONTAL STROKE
+,&#x022FC;,SMALL CONTAINS WITH VERTICAL BAR AT END OF HORIZONTAL STROKE
+,&#x022FD;,CONTAINS WITH OVERBAR
+,&#x022FE;,SMALL CONTAINS WITH OVERBAR
+,&#x022FF;,"# \mathsf{E}, Z NOTATION BAG MEMBERSHIP"
+\diameter,&#x02300;,"# \varnothing (amssymb), DIAMETER SIGN"
+,&#x02302;,HOUSE
+,&#x02305;,"# \barwedge (amssymb), PROJECTIVE (bar over small wedge) not nand"
+,&#x02306;,"# \doublebarwedge (amssymb), PERSPECTIVE (double bar over small wedge)"
+\lceil,&#x02308;,LEFT CEILING
+\rceil,&#x02309;,RIGHT CEILING
+\lfloor,&#x0230A;,LEFT FLOOR
+\rfloor,&#x0230B;,RIGHT FLOOR
+\invneg,&#x02310;,reverse not
+\wasylozenge,&#x02311;,SQUARE LOZENGE
+,&#x02312;,profile of a line
+,&#x02313;,profile of a surface
+,&#x02317;,VIEWDATA SQUARE
+,&#x02319;,TURNED NOT SIGN
+\ulcorner,&#x0231C;,upper left corner
+\urcorner,&#x0231D;,upper right corner
+\llcorner,&#x0231E;,lower left corner
+\lrcorner,&#x0231F;,lower right corner
+,&#x02320;,TOP HALF INTEGRAL
+,&#x02321;,BOTTOM HALF INTEGRAL
+\frown,&#x02322;,"# \smallfrown, FROWN (down curve)"
+\smile,&#x02323;,"# \smallsmile, SMILE (up curve)"
+,&#x0232C;,"six carbon ring, corner down, double bonds lower right etc"
+,&#x02332;,CONICAL TAPER
+,&#x02336;,"APL FUNCTIONAL SYMBOL I-BEAM, top and bottom"
+,&#x02337;,APL FUNCTIONAL SYMBOL SQUISH QUAD
+,&#x02338;,APL FUNCTIONAL SYMBOL QUAD EQUAL
+\APLinv,&#x02339;,APL FUNCTIONAL SYMBOL QUAD DIVIDE
+,&#x0233A;,APL FUNCTIONAL SYMBOL QUAD DIAMOND
+,&#x0233B;,APL FUNCTIONAL SYMBOL QUAD JOT
+,&#x0233C;,"# \APLcirc{\APLbox} (wasysym), APL FUNCTIONAL SYMBOL QUAD CIRCLE"
+,&#x0233D;,"# \APLvert{\Circle} (wasysym), x \obar (stmaryrd), APL FUNCTIONAL SYMBOL CIRCLE STILE, circle with vertical bar"
+,&#x0233E;,"# \APLcirc{\Circle} (wasysym), APL FUNCTIONAL SYMBOL CIRCLE JOT"
+\notslash,&#x0233F;,"APL FUNCTIONAL SYMBOL SLASH BAR, solidus, bar through"
+\notbackslash,&#x02340;,APL FUNCTIONAL SYMBOL BACKSLASH BAR
+,&#x02341;,APL FUNCTIONAL SYMBOL QUAD SLASH
+,&#x02342;,APL FUNCTIONAL SYMBOL QUAD BACKSLASH
+,&#x02343;,APL FUNCTIONAL SYMBOL QUAD LESS-THAN
+,&#x02344;,APL FUNCTIONAL SYMBOL QUAD GREATER-THAN
+,&#x02345;,APL FUNCTIONAL SYMBOL LEFTWARDS VANE
+,&#x02346;,APL FUNCTIONAL SYMBOL RIGHTWARDS VANE
+\APLleftarrowbox,&#x02347;,APL FUNCTIONAL SYMBOL QUAD LEFTWARDS ARROW
+\APLrightarrowbox,&#x02348;,APL FUNCTIONAL SYMBOL QUAD RIGHTWARDS ARROW
+\invdiameter,&#x02349;,APL FUNCTIONAL SYMBOL CIRCLE BACKSLASH
+,&#x0234A;,APL FUNCTIONAL SYMBOL DOWN TACK UNDERBAR
+,&#x0234B;,"# \APLvert{\APLup} (wasysym), APL FUNCTIONAL SYMBOL DELTA STILE"
+,&#x0234C;,APL FUNCTIONAL SYMBOL QUAD DOWN CARET
+,&#x0234D;,APL FUNCTIONAL SYMBOL QUAD DELTA
+,&#x0234E;,APL FUNCTIONAL SYMBOL DOWN TACK JOT
+,&#x0234F;,APL FUNCTIONAL SYMBOL UPWARDS VANE
+\APLuparrowbox,&#x02350;,APL FUNCTIONAL SYMBOL QUAD UPWARDS ARROW
+,&#x02351;,APL FUNCTIONAL SYMBOL UP TACK OVERBAR
+,&#x02352;,"# \APLvert{\APLdown} (wasysym), APL FUNCTIONAL SYMBOL DEL STILE"
+,&#x02353;,APL FUNCTIONAL SYMBOL QUAD UP CARET
+,&#x02354;,APL FUNCTIONAL SYMBOL QUAD DEL
+,&#x02355;,APL FUNCTIONAL SYMBOL UP TACK JOT
+,&#x02356;,APL FUNCTIONAL SYMBOL DOWNWARDS VANE
+\APLdownarrowbox,&#x02357;,APL FUNCTIONAL SYMBOL QUAD DOWNWARDS ARROW
+,&#x02358;,APL FUNCTIONAL SYMBOL QUOTE UNDERBAR
+,&#x02359;,APL FUNCTIONAL SYMBOL DELTA UNDERBAR
+,&#x0235A;,APL FUNCTIONAL SYMBOL DIAMOND UNDERBAR
+,&#x0235B;,APL FUNCTIONAL SYMBOL JOT UNDERBAR
+,&#x0235C;,APL FUNCTIONAL SYMBOL CIRCLE UNDERBAR
+\APLcomment,&#x0235D;,APL FUNCTIONAL SYMBOL UP SHOE JOT
+\APLinput,&#x0235E;,APL FUNCTIONAL SYMBOL QUOTE QUAD
+\APLlog,&#x0235F;,APL FUNCTIONAL SYMBOL CIRCLE STAR
+,&#x02360;,APL FUNCTIONAL SYMBOL QUAD COLON
+,&#x02361;,APL FUNCTIONAL SYMBOL UP TACK DIAERESIS
+,&#x02362;,APL FUNCTIONAL SYMBOL DEL DIAERESIS
+,&#x02363;,APL FUNCTIONAL SYMBOL STAR DIAERESIS
+,&#x02364;,APL FUNCTIONAL SYMBOL JOT DIAERESIS
+,&#x02365;,APL FUNCTIONAL SYMBOL CIRCLE DIAERESIS
+,&#x02366;,APL FUNCTIONAL SYMBOL DOWN SHOE STILE
+,&#x02367;,APL FUNCTIONAL SYMBOL LEFT SHOE STILE
+,&#x02368;,APL FUNCTIONAL SYMBOL TILDE DIAERESIS
+,&#x02369;,APL FUNCTIONAL SYMBOL GREATER-THAN DIAERESIS
+,&#x0236A;,APL FUNCTIONAL SYMBOL COMMA BAR
+,&#x0236B;,"# \APLnot{\APLdown} (wasysym), APL FUNCTIONAL SYMBOL DEL TILDE"
+,&#x0236C;,APL FUNCTIONAL SYMBOL ZILDE
+,&#x0236D;,APL FUNCTIONAL SYMBOL STILE TILDE
+,&#x0236E;,APL FUNCTIONAL SYMBOL SEMICOLON UNDERBAR
+,&#x0236F;,APL FUNCTIONAL SYMBOL QUAD NOT EQUAL
+,&#x02370;,APL FUNCTIONAL SYMBOL QUAD QUESTION
+,&#x02371;,APL FUNCTIONAL SYMBOL DOWN CARET TILDE
+,&#x02372;,APL FUNCTIONAL SYMBOL UP CARET TILDE
+,&#x02373;,APL FUNCTIONAL SYMBOL IOTA
+,&#x02374;,APL FUNCTIONAL SYMBOL RHO
+,&#x02375;,APL FUNCTIONAL SYMBOL OMEGA
+,&#x02376;,APL FUNCTIONAL SYMBOL ALPHA UNDERBAR
+,&#x02377;,APL FUNCTIONAL SYMBOL EPSILON UNDERBAR
+,&#x02378;,APL FUNCTIONAL SYMBOL IOTA UNDERBAR
+,&#x02379;,APL FUNCTIONAL SYMBOL OMEGA UNDERBAR
+,&#x0237C;,RIGHT ANGLE WITH DOWNWARDS ZIGZAG ARROW
+,&#x02394;,horizontal benzene ring [hexagon flat open]
+,&#x0239B;,LEFT PARENTHESIS UPPER HOOK
+,&#x0239C;,LEFT PARENTHESIS EXTENSION
+,&#x0239D;,LEFT PARENTHESIS LOWER HOOK
+,&#x0239E;,RIGHT PARENTHESIS UPPER HOOK
+,&#x0239F;,RIGHT PARENTHESIS EXTENSION
+,&#x023A0;,RIGHT PARENTHESIS LOWER HOOK
+,&#x023A1;,LEFT SQUARE BRACKET UPPER CORNER
+,&#x023A2;,LEFT SQUARE BRACKET EXTENSION
+,&#x023A3;,LEFT SQUARE BRACKET LOWER CORNER
+,&#x023A4;,RIGHT SQUARE BRACKET UPPER CORNER
+,&#x023A5;,RIGHT SQUARE BRACKET EXTENSION
+,&#x023A6;,RIGHT SQUARE BRACKET LOWER CORNER
+,&#x023A7;,LEFT CURLY BRACKET UPPER HOOK
+,&#x023A8;,LEFT CURLY BRACKET MIDDLE PIECE
+,&#x023A9;,LEFT CURLY BRACKET LOWER HOOK
+,&#x023AA;,CURLY BRACKET EXTENSION
+,&#x023AB;,RIGHT CURLY BRACKET UPPER HOOK
+,&#x023AC;,RIGHT CURLY BRACKET MIDDLE PIECE
+,&#x023AD;,RIGHT CURLY BRACKET LOWER HOOK
+,&#x023AE;,INTEGRAL EXTENSION
+,&#x023AF;,HORIZONTAL LINE EXTENSION (used to extend arrows)
+,&#x023B0;,"? \lmoustache, UPPER LEFT OR LOWER RIGHT CURLY BRACKET SECTION"
+,&#x023B1;,"? \rmoustache, UPPER RIGHT OR LOWER LEFT CURLY BRACKET SECTION"
+,&#x023B2;,SUMMATION TOP
+,&#x023B3;,SUMMATION BOTTOM
+,&#x023B4;,TOP SQUARE BRACKET
+,&#x023B5;,BOTTOM SQUARE BRACKET
+,&#x023B6;,BOTTOM SQUARE BRACKET OVER TOP SQUARE BRACKET
+,&#x023B7;,RADICAL SYMBOL BOTTOM
+,&#x023B8;,LEFT VERTICAL BOX LINE
+,&#x023B9;,RIGHT VERTICAL BOX LINE
+,&#x023CE;,RETURN SYMBOL
+,&#x023D0;,VERTICAL LINE EXTENSION (VERTICAL LINE EXTENSION)
+\overparen,&#x023DC;,"= \wideparen (yhmath mathabx fourier), TOP PARENTHESIS (mathematical use)"
+\underparen,&#x023DD;,BOTTOM PARENTHESIS (mathematical use)
+\overbrace,&#x023DE;,TOP CURLY BRACKET (mathematical use)
+\underbrace,&#x023DF;,BOTTOM CURLY BRACKET (mathematical use)
+,&#x023E0;,TOP TORTOISE SHELL BRACKET (mathematical use)
+,&#x023E1;,BOTTOM TORTOISE SHELL BRACKET (mathematical use)
+,&#x023E2;,WHITE TRAPEZIUM
+,&#x023E3;,BENZENE RING WITH CIRCLE
+,&#x023E4;,STRAIGHTNESS
+,&#x023E5;,FLATNESS
+,&#x023E6;,"# \AC (wasysym), AC CURRENT"
+,&#x023E7;,ELECTRICAL INTERSECTION
+,&#x024C8;,oS capital S in circle
+,&#x02506;,doubly broken vert
+,&#x02580;,UPPER HALF BLOCK
+,&#x02584;,LOWER HALF BLOCK
+,&#x02588;,FULL BLOCK
+,&#x0258C;,LEFT HALF BLOCK
+,&#x02590;,RIGHT HALF BLOCK
+,&#x02591;,25\% shaded block
+,&#x02592;,50\% shaded block
+,&#x02593;,75\% shaded block
+,&#x025A0;,"square, filled"
+,&#x025A1;,"square, open"
+,&#x025A2;,WHITE SQUARE WITH ROUNDED CORNERS
+,&#x025A3;,WHITE SQUARE CONTAINING BLACK SMALL SQUARE
+,&#x025A4;,"square, horizontal rule filled"
+,&#x025A5;,"square, vertical rule filled"
+,&#x025A6;,SQUARE WITH ORTHOGONAL CROSSHATCH FILL
+,&#x025A7;,"square, nw-to-se rule filled"
+,&#x025A8;,"square, ne-to-sw rule filled"
+,&#x025A9;,SQUARE WITH DIAGONAL CROSSHATCH FILL
+,&#x025AA;,"sq bullet, filled"
+,&#x025AB;,WHITE SMALL SQUARE
+,&#x025AC;,BLACK RECTANGLE
+,&#x025AD;,"horizontal rectangle, open"
+,&#x025AE;,BLACK VERTICAL RECTANGLE
+,&#x025AF;,"rectangle, white (vertical)"
+,&#x025B0;,BLACK PARALLELOGRAM
+,&#x025B1;,"parallelogram, open"
+,&#x025B2;,BLACK UP-POINTING TRIANGLE
+\bigtriangleup,&#x025B3;,"= \triangle (amsfonts), # \vartriangle (amssymb), big up triangle, open"
+\blacktriangleup,&#x025B4;,"up triangle, filled"
+\smalltriangleup,&#x025B5;,"# \vartriangle (amssymb), small up triangle, open"
+\RHD,&#x025B6;,"= \blacktriangleright (fourier -mathabx), (large) right triangle, filled"
+\rhd,&#x025B7;,"= \rres (oz), = \RightTriangle (wrisym), (large) right triangle, open; z notation range restriction"
+\blacktriangleright,&#x025B8;,"right triangle, filled"
+\smalltriangleright,&#x025B9;,"# \triangleright, x \triangleright (mathabx), right triangle, open"
+,&#x025BA;,BLACK RIGHT-POINTING POINTER
+,&#x025BB;,"# \triangleright (mathabx), WHITE RIGHT-POINTING POINTER"
+,&#x025BC;,"big down triangle, filled"
+\bigtriangledown,&#x025BD;,"big down triangle, open"
+\blacktriangledown,&#x025BE;,BLACK DOWN-POINTING SMALL TRIANGLE
+\smalltriangledown,&#x025BF;,"# \triangledown (amssymb), WHITE DOWN-POINTING SMALL TRIANGLE"
+\LHD,&#x025C0;,"= \blacktriangleleft (fourier -mathabx), (large) left triangle, filled"
+\lhd,&#x025C1;,"= \dres (oz), = \LeftTriangle (wrisym), (large) left triangle, open; z notation domain restriction"
+\blacktriangleleft,&#x025C2;,"left triangle, filled"
+\smalltriangleleft,&#x025C3;,"# \triangleleft, x \triangleleft (mathabx), left triangle, open"
+,&#x025C4;,BLACK LEFT-POINTING POINTER
+,&#x025C5;,"# \triangleleft (mathabx), WHITE LEFT-POINTING POINTER"
+\Diamondblack,&#x025C6;,BLACK DIAMOND
+\Diamond,&#x025C7;,"WHITE DIAMOND; diamond, open"
+,&#x025C8;,WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND
+,&#x025C9;,FISHEYE
+\lozenge,&#x025CA;,LOZENGE or total mark
+\Circle,&#x025CB;,medium large circle
+,&#x025CC;,DOTTED CIRCLE
+,&#x025CD;,CIRCLE WITH VERTICAL FILL
+,&#x025CE;,"# \circledcirc (amssymb), BULLSEYE"
+\CIRCLE,&#x025CF;,"circle, filled"
+\LEFTcircle,&#x025D0;,"circle, filled left half [harvey ball]"
+\RIGHTcircle,&#x025D1;,"circle, filled right half"
+,&#x025D2;,"circle, filled bottom half"
+,&#x025D3;,"circle, filled top half"
+,&#x025D4;,CIRCLE WITH UPPER RIGHT QUADRANT BLACK
+,&#x025D5;,CIRCLE WITH ALL BUT UPPER LEFT QUADRANT BLACK
+\LEFTCIRCLE,&#x025D6;,LEFT HALF BLACK CIRCLE
+\RIGHTCIRCLE,&#x025D7;,RIGHT HALF BLACK CIRCLE
+,&#x025D8;,INVERSE BULLET
+,&#x025D9;,INVERSE WHITE CIRCLE
+,&#x025DA;,UPPER HALF INVERSE WHITE CIRCLE
+,&#x025DB;,LOWER HALF INVERSE WHITE CIRCLE
+,&#x025DC;,UPPER LEFT QUADRANT CIRCULAR ARC
+,&#x025DD;,UPPER RIGHT QUADRANT CIRCULAR ARC
+,&#x025DE;,LOWER RIGHT QUADRANT CIRCULAR ARC
+,&#x025DF;,LOWER LEFT QUADRANT CIRCULAR ARC
+,&#x025E0;,UPPER HALF CIRCLE
+,&#x025E1;,LOWER HALF CIRCLE
+,&#x025E2;,"lower right triangle, filled"
+,&#x025E3;,"lower left triangle, filled"
+,&#x025E4;,"upper left triangle, filled"
+,&#x025E5;,"upper right triangle, filled"
+,&#x025E6;,WHITE BULLET
+,&#x025E7;,"square, filled left half"
+,&#x025E8;,"square, filled right half"
+,&#x025E9;,"square, filled top left corner"
+,&#x025EA;,"square, filled bottom right corner"
+\boxbar,&#x025EB;,vertical bar in box
+,&#x025EC;,triangle with centered dot
+,&#x025ED;,UP-POINTING TRIANGLE WITH LEFT HALF BLACK
+,&#x025EE;,UP-POINTING TRIANGLE WITH RIGHT HALF BLACK
+,&#x025EF;,LARGE CIRCLE
+,&#x025F0;,WHITE SQUARE WITH UPPER LEFT QUADRANT
+,&#x025F1;,WHITE SQUARE WITH LOWER LEFT QUADRANT
+,&#x025F2;,WHITE SQUARE WITH LOWER RIGHT QUADRANT
+,&#x025F3;,WHITE SQUARE WITH UPPER RIGHT QUADRANT
+,&#x025F4;,WHITE CIRCLE WITH UPPER LEFT QUADRANT
+,&#x025F5;,WHITE CIRCLE WITH LOWER LEFT QUADRANT
+,&#x025F6;,WHITE CIRCLE WITH LOWER RIGHT QUADRANT
+,&#x025F7;,WHITE CIRCLE WITH UPPER RIGHT QUADRANT
+,&#x025F8;,UPPER LEFT TRIANGLE
+,&#x025F9;,UPPER RIGHT TRIANGLE
+,&#x025FA;,LOWER LEFT TRIANGLE
+\square,&#x025FB;,WHITE MEDIUM SQUARE
+\blacksquare,&#x025FC;,BLACK MEDIUM SQUARE
+,&#x025FD;,WHITE MEDIUM SMALL SQUARE
+,&#x025FE;,BLACK MEDIUM SMALL SQUARE
+,&#x025FF;,LOWER RIGHT TRIANGLE
+\bigstar,&#x02605;,"star, filled"
+,&#x02606;,"star, open"
+\Sun,&#x02609;,SUN
+,&#x0260C;,"text \CONJUNCTION (wasysym), CONJUNCTION"
+\Square,&#x02610;,BALLOT BOX
+\CheckedBox,&#x02611;,"t \Checkedbox (marvosym), BALLOT BOX WITH CHECK"
+\XBox,&#x02612;,"t \Crossedbox (marvosym), BALLOT BOX WITH X"
+\steaming,&#x02615;,HOT BEVERAGE
+\pointright,&#x0261E;,WHITE RIGHT POINTING INDEX
+\skull,&#x02620;,SKULL AND CROSSBONES
+,&#x02621;,"CAUTION SIGN, dangerous bend"
+\radiation,&#x02622;,RADIOACTIVE SIGN
+\biohazard,&#x02623;,BIOHAZARD SIGN
+\yinyang,&#x0262F;,YIN YANG
+\frownie,&#x02639;,"= \sadface (arevmath), WHITE FROWNING FACE"
+\smiley,&#x0263A;,"= \smileface (arevmath), WHITE SMILING FACE"
+\blacksmiley,&#x0263B;,"= \invsmileface (arevmath), BLACK SMILING FACE"
+\sun,&#x0263C;,WHITE SUN WITH RAYS
+\rightmoon,&#x0263D;,FIRST QUARTER MOON
+\leftmoon,&#x0263E;,LAST QUARTER MOON
+\mercury,&#x0263F;,"= \Mercury (mathabx), MERCURY"
+\female,&#x02640;,"= \Venus (mathabx), = \girl (mathabx), venus, female"
+\earth,&#x02641;,"= \varEarth (mathabx), EARTH"
+\male,&#x02642;,"= \Mars (mathabx), = \boy (mathabx), mars, male"
+\jupiter,&#x02643;,"= \Jupiter (mathabx), JUPITER"
+\saturn,&#x02644;,"= \Saturn (mathabx), SATURN"
+\uranus,&#x02645;,"= \Uranus (mathabx), URANUS"
+\neptune,&#x02646;,"= \Neptune (mathabx), NEPTUNE"
+\pluto,&#x02647;,"= \Pluto (mathabx), PLUTO"
+\aries,&#x02648;,"= \Aries (mathabx), ARIES"
+\taurus,&#x02649;,"= \Taurus (mathabx), TAURUS"
+\gemini,&#x0264A;,"= \Gemini (mathabx), GEMINI"
+\cancer,&#x0264B;,CANCER
+\leo,&#x0264C;,"= \Leo (mathabx), LEO"
+\virgo,&#x0264D;,VIRGO
+\libra,&#x0264E;,"= \Libra (mathabx), LIBRA"
+\scorpio,&#x0264F;,"= \Scorpio (mathabx), SCORPIUS"
+\sagittarius,&#x02650;,SAGITTARIUS
+\capricornus,&#x02651;,CAPRICORN
+\aquarius,&#x02652;,AQUARIUS
+\pisces,&#x02653;,PISCES
+\spadesuit,&#x02660;,spades suit symbol
+\heartsuit,&#x02661;,heart suit symbol
+\diamondsuit,&#x02662;,diamond suit symbol
+\clubsuit,&#x02663;,club suit symbol
+\varspadesuit,&#x02664;,"= \varspade (arevmath), spade, white (card suit)"
+\varheartsuit,&#x02665;,"= \varheart (arevmath), filled heart (card suit)"
+\vardiamondsuit,&#x02666;,"= \vardiamond (arevmath), filled diamond (card suit)"
+\varclubsuit,&#x02667;,"= \varclub (arevmath), club, white (card suit)"
+\quarternote,&#x02669;,music note (sung text sign)
+\eighthnote,&#x0266A;,EIGHTH NOTE
+\twonotes,&#x0266B;,BEAMED EIGHTH NOTES
+\sixteenthnote,&#x0266C;,BEAMED SIXTEENTH NOTES
+\flat,&#x0266D;,musical flat
+\natural,&#x0266E;,music natural
+\sharp,&#x0266F;,"= \# (oz), MUSIC SHARP SIGN, z notation infix bag count"
+\recycle,&#x0267B;,BLACK UNIVERSAL RECYCLING SYMBOL
+,&#x0267E;,PERMANENT PAPER SIGN
+,&#x02680;,DIE FACE-1
+,&#x02681;,DIE FACE-2
+,&#x02682;,DIE FACE-3
+,&#x02683;,DIE FACE-4
+,&#x02684;,DIE FACE-5
+,&#x02685;,DIE FACE-6
+,&#x02686;,WHITE CIRCLE WITH DOT RIGHT
+,&#x02687;,WHITE CIRCLE WITH TWO DOTS
+,&#x02688;,BLACK CIRCLE WITH WHITE DOT RIGHT
+,&#x02689;,BLACK CIRCLE WITH TWO WHITE DOTS
+\anchor,&#x02693;,ANCHOR
+\swords,&#x02694;,CROSSED SWORDS
+\warning,&#x026A0;,WARNING SIGN
+,&#x026A5;,MALE AND FEMALE SIGN
+\medcirc,&#x026AA;,MEDIUM WHITE CIRCLE
+\medbullet,&#x026AB;,MEDIUM BLACK CIRCLE
+,&#x026AC;,MEDIUM SMALL WHITE CIRCLE
+,&#x026B2;,NEUTER
+\pencil,&#x0270E;,LOWER RIGHT PENCIL
+\checkmark,&#x02713;,"= \ballotcheck (arevmath), tick, CHECK MARK"
+\ballotx,&#x02717;,BALLOT X
+\maltese,&#x02720;,MALTESE CROSS
+,&#x0272A;,CIRCLED WHITE STAR
+,&#x02736;,SIX POINTED BLACK STAR
+,&#x0273D;,HEAVY TEARDROP-SPOKED ASTERISK
+,&#x02772;,LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT
+,&#x02773;,LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT
+,&#x0279B;,right arrow with bold head (drafting)
+\arrowbullet,&#x027A2;,THREE-D TOP-LIGHTED RIGHTWARDS ARROWHEAD
+,&#x027C0;,THREE DIMENSIONAL ANGLE
+,&#x027C1;,WHITE TRIANGLE CONTAINING SMALL WHITE TRIANGLE
+\perp,&#x027C2;,PERPENDICULAR
+,&#x027C3;,OPEN SUBSET
+,&#x027C4;,OPEN SUPERSET
+\Lbag,&#x027C5;,"= \lbag (stmaryrd -oz), LEFT S-SHAPED BAG DELIMITER"
+\Rbag,&#x027C6;,"= \rbag (stmaryrd -oz), RIGHT S-SHAPED BAG DELIMITER"
+,&#x027C7;,OR WITH DOT INSIDE
+,&#x027C8;,REVERSE SOLIDUS PRECEDING SUBSET
+,&#x027C9;,SUPERSET PRECEDING SOLIDUS
+,&#x027CA;,VERTICAL BAR WITH HORIZONTAL STROKE
+,&#x027CC;,LONG DIVISION
+\Diamonddot,&#x027D0;,WHITE DIAMOND WITH CENTRED DOT
+,&#x027D1;,AND WITH DOT
+,&#x027D2;,ELEMENT OF OPENING UPWARDS
+,&#x027D3;,LOWER RIGHT CORNER WITH DOT
+,&#x027D4;,UPPER LEFT CORNER WITH DOT
+,&#x027D5;,LEFT OUTER JOIN
+,&#x027D6;,RIGHT OUTER JOIN
+,&#x027D7;,FULL OUTER JOIN
+,&#x027D8;,LARGE UP TACK
+,&#x027D9;,LARGE DOWN TACK
+,&#x027DA;,LEFT AND RIGHT DOUBLE TURNSTILE
+,&#x027DB;,LEFT AND RIGHT TACK
+\multimapinv,&#x027DC;,LEFT MULTIMAP
+,&#x027DD;,long left tack
+,&#x027DE;,long right tack
+,&#x027DF;,UP TACK WITH CIRCLE ABOVE
+,&#x027E0;,LOZENGE DIVIDED BY HORIZONTAL RULE
+,&#x027E1;,WHITE CONCAVE-SIDED DIAMOND
+,&#x027E2;,WHITE CONCAVE-SIDED DIAMOND WITH LEFTWARDS TICK
+,&#x027E3;,WHITE CONCAVE-SIDED DIAMOND WITH RIGHTWARDS TICK
+,&#x027E4;,WHITE SQUARE WITH LEFTWARDS TICK
+,&#x027E5;,WHITE SQUARE WITH RIGHTWARDS TICK
+\llbracket,&#x027E6;,"= \Lbrack (mathbbol), = \lbag (oz -stmaryrd), MATHEMATICAL LEFT WHITE SQUARE BRACKET"
+\rrbracket,&#x027E7;,"= \Rbrack (mathbbol), = \rbag (oz -stmaryrd), MATHEMATICAL RIGHT WHITE SQUARE BRACKET"
+\langle,&#x027E8;,MATHEMATICAL LEFT ANGLE BRACKET
+\rangle,&#x027E9;,MATHEMATICAL RIGHT ANGLE BRACKET
+\lang,&#x027EA;,"MATHEMATICAL LEFT DOUBLE ANGLE BRACKET, z notation left chevron bracket"
+\rang,&#x027EB;,"MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET, z notation right chevron bracket"
+,&#x027EC;,MATHEMATICAL LEFT WHITE TORTOISE SHELL BRACKET
+,&#x027ED;,MATHEMATICAL RIGHT WHITE TORTOISE SHELL BRACKET
+\lgroup,&#x027EE;,MATHEMATICAL LEFT FLATTENED PARENTHESIS
+\rgroup,&#x027EF;,MATHEMATICAL RIGHT FLATTENED PARENTHESIS
+,&#x027F0;,UPWARDS QUADRUPLE ARROW
+,&#x027F1;,DOWNWARDS QUADRUPLE ARROW
+,&#x027F2;,ANTICLOCKWISE GAPPED CIRCLE ARROW
+,&#x027F3;,CLOCKWISE GAPPED CIRCLE ARROW
+,&#x027F4;,RIGHT ARROW WITH CIRCLED PLUS
+\longleftarrow,&#x027F5;,LONG LEFTWARDS ARROW
+\longrightarrow,&#x027F6;,LONG RIGHTWARDS ARROW
+\longleftrightarrow,&#x027F7;,LONG LEFT RIGHT ARROW
+\Longleftarrow,&#x027F8;,"= \impliedby (amsmath), LONG LEFTWARDS DOUBLE ARROW"
+\Longrightarrow,&#x027F9;,"= \implies (amsmath), LONG RIGHTWARDS DOUBLE ARROW"
+\Longleftrightarrow,&#x027FA;,"= \iff (oz), LONG LEFT RIGHT DOUBLE ARROW"
+\longmapsfrom,&#x027FB;,"= \longmappedfrom (kpfonts), LONG LEFTWARDS ARROW FROM BAR"
+\longmapsto,&#x027FC;,LONG RIGHTWARDS ARROW FROM BAR
+\Longmapsfrom,&#x027FD;,"= \Longmappedfrom (kpfonts), LONG LEFTWARDS DOUBLE ARROW FROM BAR"
+\Longmapsto,&#x027FE;,LONG RIGHTWARDS DOUBLE ARROW FROM BAR
+,&#x027FF;,LONG RIGHTWARDS SQUIGGLE ARROW
+\psur,&#x02900;,"= \psurj (oz), RIGHTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE, z notation partial surjection"
+,&#x02901;,"RIGHTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE, z notation finite surjection"
+,&#x02902;,LEFTWARDS DOUBLE ARROW WITH VERTICAL STROKE
+,&#x02903;,RIGHTWARDS DOUBLE ARROW WITH VERTICAL STROKE
+,&#x02904;,LEFT RIGHT DOUBLE ARROW WITH VERTICAL STROKE
+,&#x02905;,RIGHTWARDS TWO-HEADED ARROW FROM BAR
+\Mapsfrom,&#x02906;,"= \Mappedfrom (kpfonts), LEFTWARDS DOUBLE ARROW FROM BAR"
+\Mapsto,&#x02907;,RIGHTWARDS DOUBLE ARROW FROM BAR
+,&#x02908;,DOWNWARDS ARROW WITH HORIZONTAL STROKE
+,&#x02909;,UPWARDS ARROW WITH HORIZONTAL STROKE
+,&#x0290A;,UPWARDS TRIPLE ARROW
+,&#x0290B;,DOWNWARDS TRIPLE ARROW
+,&#x0290C;,LEFTWARDS DOUBLE DASH ARROW
+,&#x0290D;,RIGHTWARDS DOUBLE DASH ARROW
+,&#x0290E;,LEFTWARDS TRIPLE DASH ARROW
+,&#x0290F;,RIGHTWARDS TRIPLE DASH ARROW
+,&#x02910;,RIGHTWARDS TWO-HEADED TRIPLE DASH ARROW
+,&#x02911;,RIGHTWARDS ARROW WITH DOTTED STEM
+\UpArrowBar,&#x02912;,UPWARDS ARROW TO BAR
+\DownArrowBar,&#x02913;,DOWNWARDS ARROW TO BAR
+\pinj,&#x02914;,"RIGHTWARDS ARROW WITH TAIL WITH VERTICAL STROKE, z notation partial injection"
+\finj,&#x02915;,"RIGHTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE, z notation finite injection"
+\bij,&#x02916;,"RIGHTWARDS TWO-HEADED ARROW WITH TAIL, z notation bijection"
+,&#x02917;,"RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE, z notation surjective injection"
+,&#x02918;,"RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE, z notation finite surjective injection"
+,&#x02919;,LEFTWARDS ARROW-TAIL
+,&#x0291A;,RIGHTWARDS ARROW-TAIL
+,&#x0291B;,LEFTWARDS DOUBLE ARROW-TAIL
+,&#x0291C;,RIGHTWARDS DOUBLE ARROW-TAIL
+,&#x0291D;,LEFTWARDS ARROW TO BLACK DIAMOND
+,&#x0291E;,RIGHTWARDS ARROW TO BLACK DIAMOND
+,&#x0291F;,LEFTWARDS ARROW FROM BAR TO BLACK DIAMOND
+,&#x02920;,RIGHTWARDS ARROW FROM BAR TO BLACK DIAMOND
+,&#x02921;,NORTH WEST AND SOUTH EAST ARROW
+,&#x02922;,NORTH EAST AND SOUTH WEST ARROW
+,&#x02923;,NORTH WEST ARROW WITH HOOK
+,&#x02924;,NORTH EAST ARROW WITH HOOK
+,&#x02925;,SOUTH EAST ARROW WITH HOOK
+,&#x02926;,SOUTH WEST ARROW WITH HOOK
+,&#x02927;,NORTH WEST ARROW AND NORTH EAST ARROW
+,&#x02928;,NORTH EAST ARROW AND SOUTH EAST ARROW
+,&#x02929;,SOUTH EAST ARROW AND SOUTH WEST ARROW
+,&#x0292A;,SOUTH WEST ARROW AND NORTH WEST ARROW
+,&#x0292B;,RISING DIAGONAL CROSSING FALLING DIAGONAL
+,&#x0292C;,FALLING DIAGONAL CROSSING RISING DIAGONAL
+,&#x0292D;,SOUTH EAST ARROW CROSSING NORTH EAST ARROW
+,&#x0292E;,NORTH EAST ARROW CROSSING SOUTH EAST ARROW
+,&#x0292F;,FALLING DIAGONAL CROSSING NORTH EAST ARROW
+,&#x02930;,RISING DIAGONAL CROSSING SOUTH EAST ARROW
+,&#x02931;,NORTH EAST ARROW CROSSING NORTH WEST ARROW
+,&#x02932;,NORTH WEST ARROW CROSSING NORTH EAST ARROW
+\leadsto,&#x02933;,WAVE ARROW POINTING DIRECTLY RIGHT
+,&#x02934;,ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS
+,&#x02935;,ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS
+,&#x02936;,ARROW POINTING DOWNWARDS THEN CURVING LEFTWARDS
+,&#x02937;,ARROW POINTING DOWNWARDS THEN CURVING RIGHTWARDS
+,&#x02938;,RIGHT-SIDE ARC CLOCKWISE ARROW
+,&#x02939;,LEFT-SIDE ARC ANTICLOCKWISE ARROW
+,&#x0293A;,TOP ARC ANTICLOCKWISE ARROW
+,&#x0293B;,BOTTOM ARC ANTICLOCKWISE ARROW
+,&#x0293C;,TOP ARC CLOCKWISE ARROW WITH MINUS
+,&#x0293D;,TOP ARC ANTICLOCKWISE ARROW WITH PLUS
+,&#x0293E;,LOWER RIGHT SEMICIRCULAR CLOCKWISE ARROW
+,&#x0293F;,LOWER LEFT SEMICIRCULAR ANTICLOCKWISE ARROW
+,&#x02940;,ANTICLOCKWISE CLOSED CIRCLE ARROW
+,&#x02941;,CLOCKWISE CLOSED CIRCLE ARROW
+,&#x02942;,RIGHTWARDS ARROW ABOVE SHORT LEFTWARDS ARROW
+,&#x02943;,LEFTWARDS ARROW ABOVE SHORT RIGHTWARDS ARROW
+,&#x02944;,SHORT RIGHTWARDS ARROW ABOVE LEFTWARDS ARROW
+,&#x02945;,RIGHTWARDS ARROW WITH PLUS BELOW
+,&#x02946;,LEFTWARDS ARROW WITH PLUS BELOW
+,&#x02947;,RIGHTWARDS ARROW THROUGH X
+,&#x02948;,LEFT RIGHT ARROW THROUGH SMALL CIRCLE
+,&#x02949;,UPWARDS TWO-HEADED ARROW FROM SMALL CIRCLE
+\leftrightharpoon,&#x0294A;,LEFT BARB UP RIGHT BARB DOWN HARPOON
+\rightleftharpoon,&#x0294B;,LEFT BARB DOWN RIGHT BARB UP HARPOON
+,&#x0294C;,UP BARB RIGHT DOWN BARB LEFT HARPOON
+,&#x0294D;,UP BARB LEFT DOWN BARB RIGHT HARPOON
+\leftrightharpoonup,&#x0294E;,LEFT BARB UP RIGHT BARB UP HARPOON
+\rightupdownharpoon,&#x0294F;,UP BARB RIGHT DOWN BARB RIGHT HARPOON
+\leftrightharpoondown,&#x02950;,LEFT BARB DOWN RIGHT BARB DOWN HARPOON
+\leftupdownharpoon,&#x02951;,UP BARB LEFT DOWN BARB LEFT HARPOON
+\LeftVectorBar,&#x02952;,LEFTWARDS HARPOON WITH BARB UP TO BAR
+\RightVectorBar,&#x02953;,RIGHTWARDS HARPOON WITH BARB UP TO BAR
+\RightUpVectorBar,&#x02954;,UPWARDS HARPOON WITH BARB RIGHT TO BAR
+\RightDownVectorBar,&#x02955;,DOWNWARDS HARPOON WITH BARB RIGHT TO BAR
+\DownLeftVectorBar,&#x02956;,LEFTWARDS HARPOON WITH BARB DOWN TO BAR
+\DownRightVectorBar,&#x02957;,RIGHTWARDS HARPOON WITH BARB DOWN TO BAR
+\LeftUpVectorBar,&#x02958;,UPWARDS HARPOON WITH BARB LEFT TO BAR
+\LeftDownVectorBar,&#x02959;,DOWNWARDS HARPOON WITH BARB LEFT TO BAR
+\LeftTeeVector,&#x0295A;,LEFTWARDS HARPOON WITH BARB UP FROM BAR
+\RightTeeVector,&#x0295B;,RIGHTWARDS HARPOON WITH BARB UP FROM BAR
+\RightUpTeeVector,&#x0295C;,UPWARDS HARPOON WITH BARB RIGHT FROM BAR
+\RightDownTeeVector,&#x0295D;,DOWNWARDS HARPOON WITH BARB RIGHT FROM BAR
+\DownLeftTeeVector,&#x0295E;,LEFTWARDS HARPOON WITH BARB DOWN FROM BAR
+\DownRightTeeVector,&#x0295F;,RIGHTWARDS HARPOON WITH BARB DOWN FROM BAR
+\LeftUpTeeVector,&#x02960;,UPWARDS HARPOON WITH BARB LEFT FROM BAR
+\LeftDownTeeVector,&#x02961;,DOWNWARDS HARPOON WITH BARB LEFT FROM BAR
+\leftleftharpoons,&#x02962;,LEFTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB DOWN
+\upupharpoons,&#x02963;,UPWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT
+\rightrightharpoons,&#x02964;,RIGHTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB DOWN
+\downdownharpoons,&#x02965;,DOWNWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT
+,&#x02966;,LEFTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB UP
+,&#x02967;,LEFTWARDS HARPOON WITH BARB DOWN ABOVE RIGHTWARDS HARPOON WITH BARB DOWN
+,&#x02968;,RIGHTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB UP
+,&#x02969;,RIGHTWARDS HARPOON WITH BARB DOWN ABOVE LEFTWARDS HARPOON WITH BARB DOWN
+\leftbarharpoon,&#x0296A;,LEFTWARDS HARPOON WITH BARB UP ABOVE LONG DASH
+\barleftharpoon,&#x0296B;,LEFTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH
+\rightbarharpoon,&#x0296C;,RIGHTWARDS HARPOON WITH BARB UP ABOVE LONG DASH
+\barrightharpoon,&#x0296D;,RIGHTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH
+\updownharpoons,&#x0296E;,"= \upequilibrium (wrisym), UPWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT"
+\downupharpoons,&#x0296F;,"= \uprevequilibrium (wrisym), DOWNWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT"
+,&#x02970;,RIGHT DOUBLE ARROW WITH ROUNDED HEAD
+,&#x02971;,EQUALS SIGN ABOVE RIGHTWARDS ARROW
+,&#x02972;,TILDE OPERATOR ABOVE RIGHTWARDS ARROW
+,&#x02973;,LEFTWARDS ARROW ABOVE TILDE OPERATOR
+,&#x02974;,RIGHTWARDS ARROW ABOVE TILDE OPERATOR
+,&#x02975;,RIGHTWARDS ARROW ABOVE ALMOST EQUAL TO
+,&#x02976;,LESS-THAN ABOVE LEFTWARDS ARROW
+,&#x02977;,LEFTWARDS ARROW THROUGH LESS-THAN
+,&#x02978;,GREATER-THAN ABOVE RIGHTWARDS ARROW
+,&#x02979;,SUBSET ABOVE RIGHTWARDS ARROW
+,&#x0297A;,LEFTWARDS ARROW THROUGH SUBSET
+,&#x0297B;,SUPERSET ABOVE LEFTWARDS ARROW
+\strictfi,&#x0297C;,LEFT FISH TAIL
+\strictif,&#x0297D;,RIGHT FISH TAIL
+,&#x0297E;,UP FISH TAIL
+,&#x0297F;,DOWN FISH TAIL
+\VERT,&#x02980;,TRIPLE VERTICAL BAR DELIMITER
+\spot,&#x02981;,"= \dot (oz), Z NOTATION SPOT"
+,&#x02982;,"Z NOTATION TYPE COLON, (present in bbold font but no command)"
+,&#x02983;,LEFT WHITE CURLY BRACKET
+,&#x02984;,RIGHT WHITE CURLY BRACKET
+\Lparen,&#x02985;,LEFT WHITE PARENTHESIS
+\Rparen,&#x02986;,RIGHT WHITE PARENTHESIS
+\limg,&#x02987;,"= \llparenthesis (stmaryrd), Z NOTATION LEFT IMAGE BRACKET"
+\rimg,&#x02988;,"= \rrparenthesis (stmaryrd), Z NOTATION RIGHT IMAGE BRACKET"
+\lblot,&#x02989;,Z NOTATION LEFT BINDING BRACKET
+\rblot,&#x0298A;,Z NOTATION RIGHT BINDING BRACKET
+,&#x0298B;,LEFT SQUARE BRACKET WITH UNDERBAR
+,&#x0298C;,RIGHT SQUARE BRACKET WITH UNDERBAR
+,&#x0298D;,LEFT SQUARE BRACKET WITH TICK IN TOP CORNER
+,&#x0298E;,RIGHT SQUARE BRACKET WITH TICK IN BOTTOM CORNER
+,&#x0298F;,LEFT SQUARE BRACKET WITH TICK IN BOTTOM CORNER
+,&#x02990;,RIGHT SQUARE BRACKET WITH TICK IN TOP CORNER
+,&#x02991;,LEFT ANGLE BRACKET WITH DOT
+,&#x02992;,RIGHT ANGLE BRACKET WITH DOT
+,&#x02993;,LEFT ARC LESS-THAN BRACKET
+,&#x02994;,RIGHT ARC GREATER-THAN BRACKET
+,&#x02995;,DOUBLE LEFT ARC GREATER-THAN BRACKET
+,&#x02996;,DOUBLE RIGHT ARC LESS-THAN BRACKET
+,&#x02997;,LEFT BLACK TORTOISE SHELL BRACKET
+,&#x02998;,RIGHT BLACK TORTOISE SHELL BRACKET
+,&#x02999;,DOTTED FENCE
+,&#x0299A;,VERTICAL ZIGZAG LINE
+,&#x0299B;,MEASURED ANGLE OPENING LEFT
+,&#x0299C;,RIGHT ANGLE VARIANT WITH SQUARE
+,&#x0299D;,MEASURED RIGHT ANGLE WITH DOT
+,&#x0299E;,ANGLE WITH S INSIDE
+,&#x0299F;,ACUTE ANGLE
+,&#x029A0;,SPHERICAL ANGLE OPENING LEFT
+,&#x029A1;,SPHERICAL ANGLE OPENING UP
+,&#x029A2;,TURNED ANGLE
+,&#x029A3;,REVERSED ANGLE
+,&#x029A4;,ANGLE WITH UNDERBAR
+,&#x029A5;,REVERSED ANGLE WITH UNDERBAR
+,&#x029A6;,OBLIQUE ANGLE OPENING UP
+,&#x029A7;,OBLIQUE ANGLE OPENING DOWN
+,&#x029A8;,MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING UP AND RIGHT
+,&#x029A9;,MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING UP AND LEFT
+,&#x029AA;,MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING DOWN AND RIGHT
+,&#x029AB;,MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING DOWN AND LEFT
+,&#x029AC;,MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING RIGHT AND UP
+,&#x029AD;,MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING LEFT AND UP
+,&#x029AE;,MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING RIGHT AND DOWN
+,&#x029AF;,MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING LEFT AND DOWN
+,&#x029B0;,REVERSED EMPTY SET
+,&#x029B1;,EMPTY SET WITH OVERBAR
+,&#x029B2;,EMPTY SET WITH SMALL CIRCLE ABOVE
+,&#x029B3;,EMPTY SET WITH RIGHT ARROW ABOVE
+,&#x029B4;,EMPTY SET WITH LEFT ARROW ABOVE
+,&#x029B5;,CIRCLE WITH HORIZONTAL BAR
+,&#x029B6;,CIRCLED VERTICAL BAR
+,&#x029B7;,CIRCLED PARALLEL
+\circledbslash,&#x029B8;,CIRCLED REVERSE SOLIDUS
+,&#x029B9;,CIRCLED PERPENDICULAR
+,&#x029BA;,CIRCLE DIVIDED BY HORIZONTAL BAR AND TOP HALF DIVIDED BY VERTICAL BAR
+,&#x029BB;,CIRCLE WITH SUPERIMPOSED X
+,&#x029BC;,CIRCLED ANTICLOCKWISE-ROTATED DIVISION SIGN
+,&#x029BD;,UP ARROW THROUGH CIRCLE
+,&#x029BE;,CIRCLED WHITE BULLET
+,&#x029BF;,CIRCLED BULLET
+\circledless,&#x029C0;,CIRCLED LESS-THAN
+\circledgtr,&#x029C1;,CIRCLED GREATER-THAN
+,&#x029C2;,CIRCLE WITH SMALL CIRCLE TO THE RIGHT
+,&#x029C3;,CIRCLE WITH TWO HORIZONTAL STROKES TO THE RIGHT
+\boxslash,&#x029C4;,SQUARED RISING DIAGONAL SLASH
+\boxbslash,&#x029C5;,SQUARED FALLING DIAGONAL SLASH
+\boxast,&#x029C6;,SQUARED ASTERISK
+\boxcircle,&#x029C7;,SQUARED SMALL CIRCLE
+\boxbox,&#x029C8;,SQUARED SQUARE
+,&#x029C9;,TWO JOINED SQUARES
+,&#x029CA;,TRIANGLE WITH DOT ABOVE
+,&#x029CB;,TRIANGLE WITH UNDERBAR
+,&#x029CC;,S IN TRIANGLE
+,&#x029CD;,TRIANGLE WITH SERIFS AT BOTTOM
+,&#x029CE;,RIGHT TRIANGLE ABOVE LEFT TRIANGLE
+\LeftTriangleBar,&#x029CF;,LEFT TRIANGLE BESIDE VERTICAL BAR
+\RightTriangleBar,&#x029D0;,VERTICAL BAR BESIDE RIGHT TRIANGLE
+,&#x029D1;,left black bowtie
+,&#x029D2;,right black bowtie
+,&#x029D3;,BLACK BOWTIE
+,&#x029D4;,left black times
+,&#x029D5;,right black times
+,&#x029D6;,WHITE HOURGLASS
+,&#x029D7;,BLACK HOURGLASS
+,&#x029D8;,LEFT WIGGLY FENCE
+,&#x029D9;,RIGHT WIGGLY FENCE
+,&#x029DA;,LEFT DOUBLE WIGGLY FENCE
+,&#x029DB;,RIGHT DOUBLE WIGGLY FENCE
+,&#x029DC;,INCOMPLETE INFINITY
+,&#x029DD;,TIE OVER INFINITY
+,&#x029DE;,INFINITY NEGATED WITH VERTICAL BAR
+\multimapboth,&#x029DF;,DOUBLE-ENDED MULTIMAP
+,&#x029E0;,SQUARE WITH CONTOURED OUTLINE
+,&#x029E1;,INCREASES AS
+,&#x029E2;,SHUFFLE PRODUCT
+,&#x029E3;,EQUALS SIGN AND SLANTED PARALLEL
+,&#x029E4;,EQUALS SIGN AND SLANTED PARALLEL WITH TILDE ABOVE
+,&#x029E5;,IDENTICAL TO AND SLANTED PARALLEL
+,&#x029E6;,GLEICH STARK
+,&#x029E7;,THERMODYNAMIC
+,&#x029E8;,DOWN-POINTING TRIANGLE WITH LEFT HALF BLACK
+,&#x029E9;,DOWN-POINTING TRIANGLE WITH RIGHT HALF BLACK
+,&#x029EA;,BLACK DIAMOND WITH DOWN ARROW
+\blacklozenge,&#x029EB;,BLACK LOZENGE
+,&#x029EC;,WHITE CIRCLE WITH DOWN ARROW
+,&#x029ED;,BLACK CIRCLE WITH DOWN ARROW
+,&#x029EE;,ERROR-BARRED WHITE SQUARE
+,&#x029EF;,ERROR-BARRED BLACK SQUARE
+,&#x029F0;,ERROR-BARRED WHITE DIAMOND
+,&#x029F1;,ERROR-BARRED BLACK DIAMOND
+,&#x029F2;,ERROR-BARRED WHITE CIRCLE
+,&#x029F3;,ERROR-BARRED BLACK CIRCLE
+,&#x029F4;,RULE-DELAYED
+\setminus,&#x029F5;,REVERSE SOLIDUS OPERATOR
+,&#x029F6;,SOLIDUS WITH OVERBAR
+,&#x029F7;,REVERSE SOLIDUS WITH HORIZONTAL STROKE
+,&#x029F8;,BIG SOLIDUS
+\zhide,&#x029F9;,"= \hide (oz), BIG REVERSE SOLIDUS, z notation schema hiding"
+,&#x029FA;,DOUBLE PLUS
+,&#x029FB;,TRIPLE PLUS
+,&#x029FC;,left pointing curved angle bracket
+,&#x029FD;,right pointing curved angle bracket
+,&#x029FE;,TINY
+,&#x029FF;,MINY
+\bigodot,&#x02A00;,N-ARY CIRCLED DOT OPERATOR
+\bigoplus,&#x02A01;,N-ARY CIRCLED PLUS OPERATOR
+\bigotimes,&#x02A02;,N-ARY CIRCLED TIMES OPERATOR
+,&#x02A03;,N-ARY UNION OPERATOR WITH DOT
+\biguplus,&#x02A04;,N-ARY UNION OPERATOR WITH PLUS
+\bigsqcap,&#x02A05;,N-ARY SQUARE INTERSECTION OPERATOR
+\bigsqcup,&#x02A06;,N-ARY SQUARE UNION OPERATOR
+,&#x02A07;,TWO LOGICAL AND OPERATOR
+,&#x02A08;,TWO LOGICAL OR OPERATOR
+\varprod,&#x02A09;,N-ARY TIMES OPERATOR
+,&#x02A0A;,MODULO TWO SUM
+,&#x02A0B;,SUMMATION WITH INTEGRAL
+\iiiint,&#x02A0C;,QUADRUPLE INTEGRAL OPERATOR
+,&#x02A0D;,FINITE PART INTEGRAL
+,&#x02A0E;,INTEGRAL WITH DOUBLE STROKE
+\fint,&#x02A0F;,INTEGRAL AVERAGE WITH SLASH
+,&#x02A10;,CIRCULATION FUNCTION
+,&#x02A11;,ANTICLOCKWISE INTEGRATION
+,&#x02A12;,LINE INTEGRATION WITH RECTANGULAR PATH AROUND POLE
+,&#x02A13;,LINE INTEGRATION WITH SEMICIRCULAR PATH AROUND POLE
+,&#x02A14;,LINE INTEGRATION NOT INCLUDING THE POLE
+,&#x02A15;,INTEGRAL AROUND A POINT OPERATOR
+\sqint,&#x02A16;,"= \sqrint (wrisym), QUATERNION INTEGRAL OPERATOR"
+,&#x02A17;,INTEGRAL WITH LEFTWARDS ARROW WITH HOOK
+,&#x02A18;,INTEGRAL WITH TIMES SIGN
+,&#x02A19;,INTEGRAL WITH INTERSECTION
+,&#x02A1A;,INTEGRAL WITH UNION
+,&#x02A1B;,INTEGRAL WITH OVERBAR
+,&#x02A1C;,INTEGRAL WITH UNDERBAR
+\Join,&#x02A1D;,JOIN
+,&#x02A1E;,LARGE LEFT TRIANGLE OPERATOR
+\zcmp,&#x02A1F;,"= \semi (oz), = \fatsemi (stmaryrd), Z NOTATION SCHEMA COMPOSITION"
+\zpipe,&#x02A20;,Z NOTATION SCHEMA PIPING
+\zproject,&#x02A21;,"= \project (oz), Z NOTATION SCHEMA PROJECTION"
+,&#x02A22;,PLUS SIGN WITH SMALL CIRCLE ABOVE
+,&#x02A23;,PLUS SIGN WITH CIRCUMFLEX ACCENT ABOVE
+,&#x02A24;,PLUS SIGN WITH TILDE ABOVE
+,&#x02A25;,PLUS SIGN WITH DOT BELOW
+,&#x02A26;,PLUS SIGN WITH TILDE BELOW
+,&#x02A27;,PLUS SIGN WITH SUBSCRIPT TWO
+,&#x02A28;,PLUS SIGN WITH BLACK TRIANGLE
+,&#x02A29;,MINUS SIGN WITH COMMA ABOVE
+,&#x02A2A;,MINUS SIGN WITH DOT BELOW
+,&#x02A2B;,MINUS SIGN WITH FALLING DOTS
+,&#x02A2C;,MINUS SIGN WITH RISING DOTS
+,&#x02A2D;,PLUS SIGN IN LEFT HALF CIRCLE
+,&#x02A2E;,PLUS SIGN IN RIGHT HALF CIRCLE
+,&#x02A2F;,"# \times, VECTOR OR CROSS PRODUCT"
+,&#x02A30;,MULTIPLICATION SIGN WITH DOT ABOVE
+,&#x02A31;,MULTIPLICATION SIGN WITH UNDERBAR
+,&#x02A32;,SEMIDIRECT PRODUCT WITH BOTTOM CLOSED
+,&#x02A33;,SMASH PRODUCT
+,&#x02A34;,MULTIPLICATION SIGN IN LEFT HALF CIRCLE
+,&#x02A35;,MULTIPLICATION SIGN IN RIGHT HALF CIRCLE
+,&#x02A36;,CIRCLED MULTIPLICATION SIGN WITH CIRCUMFLEX ACCENT
+,&#x02A37;,MULTIPLICATION SIGN IN DOUBLE CIRCLE
+,&#x02A38;,CIRCLED DIVISION SIGN
+,&#x02A39;,PLUS SIGN IN TRIANGLE
+,&#x02A3A;,MINUS SIGN IN TRIANGLE
+,&#x02A3B;,MULTIPLICATION SIGN IN TRIANGLE
+,&#x02A3C;,INTERIOR PRODUCT
+,&#x02A3D;,RIGHTHAND INTERIOR PRODUCT
+\fcmp,&#x02A3E;,"= \comp (oz), Z NOTATION RELATIONAL COMPOSITION"
+\amalg,&#x02A3F;,AMALGAMATION OR COPRODUCT
+,&#x02A40;,INTERSECTION WITH DOT
+,&#x02A41;,"UNION WITH MINUS SIGN, z notation bag subtraction"
+,&#x02A42;,UNION WITH OVERBAR
+,&#x02A43;,INTERSECTION WITH OVERBAR
+,&#x02A44;,INTERSECTION WITH LOGICAL AND
+,&#x02A45;,UNION WITH LOGICAL OR
+,&#x02A46;,UNION ABOVE INTERSECTION
+,&#x02A47;,INTERSECTION ABOVE UNION
+,&#x02A48;,UNION ABOVE BAR ABOVE INTERSECTION
+,&#x02A49;,INTERSECTION ABOVE BAR ABOVE UNION
+,&#x02A4A;,UNION BESIDE AND JOINED WITH UNION
+,&#x02A4B;,INTERSECTION BESIDE AND JOINED WITH INTERSECTION
+,&#x02A4C;,CLOSED UNION WITH SERIFS
+,&#x02A4D;,CLOSED INTERSECTION WITH SERIFS
+,&#x02A4E;,DOUBLE SQUARE INTERSECTION
+,&#x02A4F;,DOUBLE SQUARE UNION
+,&#x02A50;,CLOSED UNION WITH SERIFS AND SMASH PRODUCT
+,&#x02A51;,LOGICAL AND WITH DOT ABOVE
+,&#x02A52;,LOGICAL OR WITH DOT ABOVE
+,&#x02A53;,DOUBLE LOGICAL AND
+,&#x02A54;,DOUBLE LOGICAL OR
+,&#x02A55;,TWO INTERSECTING LOGICAL AND
+,&#x02A56;,TWO INTERSECTING LOGICAL OR
+,&#x02A57;,SLOPING LARGE OR
+,&#x02A58;,SLOPING LARGE AND
+,&#x02A59;,LOGICAL OR OVERLAPPING LOGICAL AND
+,&#x02A5A;,LOGICAL AND WITH MIDDLE STEM
+,&#x02A5B;,LOGICAL OR WITH MIDDLE STEM
+,&#x02A5C;,ogical and with horizontal dash
+,&#x02A5D;,LOGICAL OR WITH HORIZONTAL DASH
+\doublebarwedge,&#x02A5E;,LOGICAL AND WITH DOUBLE OVERBAR
+,&#x02A5F;,LOGICAL AND WITH UNDERBAR
+,&#x02A60;,LOGICAL AND WITH DOUBLE UNDERBAR
+,&#x02A61;,SMALL VEE WITH UNDERBAR
+,&#x02A62;,LOGICAL OR WITH DOUBLE OVERBAR
+,&#x02A63;,LOGICAL OR WITH DOUBLE UNDERBAR
+\dsub,&#x02A64;,"= \ndres (oz), Z NOTATION DOMAIN ANTIRESTRICTION"
+\rsub,&#x02A65;,"= \nrres (oz), Z NOTATION RANGE ANTIRESTRICTION"
+,&#x02A66;,EQUALS SIGN WITH DOT BELOW
+,&#x02A67;,IDENTICAL WITH DOT ABOVE
+,&#x02A68;,TRIPLE HORIZONTAL BAR WITH DOUBLE VERTICAL STROKE
+,&#x02A69;,TRIPLE HORIZONTAL BAR WITH TRIPLE VERTICAL STROKE
+,&#x02A6A;,TILDE OPERATOR WITH DOT ABOVE
+,&#x02A6B;,TILDE OPERATOR WITH RISING DOTS
+,&#x02A6C;,SIMILAR MINUS SIMILAR
+,&#x02A6D;,CONGRUENT WITH DOT ABOVE
+,&#x02A6E;,EQUALS WITH ASTERISK
+,&#x02A6F;,ALMOST EQUAL TO WITH CIRCUMFLEX ACCENT
+,&#x02A70;,APPROXIMATELY EQUAL OR EQUAL TO
+,&#x02A71;,EQUALS SIGN ABOVE PLUS SIGN
+,&#x02A72;,PLUS SIGN ABOVE EQUALS SIGN
+,&#x02A73;,EQUALS SIGN ABOVE TILDE OPERATOR
+\Coloneqq,&#x02A74;,"# ::=, x \Coloneq (txfonts), DOUBLE COLON EQUAL"
+\Equal,&#x02A75;,"# ==, TWO CONSECUTIVE EQUALS SIGNS"
+\Same,&#x02A76;,"# ===, THREE CONSECUTIVE EQUALS SIGNS"
+,&#x02A77;,EQUALS SIGN WITH TWO DOTS ABOVE AND TWO DOTS BELOW
+,&#x02A78;,EQUIVALENT WITH FOUR DOTS ABOVE
+,&#x02A79;,LESS-THAN WITH CIRCLE INSIDE
+,&#x02A7A;,GREATER-THAN WITH CIRCLE INSIDE
+,&#x02A7B;,LESS-THAN WITH QUESTION MARK ABOVE
+,&#x02A7C;,GREATER-THAN WITH QUESTION MARK ABOVE
+\leqslant,&#x02A7D;,LESS-THAN OR SLANTED EQUAL TO
+\geqslant,&#x02A7E;,GREATER-THAN OR SLANTED EQUAL TO
+,&#x02A7F;,LESS-THAN OR SLANTED EQUAL TO WITH DOT INSIDE
+,&#x02A80;,GREATER-THAN OR SLANTED EQUAL TO WITH DOT INSIDE
+,&#x02A81;,LESS-THAN OR SLANTED EQUAL TO WITH DOT ABOVE
+,&#x02A82;,GREATER-THAN OR SLANTED EQUAL TO WITH DOT ABOVE
+,&#x02A83;,LESS-THAN OR SLANTED EQUAL TO WITH DOT ABOVE RIGHT
+,&#x02A84;,GREATER-THAN OR SLANTED EQUAL TO WITH DOT ABOVE LEFT
+\lessapprox,&#x02A85;,LESS-THAN OR APPROXIMATE
+\gtrapprox,&#x02A86;,GREATER-THAN OR APPROXIMATE
+\lneq,&#x02A87;,LESS-THAN AND SINGLE-LINE NOT EQUAL TO
+\gneq,&#x02A88;,GREATER-THAN AND SINGLE-LINE NOT EQUAL TO
+\lnapprox,&#x02A89;,LESS-THAN AND NOT APPROXIMATE
+\gnapprox,&#x02A8A;,GREATER-THAN AND NOT APPROXIMATE
+\lesseqqgtr,&#x02A8B;,LESS-THAN ABOVE DOUBLE-LINE EQUAL ABOVE GREATER-THAN
+\gtreqqless,&#x02A8C;,GREATER-THAN ABOVE DOUBLE-LINE EQUAL ABOVE LESS-THAN
+,&#x02A8D;,LESS-THAN ABOVE SIMILAR OR EQUAL
+,&#x02A8E;,GREATER-THAN ABOVE SIMILAR OR EQUAL
+,&#x02A8F;,LESS-THAN ABOVE SIMILAR ABOVE GREATER-THAN
+,&#x02A90;,GREATER-THAN ABOVE SIMILAR ABOVE LESS-THAN
+,&#x02A91;,LESS-THAN ABOVE GREATER-THAN ABOVE DOUBLE-LINE EQUAL
+,&#x02A92;,GREATER-THAN ABOVE LESS-THAN ABOVE DOUBLE-LINE EQUAL
+,&#x02A93;,LESS-THAN ABOVE SLANTED EQUAL ABOVE GREATER-THAN ABOVE SLANTED EQUAL
+,&#x02A94;,GREATER-THAN ABOVE SLANTED EQUAL ABOVE LESS-THAN ABOVE SLANTED EQUAL
+\eqslantless,&#x02A95;,SLANTED EQUAL TO OR LESS-THAN
+\eqslantgtr,&#x02A96;,SLANTED EQUAL TO OR GREATER-THAN
+,&#x02A97;,SLANTED EQUAL TO OR LESS-THAN WITH DOT INSIDE
+,&#x02A98;,SLANTED EQUAL TO OR GREATER-THAN WITH DOT INSIDE
+,&#x02A99;,DOUBLE-LINE EQUAL TO OR LESS-THAN
+,&#x02A9A;,DOUBLE-LINE EQUAL TO OR GREATER-THAN
+,&#x02A9B;,DOUBLE-LINE SLANTED EQUAL TO OR LESS-THAN
+,&#x02A9C;,DOUBLE-LINE SLANTED EQUAL TO OR GREATER-THAN
+,&#x02A9D;,SIMILAR OR LESS-THAN
+,&#x02A9E;,SIMILAR OR GREATER-THAN
+,&#x02A9F;,SIMILAR ABOVE LESS-THAN ABOVE EQUALS SIGN
+,&#x02AA0;,SIMILAR ABOVE GREATER-THAN ABOVE EQUALS SIGN
+\NestedLessLess,&#x02AA1;,"= \lll (mathabx -amssymb), DOUBLE NESTED LESS-THAN"
+\NestedGreaterGreater,&#x02AA2;,"= \ggg (mathabx -amssymb), DOUBLE NESTED GREATER-THAN"
+,&#x02AA3;,double less-than with underbar
+,&#x02AA4;,GREATER-THAN OVERLAPPING LESS-THAN
+,&#x02AA5;,GREATER-THAN BESIDE LESS-THAN
+\leftslice,&#x02AA6;,LESS-THAN CLOSED BY CURVE
+\rightslice,&#x02AA7;,GREATER-THAN CLOSED BY CURVE
+,&#x02AA8;,LESS-THAN CLOSED BY CURVE ABOVE SLANTED EQUAL
+,&#x02AA9;,GREATER-THAN CLOSED BY CURVE ABOVE SLANTED EQUAL
+,&#x02AAA;,SMALLER THAN
+,&#x02AAB;,LARGER THAN
+,&#x02AAC;,SMALLER THAN OR EQUAL TO
+,&#x02AAD;,LARGER THAN OR EQUAL TO
+,&#x02AAE;,EQUALS SIGN WITH BUMPY ABOVE
+\preceq,&#x02AAF;,PRECEDES ABOVE SINGLE-LINE EQUALS SIGN
+\succeq,&#x02AB0;,SUCCEEDS ABOVE SINGLE-LINE EQUALS SIGN
+,&#x02AB1;,PRECEDES ABOVE SINGLE-LINE NOT EQUAL TO
+,&#x02AB2;,SUCCEEDS ABOVE SINGLE-LINE NOT EQUAL TO
+\preceqq,&#x02AB3;,PRECEDES ABOVE EQUALS SIGN
+\succeqq,&#x02AB4;,SUCCEEDS ABOVE EQUALS SIGN
+,&#x02AB5;,PRECEDES ABOVE NOT EQUAL TO
+,&#x02AB6;,SUCCEEDS ABOVE NOT EQUAL TO
+\precapprox,&#x02AB7;,PRECEDES ABOVE ALMOST EQUAL TO
+\succapprox,&#x02AB8;,SUCCEEDS ABOVE ALMOST EQUAL TO
+\precnapprox,&#x02AB9;,PRECEDES ABOVE NOT ALMOST EQUAL TO
+\succnapprox,&#x02ABA;,SUCCEEDS ABOVE NOT ALMOST EQUAL TO
+\llcurly,&#x02ABB;,DOUBLE PRECEDES
+\ggcurly,&#x02ABC;,DOUBLE SUCCEEDS
+,&#x02ABD;,SUBSET WITH DOT
+,&#x02ABE;,SUPERSET WITH DOT
+,&#x02ABF;,SUBSET WITH PLUS SIGN BELOW
+,&#x02AC0;,SUPERSET WITH PLUS SIGN BELOW
+,&#x02AC1;,SUBSET WITH MULTIPLICATION SIGN BELOW
+,&#x02AC2;,SUPERSET WITH MULTIPLICATION SIGN BELOW
+,&#x02AC3;,SUBSET OF OR EQUAL TO WITH DOT ABOVE
+,&#x02AC4;,SUPERSET OF OR EQUAL TO WITH DOT ABOVE
+\subseteqq,&#x02AC5;,SUBSET OF ABOVE EQUALS SIGN
+\supseteqq,&#x02AC6;,SUPERSET OF ABOVE EQUALS SIGN
+,&#x02AC7;,SUBSET OF ABOVE TILDE OPERATOR
+,&#x02AC8;,SUPERSET OF ABOVE TILDE OPERATOR
+,&#x02AC9;,SUBSET OF ABOVE ALMOST EQUAL TO
+,&#x02ACA;,SUPERSET OF ABOVE ALMOST EQUAL TO
+\subsetneqq,&#x02ACB;,SUBSET OF ABOVE NOT EQUAL TO
+\supsetneqq,&#x02ACC;,SUPERSET OF ABOVE NOT EQUAL TO
+,&#x02ACD;,SQUARE LEFT OPEN BOX OPERATOR
+,&#x02ACE;,SQUARE RIGHT OPEN BOX OPERATOR
+,&#x02ACF;,CLOSED SUBSET
+,&#x02AD0;,CLOSED SUPERSET
+,&#x02AD1;,CLOSED SUBSET OR EQUAL TO
+,&#x02AD2;,CLOSED SUPERSET OR EQUAL TO
+,&#x02AD3;,SUBSET ABOVE SUPERSET
+,&#x02AD4;,SUPERSET ABOVE SUBSET
+,&#x02AD5;,SUBSET ABOVE SUBSET
+,&#x02AD6;,SUPERSET ABOVE SUPERSET
+,&#x02AD7;,SUPERSET BESIDE SUBSET
+,&#x02AD8;,SUPERSET BESIDE AND JOINED BY DASH WITH SUBSET
+,&#x02AD9;,ELEMENT OF OPENING DOWNWARDS
+,&#x02ADA;,PITCHFORK WITH TEE TOP
+,&#x02ADB;,TRANSVERSAL INTERSECTION
+,&#x02ADC;,FORKING
+,&#x02ADD;,NONFORKING
+,&#x02ADE;,SHORT LEFT TACK
+,&#x02ADF;,SHORT DOWN TACK
+,&#x02AE0;,SHORT UP TACK
+,&#x02AE1;,PERPENDICULAR WITH S
+,&#x02AE2;,VERTICAL BAR TRIPLE RIGHT TURNSTILE
+,&#x02AE3;,DOUBLE VERTICAL BAR LEFT TURNSTILE
+,&#x02AE4;,VERTICAL BAR DOUBLE LEFT TURNSTILE
+,&#x02AE5;,DOUBLE VERTICAL BAR DOUBLE LEFT TURNSTILE
+,&#x02AE6;,LONG DASH FROM LEFT MEMBER OF DOUBLE VERTICAL
+,&#x02AE7;,SHORT DOWN TACK WITH OVERBAR
+,&#x02AE8;,SHORT UP TACK WITH UNDERBAR
+,&#x02AE9;,SHORT UP TACK ABOVE SHORT DOWN TACK
+\Top,&#x02AEA;,DOUBLE DOWN TACK
+\Bot,&#x02AEB;,"= \Perp (txfonts), DOUBLE UP TACK"
+,&#x02AEC;,DOUBLE STROKE NOT SIGN
+,&#x02AED;,REVERSED DOUBLE STROKE NOT SIGN
+,&#x02AEE;,DOES NOT DIVIDE WITH REVERSED NEGATION SLASH
+,&#x02AEF;,VERTICAL LINE WITH CIRCLE ABOVE
+,&#x02AF0;,VERTICAL LINE WITH CIRCLE BELOW
+,&#x02AF1;,DOWN TACK WITH CIRCLE BELOW
+,&#x02AF2;,PARALLEL WITH HORIZONTAL STROKE
+,&#x02AF3;,PARALLEL WITH TILDE OPERATOR
+\interleave,&#x02AF4;,TRIPLE VERTICAL BAR BINARY RELATION
+,&#x02AF5;,TRIPLE VERTICAL BAR WITH HORIZONTAL STROKE
+,&#x02AF6;,TRIPLE COLON OPERATOR
+,&#x02AF7;,TRIPLE NESTED LESS-THAN
+,&#x02AF8;,TRIPLE NESTED GREATER-THAN
+,&#x02AF9;,DOUBLE-LINE SLANTED LESS-THAN OR EQUAL TO
+,&#x02AFA;,DOUBLE-LINE SLANTED GREATER-THAN OR EQUAL TO
+,&#x02AFB;,TRIPLE SOLIDUS BINARY RELATION
+\biginterleave,&#x02AFC;,LARGE TRIPLE VERTICAL BAR OPERATOR
+\sslash,&#x02AFD;,"# \varparallel (txfonts), DOUBLE SOLIDUS OPERATOR"
+\talloblong,&#x02AFE;,WHITE VERTICAL BAR
+,&#x02AFF;,N-ARY WHITE VERTICAL BAR
+,&#x02B00;,NORTH EAST WHITE ARROW
+,&#x02B01;,NORTH WEST WHITE ARROW
+,&#x02B02;,SOUTH EAST WHITE ARROW
+,&#x02B03;,SOUTH WEST WHITE ARROW
+,&#x02B04;,LEFT RIGHT WHITE ARROW
+,&#x02B05;,LEFTWARDS BLACK ARROW
+,&#x02B06;,UPWARDS BLACK ARROW
+,&#x02B07;,DOWNWARDS BLACK ARROW
+,&#x02B08;,NORTH EAST BLACK ARROW
+,&#x02B09;,NORTH WEST BLACK ARROW
+,&#x02B0A;,SOUTH EAST BLACK ARROW
+,&#x02B0B;,SOUTH WEST BLACK ARROW
+,&#x02B0C;,LEFT RIGHT BLACK ARROW
+,&#x02B0D;,UP DOWN BLACK ARROW
+,&#x02B0E;,RIGHTWARDS ARROW WITH TIP DOWNWARDS
+,&#x02B0F;,RIGHTWARDS ARROW WITH TIP UPWARDS
+,&#x02B10;,LEFTWARDS ARROW WITH TIP DOWNWARDS
+,&#x02B11;,LEFTWARDS ARROW WITH TIP UPWARDS
+,&#x02B12;,SQUARE WITH TOP HALF BLACK
+,&#x02B13;,SQUARE WITH BOTTOM HALF BLACK
+,&#x02B14;,SQUARE WITH UPPER RIGHT DIAGONAL HALF BLACK
+,&#x02B15;,SQUARE WITH LOWER LEFT DIAGONAL HALF BLACK
+,&#x02B16;,DIAMOND WITH LEFT HALF BLACK
+,&#x02B17;,DIAMOND WITH RIGHT HALF BLACK
+,&#x02B18;,DIAMOND WITH TOP HALF BLACK
+,&#x02B19;,DIAMOND WITH BOTTOM HALF BLACK
+,&#x02B1A;,DOTTED SQUARE
+\blacksquare,&#x02B1B;,BLACK LARGE SQUARE
+\square,&#x02B1C;,WHITE LARGE SQUARE
+,&#x02B1D;,"# \centerdot (amssymb), t \Squaredot (marvosym), BLACK VERY SMALL SQUARE"
+,&#x02B1E;,WHITE VERY SMALL SQUARE
+,&#x02B1F;,BLACK PENTAGON
+,&#x02B20;,WHITE PENTAGON
+,&#x02B21;,WHITE HEXAGON
+,&#x02B22;,BLACK HEXAGON
+,&#x02B23;,HORIZONTAL BLACK HEXAGON
+,&#x02B24;,BLACK LARGE CIRCLE
+,&#x02B25;,BLACK MEDIUM DIAMOND
+,&#x02B26;,WHITE MEDIUM DIAMOND
+,&#x02B27;,"# \blacklozenge (amssymb), BLACK MEDIUM LOZENGE"
+,&#x02B28;,"# \lozenge (amssymb), WHITE MEDIUM LOZENGE"
+,&#x02B29;,BLACK SMALL DIAMOND
+,&#x02B2A;,BLACK SMALL LOZENGE
+,&#x02B2B;,WHITE SMALL LOZENGE
+,&#x02B2C;,BLACK HORIZONTAL ELLIPSE
+,&#x02B2D;,WHITE HORIZONTAL ELLIPSE
+,&#x02B2E;,BLACK VERTICAL ELLIPSE
+,&#x02B2F;,WHITE VERTICAL ELLIPSE
+,&#x02B30;,LEFT ARROW WITH SMALL CIRCLE
+,&#x02B31;,THREE LEFTWARDS ARROWS
+,&#x02B32;,LEFT ARROW WITH CIRCLED PLUS
+,&#x02B33;,LONG LEFTWARDS SQUIGGLE ARROW
+,&#x02B34;,LEFTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE
+,&#x02B35;,LEFTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE
+,&#x02B36;,LEFTWARDS TWO-HEADED ARROW FROM BAR
+,&#x02B37;,leftwards two-headed triple-dash arrow
+,&#x02B38;,LEFTWARDS ARROW WITH DOTTED STEM
+,&#x02B39;,LEFTWARDS ARROW WITH TAIL WITH VERTICAL STROKE
+,&#x02B3A;,LEFTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE
+,&#x02B3B;,LEFTWARDS TWO-HEADED ARROW WITH TAIL
+,&#x02B3C;,LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE
+,&#x02B3D;,LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE
+,&#x02B3E;,LEFTWARDS ARROW THROUGH X
+,&#x02B3F;,WAVE ARROW POINTING DIRECTLY LEFT
+,&#x02B40;,EQUALS SIGN ABOVE LEFTWARDS ARROW
+,&#x02B41;,REVERSE TILDE OPERATOR ABOVE LEFTWARDS ARROW
+,&#x02B42;,LEFTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO
+,&#x02B43;,rightwards arrow through less-than
+,&#x02B44;,rightwards arrow through subset
+,&#x02B45;,LEFTWARDS QUADRUPLE ARROW
+,&#x02B46;,RIGHTWARDS QUADRUPLE ARROW
+,&#x02B47;,REVERSE TILDE OPERATOR ABOVE RIGHTWARDS ARROW
+,&#x02B48;,RIGHTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO
+,&#x02B49;,TILDE OPERATOR ABOVE LEFTWARDS ARROW
+,&#x02B4A;,LEFTWARDS ARROW ABOVE ALMOST EQUAL TO
+,&#x02B4B;,LEFTWARDS ARROW ABOVE REVERSE TILDE OPERATOR
+,&#x02B4C;,righttwards arrow above reverse tilde operator
+,&#x02B50;,WHITE MEDIUM STAR
+,&#x02B51;,black medium star
+,&#x02B52;,WHITE SMALL STAR
+,&#x02B53;,BLACK RIGHT-POINTING PENTAGON
+,&#x02B54;,WHITE RIGHT-POINTING PENTAGON
+,&#x03008;,"# \langle, LEFT ANGLE BRACKET (deprecated for math use)"
+,&#x03009;,"# \rangle, RIGHT ANGLE BRACKET (deprecated for math use)"
+,&#x03012;,POSTAL MARK
+,&#x03014;,left broken bracket
+,&#x03015;,right broken bracket
+,&#x03018;,LEFT WHITE TORTOISE SHELL BRACKET
+,&#x03019;,RIGHT WHITE TORTOISE SHELL BRACKET
+,&#x0301A;,"# \llbracket (stmaryrd), LEFT WHITE SQUARE BRACKET (deprecated for math use)"
+,&#x0301B;,"# \rrbracket (stmaryrd), RIGHT WHITE SQUARE BRACKET (deprecated for math use)"
+,&#x03030;,zigzag
+,&#x0306E;,HIRAGANA LETTER NO
+,&#x0FB29;,HEBREW LETTER ALTERNATIVE PLUS SIGN (doesn't have cross shape)
+,&#x0FE00;,VARIATION SELECTOR-1
+,&#x0FE61;,SMALL ASTERISK
+,&#x0FE62;,SMALL PLUS SIGN
+,&#x0FE63;,SMALL HYPHEN-MINUS
+,&#x0FE64;,SMALL LESS-THAN SIGN
+,&#x0FE65;,SMALL GREATER-THAN SIGN
+,&#x0FE66;,SMALL EQUALS SIGN
+,&#x0FE68;,SMALL REVERSE SOLIDUS
+,&#x0FF0B;,FULLWIDTH PLUS SIGN
+,&#x0FF1C;,FULLWIDTH LESS-THAN SIGN
+,&#x0FF1D;,FULLWIDTH EQUALS SIGN
+,&#x0FF1E;,FULLWIDTH GREATER-THAN SIGN
+,&#x0FF3C;,FULLWIDTH REVERSE SOLIDUS
+,&#x0FF3E;,FULLWIDTH CIRCUMFLEX ACCENT
+,&#x0FF5C;,FULLWIDTH VERTICAL LINE
+,&#x0FF5E;,FULLWIDTH TILDE
+,&#x0FFE2;,FULLWIDTH NOT SIGN
+,&#x0FFE9;,HALFWIDTH LEFTWARDS ARROW
+,&#x0FFEA;,HALFWIDTH UPWARDS ARROW
+,&#x0FFEB;,HALFWIDTH RIGHTWARDS ARROW
+,&#x0FFEC;,HALFWIDTH DOWNWARDS ARROW
+\mathbf{A},&#x1D400;,MATHEMATICAL BOLD CAPITAL A
+\mathbf{B},&#x1D401;,MATHEMATICAL BOLD CAPITAL B
+\mathbf{C},&#x1D402;,MATHEMATICAL BOLD CAPITAL C
+\mathbf{D},&#x1D403;,MATHEMATICAL BOLD CAPITAL D
+\mathbf{E},&#x1D404;,MATHEMATICAL BOLD CAPITAL E
+\mathbf{F},&#x1D405;,MATHEMATICAL BOLD CAPITAL F
+\mathbf{G},&#x1D406;,MATHEMATICAL BOLD CAPITAL G
+\mathbf{H},&#x1D407;,MATHEMATICAL BOLD CAPITAL H
+\mathbf{I},&#x1D408;,MATHEMATICAL BOLD CAPITAL I
+\mathbf{J},&#x1D409;,MATHEMATICAL BOLD CAPITAL J
+\mathbf{K},&#x1D40A;,MATHEMATICAL BOLD CAPITAL K
+\mathbf{L},&#x1D40B;,MATHEMATICAL BOLD CAPITAL L
+\mathbf{M},&#x1D40C;,MATHEMATICAL BOLD CAPITAL M
+\mathbf{N},&#x1D40D;,MATHEMATICAL BOLD CAPITAL N
+\mathbf{O},&#x1D40E;,MATHEMATICAL BOLD CAPITAL O
+\mathbf{P},&#x1D40F;,MATHEMATICAL BOLD CAPITAL P
+\mathbf{Q},&#x1D410;,MATHEMATICAL BOLD CAPITAL Q
+\mathbf{R},&#x1D411;,MATHEMATICAL BOLD CAPITAL R
+\mathbf{S},&#x1D412;,MATHEMATICAL BOLD CAPITAL S
+\mathbf{T},&#x1D413;,MATHEMATICAL BOLD CAPITAL T
+\mathbf{U},&#x1D414;,MATHEMATICAL BOLD CAPITAL U
+\mathbf{V},&#x1D415;,MATHEMATICAL BOLD CAPITAL V
+\mathbf{W},&#x1D416;,MATHEMATICAL BOLD CAPITAL W
+\mathbf{X},&#x1D417;,MATHEMATICAL BOLD CAPITAL X
+\mathbf{Y},&#x1D418;,MATHEMATICAL BOLD CAPITAL Y
+\mathbf{Z},&#x1D419;,MATHEMATICAL BOLD CAPITAL Z
+\mathbf{a},&#x1D41A;,MATHEMATICAL BOLD SMALL A
+\mathbf{b},&#x1D41B;,MATHEMATICAL BOLD SMALL B
+\mathbf{c},&#x1D41C;,MATHEMATICAL BOLD SMALL C
+\mathbf{d},&#x1D41D;,MATHEMATICAL BOLD SMALL D
+\mathbf{e},&#x1D41E;,MATHEMATICAL BOLD SMALL E
+\mathbf{f},&#x1D41F;,MATHEMATICAL BOLD SMALL F
+\mathbf{g},&#x1D420;,MATHEMATICAL BOLD SMALL G
+\mathbf{h},&#x1D421;,MATHEMATICAL BOLD SMALL H
+\mathbf{i},&#x1D422;,MATHEMATICAL BOLD SMALL I
+\mathbf{j},&#x1D423;,MATHEMATICAL BOLD SMALL J
+\mathbf{k},&#x1D424;,MATHEMATICAL BOLD SMALL K
+\mathbf{l},&#x1D425;,MATHEMATICAL BOLD SMALL L
+\mathbf{m},&#x1D426;,MATHEMATICAL BOLD SMALL M
+\mathbf{n},&#x1D427;,MATHEMATICAL BOLD SMALL N
+\mathbf{o},&#x1D428;,MATHEMATICAL BOLD SMALL O
+\mathbf{p},&#x1D429;,MATHEMATICAL BOLD SMALL P
+\mathbf{q},&#x1D42A;,MATHEMATICAL BOLD SMALL Q
+\mathbf{r},&#x1D42B;,MATHEMATICAL BOLD SMALL R
+\mathbf{s},&#x1D42C;,MATHEMATICAL BOLD SMALL S
+\mathbf{t},&#x1D42D;,MATHEMATICAL BOLD SMALL T
+\mathbf{u},&#x1D42E;,MATHEMATICAL BOLD SMALL U
+\mathbf{v},&#x1D42F;,MATHEMATICAL BOLD SMALL V
+\mathbf{w},&#x1D430;,MATHEMATICAL BOLD SMALL W
+\mathbf{x},&#x1D431;,MATHEMATICAL BOLD SMALL X
+\mathbf{y},&#x1D432;,MATHEMATICAL BOLD SMALL Y
+\mathbf{z},&#x1D433;,MATHEMATICAL BOLD SMALL Z
+A,&#x1D434;,"= \mathit{A}, MATHEMATICAL ITALIC CAPITAL A"
+B,&#x1D435;,"= \mathit{B}, MATHEMATICAL ITALIC CAPITAL B"
+C,&#x1D436;,"= \mathit{C}, MATHEMATICAL ITALIC CAPITAL C"
+D,&#x1D437;,"= \mathit{D}, MATHEMATICAL ITALIC CAPITAL D"
+E,&#x1D438;,"= \mathit{E}, MATHEMATICAL ITALIC CAPITAL E"
+F,&#x1D439;,"= \mathit{F}, MATHEMATICAL ITALIC CAPITAL F"
+G,&#x1D43A;,"= \mathit{G}, MATHEMATICAL ITALIC CAPITAL G"
+H,&#x1D43B;,"= \mathit{H}, MATHEMATICAL ITALIC CAPITAL H"
+I,&#x1D43C;,"= \mathit{I}, MATHEMATICAL ITALIC CAPITAL I"
+J,&#x1D43D;,"= \mathit{J}, MATHEMATICAL ITALIC CAPITAL J"
+K,&#x1D43E;,"= \mathit{K}, MATHEMATICAL ITALIC CAPITAL K"
+L,&#x1D43F;,"= \mathit{L}, MATHEMATICAL ITALIC CAPITAL L"
+M,&#x1D440;,"= \mathit{M}, MATHEMATICAL ITALIC CAPITAL M"
+N,&#x1D441;,"= \mathit{N}, MATHEMATICAL ITALIC CAPITAL N"
+O,&#x1D442;,"= \mathit{O}, MATHEMATICAL ITALIC CAPITAL O"
+P,&#x1D443;,"= \mathit{P}, MATHEMATICAL ITALIC CAPITAL P"
+Q,&#x1D444;,"= \mathit{Q}, MATHEMATICAL ITALIC CAPITAL Q"
+R,&#x1D445;,"= \mathit{R}, MATHEMATICAL ITALIC CAPITAL R"
+S,&#x1D446;,"= \mathit{S}, MATHEMATICAL ITALIC CAPITAL S"
+T,&#x1D447;,"= \mathit{T}, MATHEMATICAL ITALIC CAPITAL T"
+U,&#x1D448;,"= \mathit{U}, MATHEMATICAL ITALIC CAPITAL U"
+V,&#x1D449;,"= \mathit{V}, MATHEMATICAL ITALIC CAPITAL V"
+W,&#x1D44A;,"= \mathit{W}, MATHEMATICAL ITALIC CAPITAL W"
+X,&#x1D44B;,"= \mathit{X}, MATHEMATICAL ITALIC CAPITAL X"
+Y,&#x1D44C;,"= \mathit{Y}, MATHEMATICAL ITALIC CAPITAL Y"
+Z,&#x1D44D;,"= \mathit{Z}, MATHEMATICAL ITALIC CAPITAL Z"
+a,&#x1D44E;,"= \mathit{a}, MATHEMATICAL ITALIC SMALL A"
+b,&#x1D44F;,"= \mathit{b}, MATHEMATICAL ITALIC SMALL B"
+c,&#x1D450;,"= \mathit{c}, MATHEMATICAL ITALIC SMALL C"
+d,&#x1D451;,"= \mathit{d}, MATHEMATICAL ITALIC SMALL D"
+e,&#x1D452;,"= \mathit{e}, MATHEMATICAL ITALIC SMALL E"
+f,&#x1D453;,"= \mathit{f}, MATHEMATICAL ITALIC SMALL F"
+g,&#x1D454;,"= \mathit{g}, MATHEMATICAL ITALIC SMALL G"
+i,&#x1D456;,"= \mathit{i}, MATHEMATICAL ITALIC SMALL I"
+j,&#x1D457;,"= \mathit{j}, MATHEMATICAL ITALIC SMALL J"
+k,&#x1D458;,"= \mathit{k}, MATHEMATICAL ITALIC SMALL K"
+l,&#x1D459;,"= \mathit{l}, MATHEMATICAL ITALIC SMALL L"
+m,&#x1D45A;,"= \mathit{m}, MATHEMATICAL ITALIC SMALL M"
+n,&#x1D45B;,"= \mathit{n}, MATHEMATICAL ITALIC SMALL N"
+o,&#x1D45C;,"= \mathit{o}, MATHEMATICAL ITALIC SMALL O"
+p,&#x1D45D;,"= \mathit{p}, MATHEMATICAL ITALIC SMALL P"
+q,&#x1D45E;,"= \mathit{q}, MATHEMATICAL ITALIC SMALL Q"
+r,&#x1D45F;,"= \mathit{r}, MATHEMATICAL ITALIC SMALL R"
+s,&#x1D460;,"= \mathit{s}, MATHEMATICAL ITALIC SMALL S"
+t,&#x1D461;,"= \mathit{t}, MATHEMATICAL ITALIC SMALL T"
+u,&#x1D462;,"= \mathit{u}, MATHEMATICAL ITALIC SMALL U"
+v,&#x1D463;,"= \mathit{v}, MATHEMATICAL ITALIC SMALL V"
+w,&#x1D464;,"= \mathit{w}, MATHEMATICAL ITALIC SMALL W"
+x,&#x1D465;,"= \mathit{x}, MATHEMATICAL ITALIC SMALL X"
+y,&#x1D466;,"= \mathit{y}, MATHEMATICAL ITALIC SMALL Y"
+z,&#x1D467;,"= \mathit{z}, MATHEMATICAL ITALIC SMALL Z"
+\mathbfit{A},&#x1D468;,"= \mathbold{A} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL A"
+\mathbfit{B},&#x1D469;,"= \mathbold{B} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL B"
+\mathbfit{C},&#x1D46A;,"= \mathbold{C} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL C"
+\mathbfit{D},&#x1D46B;,"= \mathbold{D} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL D"
+\mathbfit{E},&#x1D46C;,"= \mathbold{E} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL E"
+\mathbfit{F},&#x1D46D;,"= \mathbold{F} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL F"
+\mathbfit{G},&#x1D46E;,"= \mathbold{G} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL G"
+\mathbfit{H},&#x1D46F;,"= \mathbold{H} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL H"
+\mathbfit{I},&#x1D470;,"= \mathbold{I} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL I"
+\mathbfit{J},&#x1D471;,"= \mathbold{J} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL J"
+\mathbfit{K},&#x1D472;,"= \mathbold{K} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL K"
+\mathbfit{L},&#x1D473;,"= \mathbold{L} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL L"
+\mathbfit{M},&#x1D474;,"= \mathbold{M} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL M"
+\mathbfit{N},&#x1D475;,"= \mathbold{N} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL N"
+\mathbfit{O},&#x1D476;,"= \mathbold{O} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL O"
+\mathbfit{P},&#x1D477;,"= \mathbold{P} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL P"
+\mathbfit{Q},&#x1D478;,"= \mathbold{Q} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL Q"
+\mathbfit{R},&#x1D479;,"= \mathbold{R} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL R"
+\mathbfit{S},&#x1D47A;,"= \mathbold{S} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL S"
+\mathbfit{T},&#x1D47B;,"= \mathbold{T} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL T"
+\mathbfit{U},&#x1D47C;,"= \mathbold{U} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL U"
+\mathbfit{V},&#x1D47D;,"= \mathbold{V} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL V"
+\mathbfit{W},&#x1D47E;,"= \mathbold{W} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL W"
+\mathbfit{X},&#x1D47F;,"= \mathbold{X} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL X"
+\mathbfit{Y},&#x1D480;,"= \mathbold{Y} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL Y"
+\mathbfit{Z},&#x1D481;,"= \mathbold{Z} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL Z"
+\mathbfit{a},&#x1D482;,"= \mathbold{a} (fixmath), MATHEMATICAL BOLD ITALIC SMALL A"
+\mathbfit{b},&#x1D483;,"= \mathbold{b} (fixmath), MATHEMATICAL BOLD ITALIC SMALL B"
+\mathbfit{c},&#x1D484;,"= \mathbold{c} (fixmath), MATHEMATICAL BOLD ITALIC SMALL C"
+\mathbfit{d},&#x1D485;,"= \mathbold{d} (fixmath), MATHEMATICAL BOLD ITALIC SMALL D"
+\mathbfit{e},&#x1D486;,"= \mathbold{e} (fixmath), MATHEMATICAL BOLD ITALIC SMALL E"
+\mathbfit{f},&#x1D487;,"= \mathbold{f} (fixmath), MATHEMATICAL BOLD ITALIC SMALL F"
+\mathbfit{g},&#x1D488;,"= \mathbold{g} (fixmath), MATHEMATICAL BOLD ITALIC SMALL G"
+\mathbfit{h},&#x1D489;,"= \mathbold{h} (fixmath), MATHEMATICAL BOLD ITALIC SMALL H"
+\mathbfit{i},&#x1D48A;,"= \mathbold{i} (fixmath), MATHEMATICAL BOLD ITALIC SMALL I"
+\mathbfit{j},&#x1D48B;,"= \mathbold{j} (fixmath), MATHEMATICAL BOLD ITALIC SMALL J"
+\mathbfit{k},&#x1D48C;,"= \mathbold{k} (fixmath), MATHEMATICAL BOLD ITALIC SMALL K"
+\mathbfit{l},&#x1D48D;,"= \mathbold{l} (fixmath), MATHEMATICAL BOLD ITALIC SMALL L"
+\mathbfit{m},&#x1D48E;,"= \mathbold{m} (fixmath), MATHEMATICAL BOLD ITALIC SMALL M"
+\mathbfit{n},&#x1D48F;,"= \mathbold{n} (fixmath), MATHEMATICAL BOLD ITALIC SMALL N"
+\mathbfit{o},&#x1D490;,"= \mathbold{o} (fixmath), MATHEMATICAL BOLD ITALIC SMALL O"
+\mathbfit{p},&#x1D491;,"= \mathbold{p} (fixmath), MATHEMATICAL BOLD ITALIC SMALL P"
+\mathbfit{q},&#x1D492;,"= \mathbold{q} (fixmath), MATHEMATICAL BOLD ITALIC SMALL Q"
+\mathbfit{r},&#x1D493;,"= \mathbold{r} (fixmath), MATHEMATICAL BOLD ITALIC SMALL R"
+\mathbfit{s},&#x1D494;,"= \mathbold{s} (fixmath), MATHEMATICAL BOLD ITALIC SMALL S"
+\mathbfit{t},&#x1D495;,"= \mathbold{t} (fixmath), MATHEMATICAL BOLD ITALIC SMALL T"
+\mathbfit{u},&#x1D496;,"= \mathbold{u} (fixmath), MATHEMATICAL BOLD ITALIC SMALL U"
+\mathbfit{v},&#x1D497;,"= \mathbold{v} (fixmath), MATHEMATICAL BOLD ITALIC SMALL V"
+\mathbfit{w},&#x1D498;,"= \mathbold{w} (fixmath), MATHEMATICAL BOLD ITALIC SMALL W"
+\mathbfit{x},&#x1D499;,"= \mathbold{x} (fixmath), MATHEMATICAL BOLD ITALIC SMALL X"
+\mathbfit{y},&#x1D49A;,"= \mathbold{y} (fixmath), MATHEMATICAL BOLD ITALIC SMALL Y"
+\mathbfit{z},&#x1D49B;,"= \mathbold{z} (fixmath), MATHEMATICAL BOLD ITALIC SMALL Z"
+\mathcal{A},&#x1D49C;,MATHEMATICAL SCRIPT CAPITAL A
+\mathcal{C},&#x1D49E;,MATHEMATICAL SCRIPT CAPITAL C
+\mathcal{D},&#x1D49F;,MATHEMATICAL SCRIPT CAPITAL D
+\mathcal{G},&#x1D4A2;,MATHEMATICAL SCRIPT CAPITAL G
+\mathcal{J},&#x1D4A5;,MATHEMATICAL SCRIPT CAPITAL J
+\mathcal{K},&#x1D4A6;,MATHEMATICAL SCRIPT CAPITAL K
+\mathcal{N},&#x1D4A9;,MATHEMATICAL SCRIPT CAPITAL N
+\mathcal{O},&#x1D4AA;,MATHEMATICAL SCRIPT CAPITAL O
+\mathcal{P},&#x1D4AB;,MATHEMATICAL SCRIPT CAPITAL P
+\mathcal{Q},&#x1D4AC;,MATHEMATICAL SCRIPT CAPITAL Q
+\mathcal{S},&#x1D4AE;,MATHEMATICAL SCRIPT CAPITAL S
+\mathcal{T},&#x1D4AF;,MATHEMATICAL SCRIPT CAPITAL T
+\mathcal{U},&#x1D4B0;,MATHEMATICAL SCRIPT CAPITAL U
+\mathcal{V},&#x1D4B1;,MATHEMATICAL SCRIPT CAPITAL V
+\mathcal{W},&#x1D4B2;,MATHEMATICAL SCRIPT CAPITAL W
+\mathcal{X},&#x1D4B3;,MATHEMATICAL SCRIPT CAPITAL X
+\mathcal{Y},&#x1D4B4;,MATHEMATICAL SCRIPT CAPITAL Y
+\mathcal{Z},&#x1D4B5;,MATHEMATICAL SCRIPT CAPITAL Z
+\mathcal{a},&#x1D4B6;,MATHEMATICAL SCRIPT SMALL A
+\mathcal{b},&#x1D4B7;,MATHEMATICAL SCRIPT SMALL B
+\mathcal{c},&#x1D4B8;,MATHEMATICAL SCRIPT SMALL C
+\mathcal{d},&#x1D4B9;,MATHEMATICAL SCRIPT SMALL D
+\mathcal{f},&#x1D4BB;,MATHEMATICAL SCRIPT SMALL F
+\mathcal{h},&#x1D4BD;,MATHEMATICAL SCRIPT SMALL H
+\mathcal{i},&#x1D4BE;,MATHEMATICAL SCRIPT SMALL I
+\mathcal{j},&#x1D4BF;,MATHEMATICAL SCRIPT SMALL J
+\mathcal{k},&#x1D4C0;,MATHEMATICAL SCRIPT SMALL K
+\mathcal{l},&#x1D4C1;,MATHEMATICAL SCRIPT SMALL L
+\mathcal{m},&#x1D4C2;,MATHEMATICAL SCRIPT SMALL M
+\mathcal{n},&#x1D4C3;,MATHEMATICAL SCRIPT SMALL N
+\mathcal{p},&#x1D4C5;,MATHEMATICAL SCRIPT SMALL P
+\mathcal{q},&#x1D4C6;,MATHEMATICAL SCRIPT SMALL Q
+\mathcal{r},&#x1D4C7;,MATHEMATICAL SCRIPT SMALL R
+\mathcal{s},&#x1D4C8;,MATHEMATICAL SCRIPT SMALL S
+\mathcal{t},&#x1D4C9;,MATHEMATICAL SCRIPT SMALL T
+\mathcal{u},&#x1D4CA;,MATHEMATICAL SCRIPT SMALL U
+\mathcal{v},&#x1D4CB;,MATHEMATICAL SCRIPT SMALL V
+\mathcal{w},&#x1D4CC;,MATHEMATICAL SCRIPT SMALL W
+\mathcal{x},&#x1D4CD;,MATHEMATICAL SCRIPT SMALL X
+\mathcal{y},&#x1D4CE;,MATHEMATICAL SCRIPT SMALL Y
+\mathcal{z},&#x1D4CF;,MATHEMATICAL SCRIPT SMALL Z
+,&#x1D4D0;,MATHEMATICAL BOLD SCRIPT CAPITAL A
+,&#x1D4D1;,MATHEMATICAL BOLD SCRIPT CAPITAL B
+,&#x1D4D2;,MATHEMATICAL BOLD SCRIPT CAPITAL C
+,&#x1D4D3;,MATHEMATICAL BOLD SCRIPT CAPITAL D
+,&#x1D4D4;,MATHEMATICAL BOLD SCRIPT CAPITAL E
+,&#x1D4D5;,MATHEMATICAL BOLD SCRIPT CAPITAL F
+,&#x1D4D6;,MATHEMATICAL BOLD SCRIPT CAPITAL G
+,&#x1D4D7;,MATHEMATICAL BOLD SCRIPT CAPITAL H
+,&#x1D4D8;,MATHEMATICAL BOLD SCRIPT CAPITAL I
+,&#x1D4D9;,MATHEMATICAL BOLD SCRIPT CAPITAL J
+,&#x1D4DA;,MATHEMATICAL BOLD SCRIPT CAPITAL K
+,&#x1D4DB;,MATHEMATICAL BOLD SCRIPT CAPITAL L
+,&#x1D4DC;,MATHEMATICAL BOLD SCRIPT CAPITAL M
+,&#x1D4DD;,MATHEMATICAL BOLD SCRIPT CAPITAL N
+,&#x1D4DE;,MATHEMATICAL BOLD SCRIPT CAPITAL O
+,&#x1D4DF;,MATHEMATICAL BOLD SCRIPT CAPITAL P
+,&#x1D4E0;,MATHEMATICAL BOLD SCRIPT CAPITAL Q
+,&#x1D4E1;,MATHEMATICAL BOLD SCRIPT CAPITAL R
+,&#x1D4E2;,MATHEMATICAL BOLD SCRIPT CAPITAL S
+,&#x1D4E3;,MATHEMATICAL BOLD SCRIPT CAPITAL T
+,&#x1D4E4;,MATHEMATICAL BOLD SCRIPT CAPITAL U
+,&#x1D4E5;,MATHEMATICAL BOLD SCRIPT CAPITAL V
+,&#x1D4E6;,MATHEMATICAL BOLD SCRIPT CAPITAL W
+,&#x1D4E7;,MATHEMATICAL BOLD SCRIPT CAPITAL X
+,&#x1D4E8;,MATHEMATICAL BOLD SCRIPT CAPITAL Y
+,&#x1D4E9;,MATHEMATICAL BOLD SCRIPT CAPITAL Z
+,&#x1D4EA;,MATHEMATICAL BOLD SCRIPT SMALL A
+,&#x1D4EB;,MATHEMATICAL BOLD SCRIPT SMALL B
+,&#x1D4EC;,MATHEMATICAL BOLD SCRIPT SMALL C
+,&#x1D4ED;,MATHEMATICAL BOLD SCRIPT SMALL D
+,&#x1D4EE;,MATHEMATICAL BOLD SCRIPT SMALL E
+,&#x1D4EF;,MATHEMATICAL BOLD SCRIPT SMALL F
+,&#x1D4F0;,MATHEMATICAL BOLD SCRIPT SMALL G
+,&#x1D4F1;,MATHEMATICAL BOLD SCRIPT SMALL H
+,&#x1D4F2;,MATHEMATICAL BOLD SCRIPT SMALL I
+,&#x1D4F3;,MATHEMATICAL BOLD SCRIPT SMALL J
+,&#x1D4F4;,MATHEMATICAL BOLD SCRIPT SMALL K
+,&#x1D4F5;,MATHEMATICAL BOLD SCRIPT SMALL L
+,&#x1D4F6;,MATHEMATICAL BOLD SCRIPT SMALL M
+,&#x1D4F7;,MATHEMATICAL BOLD SCRIPT SMALL N
+,&#x1D4F8;,MATHEMATICAL BOLD SCRIPT SMALL O
+,&#x1D4F9;,MATHEMATICAL BOLD SCRIPT SMALL P
+,&#x1D4FA;,MATHEMATICAL BOLD SCRIPT SMALL Q
+,&#x1D4FB;,MATHEMATICAL BOLD SCRIPT SMALL R
+,&#x1D4FC;,MATHEMATICAL BOLD SCRIPT SMALL S
+,&#x1D4FD;,MATHEMATICAL BOLD SCRIPT SMALL T
+,&#x1D4FE;,MATHEMATICAL BOLD SCRIPT SMALL U
+,&#x1D4FF;,MATHEMATICAL BOLD SCRIPT SMALL V
+,&#x1D500;,MATHEMATICAL BOLD SCRIPT SMALL W
+,&#x1D501;,MATHEMATICAL BOLD SCRIPT SMALL X
+,&#x1D502;,MATHEMATICAL BOLD SCRIPT SMALL Y
+,&#x1D503;,MATHEMATICAL BOLD SCRIPT SMALL Z
+\mathfrak{A},&#x1D504;,MATHEMATICAL FRAKTUR CAPITAL A
+\mathfrak{B},&#x1D505;,MATHEMATICAL FRAKTUR CAPITAL B
+\mathfrak{D},&#x1D507;,MATHEMATICAL FRAKTUR CAPITAL D
+\mathfrak{E},&#x1D508;,MATHEMATICAL FRAKTUR CAPITAL E
+\mathfrak{F},&#x1D509;,MATHEMATICAL FRAKTUR CAPITAL F
+\mathfrak{G},&#x1D50A;,MATHEMATICAL FRAKTUR CAPITAL G
+\mathfrak{J},&#x1D50D;,MATHEMATICAL FRAKTUR CAPITAL J
+\mathfrak{K},&#x1D50E;,MATHEMATICAL FRAKTUR CAPITAL K
+\mathfrak{L},&#x1D50F;,MATHEMATICAL FRAKTUR CAPITAL L
+\mathfrak{M},&#x1D510;,MATHEMATICAL FRAKTUR CAPITAL M
+\mathfrak{N},&#x1D511;,MATHEMATICAL FRAKTUR CAPITAL N
+\mathfrak{O},&#x1D512;,MATHEMATICAL FRAKTUR CAPITAL O
+\mathfrak{P},&#x1D513;,MATHEMATICAL FRAKTUR CAPITAL P
+\mathfrak{Q},&#x1D514;,MATHEMATICAL FRAKTUR CAPITAL Q
+\mathfrak{S},&#x1D516;,MATHEMATICAL FRAKTUR CAPITAL S
+\mathfrak{T},&#x1D517;,MATHEMATICAL FRAKTUR CAPITAL T
+\mathfrak{U},&#x1D518;,MATHEMATICAL FRAKTUR CAPITAL U
+\mathfrak{V},&#x1D519;,MATHEMATICAL FRAKTUR CAPITAL V
+\mathfrak{W},&#x1D51A;,MATHEMATICAL FRAKTUR CAPITAL W
+\mathfrak{X},&#x1D51B;,MATHEMATICAL FRAKTUR CAPITAL X
+\mathfrak{Y},&#x1D51C;,MATHEMATICAL FRAKTUR CAPITAL Y
+\mathfrak{a},&#x1D51E;,MATHEMATICAL FRAKTUR SMALL A
+\mathfrak{b},&#x1D51F;,MATHEMATICAL FRAKTUR SMALL B
+\mathfrak{c},&#x1D520;,MATHEMATICAL FRAKTUR SMALL C
+\mathfrak{d},&#x1D521;,MATHEMATICAL FRAKTUR SMALL D
+\mathfrak{e},&#x1D522;,MATHEMATICAL FRAKTUR SMALL E
+\mathfrak{f},&#x1D523;,MATHEMATICAL FRAKTUR SMALL F
+\mathfrak{g},&#x1D524;,MATHEMATICAL FRAKTUR SMALL G
+\mathfrak{h},&#x1D525;,MATHEMATICAL FRAKTUR SMALL H
+\mathfrak{i},&#x1D526;,MATHEMATICAL FRAKTUR SMALL I
+\mathfrak{j},&#x1D527;,MATHEMATICAL FRAKTUR SMALL J
+\mathfrak{k},&#x1D528;,MATHEMATICAL FRAKTUR SMALL K
+\mathfrak{l},&#x1D529;,MATHEMATICAL FRAKTUR SMALL L
+\mathfrak{m},&#x1D52A;,MATHEMATICAL FRAKTUR SMALL M
+\mathfrak{n},&#x1D52B;,MATHEMATICAL FRAKTUR SMALL N
+\mathfrak{o},&#x1D52C;,MATHEMATICAL FRAKTUR SMALL O
+\mathfrak{p},&#x1D52D;,MATHEMATICAL FRAKTUR SMALL P
+\mathfrak{q},&#x1D52E;,MATHEMATICAL FRAKTUR SMALL Q
+\mathfrak{r},&#x1D52F;,MATHEMATICAL FRAKTUR SMALL R
+\mathfrak{s},&#x1D530;,MATHEMATICAL FRAKTUR SMALL S
+\mathfrak{t},&#x1D531;,MATHEMATICAL FRAKTUR SMALL T
+\mathfrak{u},&#x1D532;,MATHEMATICAL FRAKTUR SMALL U
+\mathfrak{v},&#x1D533;,MATHEMATICAL FRAKTUR SMALL V
+\mathfrak{w},&#x1D534;,MATHEMATICAL FRAKTUR SMALL W
+\mathfrak{x},&#x1D535;,MATHEMATICAL FRAKTUR SMALL X
+\mathfrak{y},&#x1D536;,MATHEMATICAL FRAKTUR SMALL Y
+\mathfrak{z},&#x1D537;,MATHEMATICAL FRAKTUR SMALL Z
+\mathbb{A},&#x1D538;,"= \mathds{A} (dsfont), MATHEMATICAL DOUBLE-STRUCK CAPITAL A"
+\mathbb{B},&#x1D539;,"= \mathds{B} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL B"
+\mathbb{D},&#x1D53B;,"= \mathds{D} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL D"
+\mathbb{E},&#x1D53C;,"= \mathds{E} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL E"
+\mathbb{F},&#x1D53D;,"= \mathds{F} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL F"
+\mathbb{G},&#x1D53E;,"= \mathds{G} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL G"
+\mathbb{I},&#x1D540;,"= \mathds{I} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL I"
+\mathbb{J},&#x1D541;,"= \mathds{J} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL J"
+\mathbb{K},&#x1D542;,"= \mathds{K} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL K"
+\mathbb{L},&#x1D543;,"= \mathds{L} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL L"
+\mathbb{M},&#x1D544;,"= \mathds{M} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL M"
+\mathbb{O},&#x1D546;,"= \mathds{O} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL O"
+\mathbb{S},&#x1D54A;,"= \mathds{S} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL S"
+\mathbb{T},&#x1D54B;,"= \mathds{T} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL T"
+\mathbb{U},&#x1D54C;,"= \mathds{U} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL U"
+\mathbb{V},&#x1D54D;,"= \mathds{V} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL V"
+\mathbb{W},&#x1D54E;,"= \mathds{W} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL W"
+\mathbb{X},&#x1D54F;,"= \mathds{X} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL X"
+\mathbb{Y},&#x1D550;,"= \mathds{Y} (dsfont), matMATHEMATICAL DOUBLE-STRUCK CAPITAL Y"
+\mathbb{a},&#x1D552;,MATHEMATICAL DOUBLE-STRUCK SMALL A
+\mathbb{b},&#x1D553;,MATHEMATICAL DOUBLE-STRUCK SMALL B
+\mathbb{c},&#x1D554;,MATHEMATICAL DOUBLE-STRUCK SMALL C
+\mathbb{d},&#x1D555;,MATHEMATICAL DOUBLE-STRUCK SMALL D
+\mathbb{e},&#x1D556;,MATHEMATICAL DOUBLE-STRUCK SMALL E
+\mathbb{f},&#x1D557;,MATHEMATICAL DOUBLE-STRUCK SMALL F
+\mathbb{g},&#x1D558;,MATHEMATICAL DOUBLE-STRUCK SMALL G
+\mathbb{h},&#x1D559;,MATHEMATICAL DOUBLE-STRUCK SMALL H
+\mathbb{i},&#x1D55A;,MATHEMATICAL DOUBLE-STRUCK SMALL I
+\mathbb{j},&#x1D55B;,MATHEMATICAL DOUBLE-STRUCK SMALL J
+\mathbb{k},&#x1D55C;,"= \Bbbk (amssymb), MATHEMATICAL DOUBLE-STRUCK SMALL K"
+\mathbb{l},&#x1D55D;,MATHEMATICAL DOUBLE-STRUCK SMALL L
+\mathbb{m},&#x1D55E;,MATHEMATICAL DOUBLE-STRUCK SMALL M
+\mathbb{n},&#x1D55F;,MATHEMATICAL DOUBLE-STRUCK SMALL N
+\mathbb{o},&#x1D560;,MATHEMATICAL DOUBLE-STRUCK SMALL O
+\mathbb{p},&#x1D561;,MATHEMATICAL DOUBLE-STRUCK SMALL P
+\mathbb{q},&#x1D562;,MATHEMATICAL DOUBLE-STRUCK SMALL Q
+\mathbb{r},&#x1D563;,MATHEMATICAL DOUBLE-STRUCK SMALL R
+\mathbb{s},&#x1D564;,MATHEMATICAL DOUBLE-STRUCK SMALL S
+\mathbb{t},&#x1D565;,MATHEMATICAL DOUBLE-STRUCK SMALL T
+\mathbb{u},&#x1D566;,MATHEMATICAL DOUBLE-STRUCK SMALL U
+\mathbb{v},&#x1D567;,MATHEMATICAL DOUBLE-STRUCK SMALL V
+\mathbb{w},&#x1D568;,MATHEMATICAL DOUBLE-STRUCK SMALL W
+\mathbb{x},&#x1D569;,MATHEMATICAL DOUBLE-STRUCK SMALL X
+\mathbb{y},&#x1D56A;,MATHEMATICAL DOUBLE-STRUCK SMALL Y
+\mathbb{z},&#x1D56B;,MATHEMATICAL DOUBLE-STRUCK SMALL Z
+,&#x1D56C;,MATHEMATICAL BOLD FRAKTUR CAPITAL A
+,&#x1D56D;,MATHEMATICAL BOLD FRAKTUR CAPITAL B
+,&#x1D56E;,MATHEMATICAL BOLD FRAKTUR CAPITAL C
+,&#x1D56F;,MATHEMATICAL BOLD FRAKTUR CAPITAL D
+,&#x1D570;,MATHEMATICAL BOLD FRAKTUR CAPITAL E
+,&#x1D571;,MATHEMATICAL BOLD FRAKTUR CAPITAL F
+,&#x1D572;,MATHEMATICAL BOLD FRAKTUR CAPITAL G
+,&#x1D573;,MATHEMATICAL BOLD FRAKTUR CAPITAL H
+,&#x1D574;,MATHEMATICAL BOLD FRAKTUR CAPITAL I
+,&#x1D575;,MATHEMATICAL BOLD FRAKTUR CAPITAL J
+,&#x1D576;,MATHEMATICAL BOLD FRAKTUR CAPITAL K
+,&#x1D577;,MATHEMATICAL BOLD FRAKTUR CAPITAL L
+,&#x1D578;,MATHEMATICAL BOLD FRAKTUR CAPITAL M
+,&#x1D579;,MATHEMATICAL BOLD FRAKTUR CAPITAL N
+,&#x1D57A;,MATHEMATICAL BOLD FRAKTUR CAPITAL O
+,&#x1D57B;,MATHEMATICAL BOLD FRAKTUR CAPITAL P
+,&#x1D57C;,MATHEMATICAL BOLD FRAKTUR CAPITAL Q
+,&#x1D57D;,MATHEMATICAL BOLD FRAKTUR CAPITAL R
+,&#x1D57E;,MATHEMATICAL BOLD FRAKTUR CAPITAL S
+,&#x1D57F;,MATHEMATICAL BOLD FRAKTUR CAPITAL T
+,&#x1D580;,MATHEMATICAL BOLD FRAKTUR CAPITAL U
+,&#x1D581;,MATHEMATICAL BOLD FRAKTUR CAPITAL V
+,&#x1D582;,MATHEMATICAL BOLD FRAKTUR CAPITAL W
+,&#x1D583;,MATHEMATICAL BOLD FRAKTUR CAPITAL X
+,&#x1D584;,MATHEMATICAL BOLD FRAKTUR CAPITAL Y
+,&#x1D585;,MATHEMATICAL BOLD FRAKTUR CAPITAL Z
+,&#x1D586;,MATHEMATICAL BOLD FRAKTUR SMALL A
+,&#x1D587;,MATHEMATICAL BOLD FRAKTUR SMALL B
+,&#x1D588;,MATHEMATICAL BOLD FRAKTUR SMALL C
+,&#x1D589;,MATHEMATICAL BOLD FRAKTUR SMALL D
+,&#x1D58A;,MATHEMATICAL BOLD FRAKTUR SMALL E
+,&#x1D58B;,MATHEMATICAL BOLD FRAKTUR SMALL F
+,&#x1D58C;,MATHEMATICAL BOLD FRAKTUR SMALL G
+,&#x1D58D;,MATHEMATICAL BOLD FRAKTUR SMALL H
+,&#x1D58E;,MATHEMATICAL BOLD FRAKTUR SMALL I
+,&#x1D58F;,MATHEMATICAL BOLD FRAKTUR SMALL J
+,&#x1D590;,MATHEMATICAL BOLD FRAKTUR SMALL K
+,&#x1D591;,MATHEMATICAL BOLD FRAKTUR SMALL L
+,&#x1D592;,MATHEMATICAL BOLD FRAKTUR SMALL M
+,&#x1D593;,MATHEMATICAL BOLD FRAKTUR SMALL N
+,&#x1D594;,MATHEMATICAL BOLD FRAKTUR SMALL O
+,&#x1D595;,MATHEMATICAL BOLD FRAKTUR SMALL P
+,&#x1D596;,MATHEMATICAL BOLD FRAKTUR SMALL Q
+,&#x1D597;,MATHEMATICAL BOLD FRAKTUR SMALL R
+,&#x1D598;,MATHEMATICAL BOLD FRAKTUR SMALL S
+,&#x1D599;,MATHEMATICAL BOLD FRAKTUR SMALL T
+,&#x1D59A;,MATHEMATICAL BOLD FRAKTUR SMALL U
+,&#x1D59B;,MATHEMATICAL BOLD FRAKTUR SMALL V
+,&#x1D59C;,MATHEMATICAL BOLD FRAKTUR SMALL W
+,&#x1D59D;,MATHEMATICAL BOLD FRAKTUR SMALL X
+,&#x1D59E;,MATHEMATICAL BOLD FRAKTUR SMALL Y
+,&#x1D59F;,MATHEMATICAL BOLD FRAKTUR SMALL Z
+\mathsf{A},&#x1D5A0;,MATHEMATICAL SANS-SERIF CAPITAL A
+\mathsf{B},&#x1D5A1;,MATHEMATICAL SANS-SERIF CAPITAL B
+\mathsf{C},&#x1D5A2;,MATHEMATICAL SANS-SERIF CAPITAL C
+\mathsf{D},&#x1D5A3;,MATHEMATICAL SANS-SERIF CAPITAL D
+\mathsf{E},&#x1D5A4;,MATHEMATICAL SANS-SERIF CAPITAL E
+\mathsf{F},&#x1D5A5;,MATHEMATICAL SANS-SERIF CAPITAL F
+\mathsf{G},&#x1D5A6;,MATHEMATICAL SANS-SERIF CAPITAL G
+\mathsf{H},&#x1D5A7;,MATHEMATICAL SANS-SERIF CAPITAL H
+\mathsf{I},&#x1D5A8;,MATHEMATICAL SANS-SERIF CAPITAL I
+\mathsf{J},&#x1D5A9;,MATHEMATICAL SANS-SERIF CAPITAL J
+\mathsf{K},&#x1D5AA;,MATHEMATICAL SANS-SERIF CAPITAL K
+\mathsf{L},&#x1D5AB;,MATHEMATICAL SANS-SERIF CAPITAL L
+\mathsf{M},&#x1D5AC;,MATHEMATICAL SANS-SERIF CAPITAL M
+\mathsf{N},&#x1D5AD;,MATHEMATICAL SANS-SERIF CAPITAL N
+\mathsf{O},&#x1D5AE;,MATHEMATICAL SANS-SERIF CAPITAL O
+\mathsf{P},&#x1D5AF;,MATHEMATICAL SANS-SERIF CAPITAL P
+\mathsf{Q},&#x1D5B0;,MATHEMATICAL SANS-SERIF CAPITAL Q
+\mathsf{R},&#x1D5B1;,MATHEMATICAL SANS-SERIF CAPITAL R
+\mathsf{S},&#x1D5B2;,MATHEMATICAL SANS-SERIF CAPITAL S
+\mathsf{T},&#x1D5B3;,MATHEMATICAL SANS-SERIF CAPITAL T
+\mathsf{U},&#x1D5B4;,MATHEMATICAL SANS-SERIF CAPITAL U
+\mathsf{V},&#x1D5B5;,MATHEMATICAL SANS-SERIF CAPITAL V
+\mathsf{W},&#x1D5B6;,MATHEMATICAL SANS-SERIF CAPITAL W
+\mathsf{X},&#x1D5B7;,MATHEMATICAL SANS-SERIF CAPITAL X
+\mathsf{Y},&#x1D5B8;,MATHEMATICAL SANS-SERIF CAPITAL Y
+\mathsf{Z},&#x1D5B9;,MATHEMATICAL SANS-SERIF CAPITAL Z
+\mathsf{a},&#x1D5BA;,MATHEMATICAL SANS-SERIF SMALL A
+\mathsf{b},&#x1D5BB;,MATHEMATICAL SANS-SERIF SMALL B
+\mathsf{c},&#x1D5BC;,MATHEMATICAL SANS-SERIF SMALL C
+\mathsf{d},&#x1D5BD;,MATHEMATICAL SANS-SERIF SMALL D
+\mathsf{e},&#x1D5BE;,MATHEMATICAL SANS-SERIF SMALL E
+\mathsf{f},&#x1D5BF;,MATHEMATICAL SANS-SERIF SMALL F
+\mathsf{g},&#x1D5C0;,MATHEMATICAL SANS-SERIF SMALL G
+\mathsf{h},&#x1D5C1;,MATHEMATICAL SANS-SERIF SMALL H
+\mathsf{i},&#x1D5C2;,MATHEMATICAL SANS-SERIF SMALL I
+\mathsf{j},&#x1D5C3;,MATHEMATICAL SANS-SERIF SMALL J
+\mathsf{k},&#x1D5C4;,MATHEMATICAL SANS-SERIF SMALL K
+\mathsf{l},&#x1D5C5;,MATHEMATICAL SANS-SERIF SMALL L
+\mathsf{m},&#x1D5C6;,MATHEMATICAL SANS-SERIF SMALL M
+\mathsf{n},&#x1D5C7;,MATHEMATICAL SANS-SERIF SMALL N
+\mathsf{o},&#x1D5C8;,MATHEMATICAL SANS-SERIF SMALL O
+\mathsf{p},&#x1D5C9;,MATHEMATICAL SANS-SERIF SMALL P
+\mathsf{q},&#x1D5CA;,MATHEMATICAL SANS-SERIF SMALL Q
+\mathsf{r},&#x1D5CB;,MATHEMATICAL SANS-SERIF SMALL R
+\mathsf{s},&#x1D5CC;,MATHEMATICAL SANS-SERIF SMALL S
+\mathsf{t},&#x1D5CD;,MATHEMATICAL SANS-SERIF SMALL T
+\mathsf{u},&#x1D5CE;,MATHEMATICAL SANS-SERIF SMALL U
+\mathsf{v},&#x1D5CF;,MATHEMATICAL SANS-SERIF SMALL V
+\mathsf{w},&#x1D5D0;,MATHEMATICAL SANS-SERIF SMALL W
+\mathsf{x},&#x1D5D1;,MATHEMATICAL SANS-SERIF SMALL X
+\mathsf{y},&#x1D5D2;,MATHEMATICAL SANS-SERIF SMALL Y
+\mathsf{z},&#x1D5D3;,MATHEMATICAL SANS-SERIF SMALL Z
+\mathsfbf{A},&#x1D5D4;,MATHEMATICAL SANS-SERIF BOLD CAPITAL A
+\mathsfbf{B},&#x1D5D5;,MATHEMATICAL SANS-SERIF BOLD CAPITAL B
+\mathsfbf{C},&#x1D5D6;,MATHEMATICAL SANS-SERIF BOLD CAPITAL C
+\mathsfbf{D},&#x1D5D7;,MATHEMATICAL SANS-SERIF BOLD CAPITAL D
+\mathsfbf{E},&#x1D5D8;,MATHEMATICAL SANS-SERIF BOLD CAPITAL E
+\mathsfbf{F},&#x1D5D9;,MATHEMATICAL SANS-SERIF BOLD CAPITAL F
+\mathsfbf{G},&#x1D5DA;,MATHEMATICAL SANS-SERIF BOLD CAPITAL G
+\mathsfbf{H},&#x1D5DB;,MATHEMATICAL SANS-SERIF BOLD CAPITAL H
+\mathsfbf{I},&#x1D5DC;,MATHEMATICAL SANS-SERIF BOLD CAPITAL I
+\mathsfbf{J},&#x1D5DD;,MATHEMATICAL SANS-SERIF BOLD CAPITAL J
+\mathsfbf{K},&#x1D5DE;,MATHEMATICAL SANS-SERIF BOLD CAPITAL K
+\mathsfbf{L},&#x1D5DF;,MATHEMATICAL SANS-SERIF BOLD CAPITAL L
+\mathsfbf{M},&#x1D5E0;,MATHEMATICAL SANS-SERIF BOLD CAPITAL M
+\mathsfbf{N},&#x1D5E1;,MATHEMATICAL SANS-SERIF BOLD CAPITAL N
+\mathsfbf{O},&#x1D5E2;,MATHEMATICAL SANS-SERIF BOLD CAPITAL O
+\mathsfbf{P},&#x1D5E3;,MATHEMATICAL SANS-SERIF BOLD CAPITAL P
+\mathsfbf{Q},&#x1D5E4;,MATHEMATICAL SANS-SERIF BOLD CAPITAL Q
+\mathsfbf{R},&#x1D5E5;,MATHEMATICAL SANS-SERIF BOLD CAPITAL R
+\mathsfbf{S},&#x1D5E6;,MATHEMATICAL SANS-SERIF BOLD CAPITAL S
+\mathsfbf{T},&#x1D5E7;,MATHEMATICAL SANS-SERIF BOLD CAPITAL T
+\mathsfbf{U},&#x1D5E8;,MATHEMATICAL SANS-SERIF BOLD CAPITAL U
+\mathsfbf{V},&#x1D5E9;,MATHEMATICAL SANS-SERIF BOLD CAPITAL V
+\mathsfbf{W},&#x1D5EA;,MATHEMATICAL SANS-SERIF BOLD CAPITAL W
+\mathsfbf{X},&#x1D5EB;,MATHEMATICAL SANS-SERIF BOLD CAPITAL X
+\mathsfbf{Y},&#x1D5EC;,MATHEMATICAL SANS-SERIF BOLD CAPITAL Y
+\mathsfbf{Z},&#x1D5ED;,MATHEMATICAL SANS-SERIF BOLD CAPITAL Z
+\mathsfbf{a},&#x1D5EE;,MATHEMATICAL SANS-SERIF BOLD SMALL A
+\mathsfbf{b},&#x1D5EF;,MATHEMATICAL SANS-SERIF BOLD SMALL B
+\mathsfbf{c},&#x1D5F0;,MATHEMATICAL SANS-SERIF BOLD SMALL C
+\mathsfbf{d},&#x1D5F1;,MATHEMATICAL SANS-SERIF BOLD SMALL D
+\mathsfbf{e},&#x1D5F2;,MATHEMATICAL SANS-SERIF BOLD SMALL E
+\mathsfbf{f},&#x1D5F3;,MATHEMATICAL SANS-SERIF BOLD SMALL F
+\mathsfbf{g},&#x1D5F4;,MATHEMATICAL SANS-SERIF BOLD SMALL G
+\mathsfbf{h},&#x1D5F5;,MATHEMATICAL SANS-SERIF BOLD SMALL H
+\mathsfbf{i},&#x1D5F6;,MATHEMATICAL SANS-SERIF BOLD SMALL I
+\mathsfbf{j},&#x1D5F7;,MATHEMATICAL SANS-SERIF BOLD SMALL J
+\mathsfbf{k},&#x1D5F8;,MATHEMATICAL SANS-SERIF BOLD SMALL K
+\mathsfbf{l},&#x1D5F9;,MATHEMATICAL SANS-SERIF BOLD SMALL L
+\mathsfbf{m},&#x1D5FA;,MATHEMATICAL SANS-SERIF BOLD SMALL M
+\mathsfbf{n},&#x1D5FB;,MATHEMATICAL SANS-SERIF BOLD SMALL N
+\mathsfbf{o},&#x1D5FC;,MATHEMATICAL SANS-SERIF BOLD SMALL O
+\mathsfbf{p},&#x1D5FD;,MATHEMATICAL SANS-SERIF BOLD SMALL P
+\mathsfbf{q},&#x1D5FE;,MATHEMATICAL SANS-SERIF BOLD SMALL Q
+\mathsfbf{r},&#x1D5FF;,MATHEMATICAL SANS-SERIF BOLD SMALL R
+\mathsfbf{s},&#x1D600;,MATHEMATICAL SANS-SERIF BOLD SMALL S
+\mathsfbf{t},&#x1D601;,MATHEMATICAL SANS-SERIF BOLD SMALL T
+\mathsfbf{u},&#x1D602;,MATHEMATICAL SANS-SERIF BOLD SMALL U
+\mathsfbf{v},&#x1D603;,MATHEMATICAL SANS-SERIF BOLD SMALL V
+\mathsfbf{w},&#x1D604;,MATHEMATICAL SANS-SERIF BOLD SMALL W
+\mathsfbf{x},&#x1D605;,MATHEMATICAL SANS-SERIF BOLD SMALL X
+\mathsfbf{y},&#x1D606;,MATHEMATICAL SANS-SERIF BOLD SMALL Y
+\mathsfbf{z},&#x1D607;,MATHEMATICAL SANS-SERIF BOLD SMALL Z
+\mathsfit{A},&#x1D608;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL A
+\mathsfit{B},&#x1D609;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL B
+\mathsfit{C},&#x1D60A;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL C
+\mathsfit{D},&#x1D60B;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL D
+\mathsfit{E},&#x1D60C;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL E
+\mathsfit{F},&#x1D60D;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL F
+\mathsfit{G},&#x1D60E;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL G
+\mathsfit{H},&#x1D60F;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL H
+\mathsfit{I},&#x1D610;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL I
+\mathsfit{J},&#x1D611;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL J
+\mathsfit{K},&#x1D612;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL K
+\mathsfit{L},&#x1D613;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL L
+\mathsfit{M},&#x1D614;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL M
+\mathsfit{N},&#x1D615;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL N
+\mathsfit{O},&#x1D616;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL O
+\mathsfit{P},&#x1D617;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL P
+\mathsfit{Q},&#x1D618;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL Q
+\mathsfit{R},&#x1D619;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL R
+\mathsfit{S},&#x1D61A;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL S
+\mathsfit{T},&#x1D61B;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL T
+\mathsfit{U},&#x1D61C;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL U
+\mathsfit{V},&#x1D61D;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL V
+\mathsfit{W},&#x1D61E;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL W
+\mathsfit{X},&#x1D61F;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL X
+\mathsfit{Y},&#x1D620;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL Y
+\mathsfit{Z},&#x1D621;,MATHEMATICAL SANS-SERIF ITALIC CAPITAL Z
+\mathsfit{a},&#x1D622;,MATHEMATICAL SANS-SERIF ITALIC SMALL A
+\mathsfit{b},&#x1D623;,MATHEMATICAL SANS-SERIF ITALIC SMALL B
+\mathsfit{c},&#x1D624;,MATHEMATICAL SANS-SERIF ITALIC SMALL C
+\mathsfit{d},&#x1D625;,MATHEMATICAL SANS-SERIF ITALIC SMALL D
+\mathsfit{e},&#x1D626;,MATHEMATICAL SANS-SERIF ITALIC SMALL E
+\mathsfit{f},&#x1D627;,MATHEMATICAL SANS-SERIF ITALIC SMALL F
+\mathsfit{g},&#x1D628;,MATHEMATICAL SANS-SERIF ITALIC SMALL G
+\mathsfit{h},&#x1D629;,MATHEMATICAL SANS-SERIF ITALIC SMALL H
+\mathsfit{i},&#x1D62A;,MATHEMATICAL SANS-SERIF ITALIC SMALL I
+\mathsfit{j},&#x1D62B;,MATHEMATICAL SANS-SERIF ITALIC SMALL J
+\mathsfit{k},&#x1D62C;,MATHEMATICAL SANS-SERIF ITALIC SMALL K
+\mathsfit{l},&#x1D62D;,MATHEMATICAL SANS-SERIF ITALIC SMALL L
+\mathsfit{m},&#x1D62E;,MATHEMATICAL SANS-SERIF ITALIC SMALL M
+\mathsfit{n},&#x1D62F;,MATHEMATICAL SANS-SERIF ITALIC SMALL N
+\mathsfit{o},&#x1D630;,MATHEMATICAL SANS-SERIF ITALIC SMALL O
+\mathsfit{p},&#x1D631;,MATHEMATICAL SANS-SERIF ITALIC SMALL P
+\mathsfit{q},&#x1D632;,MATHEMATICAL SANS-SERIF ITALIC SMALL Q
+\mathsfit{r},&#x1D633;,MATHEMATICAL SANS-SERIF ITALIC SMALL R
+\mathsfit{s},&#x1D634;,MATHEMATICAL SANS-SERIF ITALIC SMALL S
+\mathsfit{t},&#x1D635;,MATHEMATICAL SANS-SERIF ITALIC SMALL T
+\mathsfit{u},&#x1D636;,MATHEMATICAL SANS-SERIF ITALIC SMALL U
+\mathsfit{v},&#x1D637;,MATHEMATICAL SANS-SERIF ITALIC SMALL V
+\mathsfit{w},&#x1D638;,MATHEMATICAL SANS-SERIF ITALIC SMALL W
+\mathsfit{x},&#x1D639;,MATHEMATICAL SANS-SERIF ITALIC SMALL X
+\mathsfit{y},&#x1D63A;,MATHEMATICAL SANS-SERIF ITALIC SMALL Y
+\mathsfit{z},&#x1D63B;,MATHEMATICAL SANS-SERIF ITALIC SMALL Z
+\mathsfbfit{A},&#x1D63C;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL A
+\mathsfbfit{B},&#x1D63D;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL B
+\mathsfbfit{C},&#x1D63E;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL C
+\mathsfbfit{D},&#x1D63F;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL D
+\mathsfbfit{E},&#x1D640;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL E
+\mathsfbfit{F},&#x1D641;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL F
+\mathsfbfit{G},&#x1D642;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL G
+\mathsfbfit{H},&#x1D643;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL H
+\mathsfbfit{I},&#x1D644;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL I
+\mathsfbfit{J},&#x1D645;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL J
+\mathsfbfit{K},&#x1D646;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL K
+\mathsfbfit{L},&#x1D647;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL L
+\mathsfbfit{M},&#x1D648;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL M
+\mathsfbfit{N},&#x1D649;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL N
+\mathsfbfit{O},&#x1D64A;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL O
+\mathsfbfit{P},&#x1D64B;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL P
+\mathsfbfit{Q},&#x1D64C;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Q
+\mathsfbfit{R},&#x1D64D;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL R
+\mathsfbfit{S},&#x1D64E;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL S
+\mathsfbfit{T},&#x1D64F;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL T
+\mathsfbfit{U},&#x1D650;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL U
+\mathsfbfit{V},&#x1D651;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL V
+\mathsfbfit{W},&#x1D652;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL W
+\mathsfbfit{X},&#x1D653;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL X
+\mathsfbfit{Y},&#x1D654;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Y
+\mathsfbfit{Z},&#x1D655;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Z
+\mathsfbfit{a},&#x1D656;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL A
+\mathsfbfit{b},&#x1D657;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL B
+\mathsfbfit{c},&#x1D658;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL C
+\mathsfbfit{d},&#x1D659;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL D
+\mathsfbfit{e},&#x1D65A;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL E
+\mathsfbfit{f},&#x1D65B;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL F
+\mathsfbfit{g},&#x1D65C;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL G
+\mathsfbfit{h},&#x1D65D;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL H
+\mathsfbfit{i},&#x1D65E;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL I
+\mathsfbfit{j},&#x1D65F;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL J
+\mathsfbfit{k},&#x1D660;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL K
+\mathsfbfit{l},&#x1D661;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL L
+\mathsfbfit{m},&#x1D662;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL M
+\mathsfbfit{n},&#x1D663;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL N
+\mathsfbfit{o},&#x1D664;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL O
+\mathsfbfit{p},&#x1D665;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL P
+\mathsfbfit{q},&#x1D666;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Q
+\mathsfbfit{r},&#x1D667;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL R
+\mathsfbfit{s},&#x1D668;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL S
+\mathsfbfit{t},&#x1D669;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL T
+\mathsfbfit{u},&#x1D66A;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL U
+\mathsfbfit{v},&#x1D66B;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL V
+\mathsfbfit{w},&#x1D66C;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL W
+\mathsfbfit{x},&#x1D66D;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL X
+\mathsfbfit{y},&#x1D66E;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Y
+\mathsfbfit{z},&#x1D66F;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Z
+\mathtt{A},&#x1D670;,MATHEMATICAL MONOSPACE CAPITAL A
+\mathtt{B},&#x1D671;,MATHEMATICAL MONOSPACE CAPITAL B
+\mathtt{C},&#x1D672;,MATHEMATICAL MONOSPACE CAPITAL C
+\mathtt{D},&#x1D673;,MATHEMATICAL MONOSPACE CAPITAL D
+\mathtt{E},&#x1D674;,MATHEMATICAL MONOSPACE CAPITAL E
+\mathtt{F},&#x1D675;,MATHEMATICAL MONOSPACE CAPITAL F
+\mathtt{G},&#x1D676;,MATHEMATICAL MONOSPACE CAPITAL G
+\mathtt{H},&#x1D677;,MATHEMATICAL MONOSPACE CAPITAL H
+\mathtt{I},&#x1D678;,MATHEMATICAL MONOSPACE CAPITAL I
+\mathtt{J},&#x1D679;,MATHEMATICAL MONOSPACE CAPITAL J
+\mathtt{K},&#x1D67A;,MATHEMATICAL MONOSPACE CAPITAL K
+\mathtt{L},&#x1D67B;,MATHEMATICAL MONOSPACE CAPITAL L
+\mathtt{M},&#x1D67C;,MATHEMATICAL MONOSPACE CAPITAL M
+\mathtt{N},&#x1D67D;,MATHEMATICAL MONOSPACE CAPITAL N
+\mathtt{O},&#x1D67E;,MATHEMATICAL MONOSPACE CAPITAL O
+\mathtt{P},&#x1D67F;,MATHEMATICAL MONOSPACE CAPITAL P
+\mathtt{Q},&#x1D680;,MATHEMATICAL MONOSPACE CAPITAL Q
+\mathtt{R},&#x1D681;,MATHEMATICAL MONOSPACE CAPITAL R
+\mathtt{S},&#x1D682;,MATHEMATICAL MONOSPACE CAPITAL S
+\mathtt{T},&#x1D683;,MATHEMATICAL MONOSPACE CAPITAL T
+\mathtt{U},&#x1D684;,MATHEMATICAL MONOSPACE CAPITAL U
+\mathtt{V},&#x1D685;,MATHEMATICAL MONOSPACE CAPITAL V
+\mathtt{W},&#x1D686;,MATHEMATICAL MONOSPACE CAPITAL W
+\mathtt{X},&#x1D687;,MATHEMATICAL MONOSPACE CAPITAL X
+\mathtt{Y},&#x1D688;,MATHEMATICAL MONOSPACE CAPITAL Y
+\mathtt{Z},&#x1D689;,MATHEMATICAL MONOSPACE CAPITAL Z
+\mathtt{a},&#x1D68A;,MATHEMATICAL MONOSPACE SMALL A
+\mathtt{b},&#x1D68B;,MATHEMATICAL MONOSPACE SMALL B
+\mathtt{c},&#x1D68C;,MATHEMATICAL MONOSPACE SMALL C
+\mathtt{d},&#x1D68D;,MATHEMATICAL MONOSPACE SMALL D
+\mathtt{e},&#x1D68E;,MATHEMATICAL MONOSPACE SMALL E
+\mathtt{f},&#x1D68F;,MATHEMATICAL MONOSPACE SMALL F
+\mathtt{g},&#x1D690;,MATHEMATICAL MONOSPACE SMALL G
+\mathtt{h},&#x1D691;,MATHEMATICAL MONOSPACE SMALL H
+\mathtt{i},&#x1D692;,MATHEMATICAL MONOSPACE SMALL I
+\mathtt{j},&#x1D693;,MATHEMATICAL MONOSPACE SMALL J
+\mathtt{k},&#x1D694;,MATHEMATICAL MONOSPACE SMALL K
+\mathtt{l},&#x1D695;,MATHEMATICAL MONOSPACE SMALL L
+\mathtt{m},&#x1D696;,MATHEMATICAL MONOSPACE SMALL M
+\mathtt{n},&#x1D697;,MATHEMATICAL MONOSPACE SMALL N
+\mathtt{o},&#x1D698;,MATHEMATICAL MONOSPACE SMALL O
+\mathtt{p},&#x1D699;,MATHEMATICAL MONOSPACE SMALL P
+\mathtt{q},&#x1D69A;,MATHEMATICAL MONOSPACE SMALL Q
+\mathtt{r},&#x1D69B;,MATHEMATICAL MONOSPACE SMALL R
+\mathtt{s},&#x1D69C;,MATHEMATICAL MONOSPACE SMALL S
+\mathtt{t},&#x1D69D;,MATHEMATICAL MONOSPACE SMALL T
+\mathtt{u},&#x1D69E;,MATHEMATICAL MONOSPACE SMALL U
+\mathtt{v},&#x1D69F;,MATHEMATICAL MONOSPACE SMALL V
+\mathtt{w},&#x1D6A0;,MATHEMATICAL MONOSPACE SMALL W
+\mathtt{x},&#x1D6A1;,MATHEMATICAL MONOSPACE SMALL X
+\mathtt{y},&#x1D6A2;,MATHEMATICAL MONOSPACE SMALL Y
+\mathtt{z},&#x1D6A3;,MATHEMATICAL MONOSPACE SMALL Z
+\imath,&#x1D6A4;,MATHEMATICAL ITALIC SMALL DOTLESS I
+\jmath,&#x1D6A5;,MATHEMATICAL ITALIC SMALL DOTLESS J
+,&#x1D6A8;,MATHEMATICAL BOLD CAPITAL ALPHA
+,&#x1D6A9;,MATHEMATICAL BOLD CAPITAL BETA
+\mathbf{\Gamma},&#x1D6AA;,MATHEMATICAL BOLD CAPITAL GAMMA
+\mathbf{\Delta},&#x1D6AB;,MATHEMATICAL BOLD CAPITAL DELTA
+,&#x1D6AC;,MATHEMATICAL BOLD CAPITAL EPSILON
+,&#x1D6AD;,MATHEMATICAL BOLD CAPITAL ZETA
+,&#x1D6AE;,MATHEMATICAL BOLD CAPITAL ETA
+\mathbf{\Theta},&#x1D6AF;,MATHEMATICAL BOLD CAPITAL THETA
+,&#x1D6B0;,MATHEMATICAL BOLD CAPITAL IOTA
+,&#x1D6B1;,MATHEMATICAL BOLD CAPITAL KAPPA
+\mathbf{\Lambda},&#x1D6B2;,mathematical bold capital lambda
+,&#x1D6B3;,MATHEMATICAL BOLD CAPITAL MU
+,&#x1D6B4;,MATHEMATICAL BOLD CAPITAL NU
+\mathbf{\Xi},&#x1D6B5;,MATHEMATICAL BOLD CAPITAL XI
+,&#x1D6B6;,MATHEMATICAL BOLD CAPITAL OMICRON
+\mathbf{\Pi},&#x1D6B7;,MATHEMATICAL BOLD CAPITAL PI
+,&#x1D6B8;,MATHEMATICAL BOLD CAPITAL RHO
+,&#x1D6B9;,MATHEMATICAL BOLD CAPITAL THETA SYMBOL
+\mathbf{\Sigma},&#x1D6BA;,MATHEMATICAL BOLD CAPITAL SIGMA
+,&#x1D6BB;,MATHEMATICAL BOLD CAPITAL TAU
+\mathbf{\Upsilon},&#x1D6BC;,MATHEMATICAL BOLD CAPITAL UPSILON
+\mathbf{\Phi},&#x1D6BD;,MATHEMATICAL BOLD CAPITAL PHI
+,&#x1D6BE;,MATHEMATICAL BOLD CAPITAL CHI
+\mathbf{\Psi},&#x1D6BF;,MATHEMATICAL BOLD CAPITAL PSI
+\mathbf{\Omega},&#x1D6C0;,MATHEMATICAL BOLD CAPITAL OMEGA
+,&#x1D6C1;,MATHEMATICAL BOLD NABLA
+\mathbf{\alpha},&#x1D6C2;,MATHEMATICAL BOLD SMALL ALPHA
+\mathbf{\beta},&#x1D6C3;,MATHEMATICAL BOLD SMALL BETA
+\mathbf{\gamma},&#x1D6C4;,MATHEMATICAL BOLD SMALL GAMMA
+\mathbf{\delta},&#x1D6C5;,MATHEMATICAL BOLD SMALL DELTA
+\mathbf{\varepsilon},&#x1D6C6;,MATHEMATICAL BOLD SMALL EPSILON
+\mathbf{\zeta},&#x1D6C7;,MATHEMATICAL BOLD SMALL ZETA
+\mathbf{\eta},&#x1D6C8;,MATHEMATICAL BOLD SMALL ETA
+\mathbf{\theta},&#x1D6C9;,MATHEMATICAL BOLD SMALL THETA
+\mathbf{\iota},&#x1D6CA;,MATHEMATICAL BOLD SMALL IOTA
+\mathbf{\kappa},&#x1D6CB;,MATHEMATICAL BOLD SMALL KAPPA
+\mathbf{\lambda},&#x1D6CC;,mathematical bold small lambda
+\mathbf{\mu},&#x1D6CD;,MATHEMATICAL BOLD SMALL MU
+\mathbf{\nu},&#x1D6CE;,MATHEMATICAL BOLD SMALL NU
+\mathbf{\xi},&#x1D6CF;,MATHEMATICAL BOLD SMALL XI
+,&#x1D6D0;,MATHEMATICAL BOLD SMALL OMICRON
+\mathbf{\pi},&#x1D6D1;,MATHEMATICAL BOLD SMALL PI
+\mathbf{\rho},&#x1D6D2;,MATHEMATICAL BOLD SMALL RHO
+\mathbf{\varsigma},&#x1D6D3;,MATHEMATICAL BOLD SMALL FINAL SIGMA
+\mathbf{\sigma},&#x1D6D4;,MATHEMATICAL BOLD SMALL SIGMA
+\mathbf{\tau},&#x1D6D5;,MATHEMATICAL BOLD SMALL TAU
+\mathbf{\upsilon},&#x1D6D6;,MATHEMATICAL BOLD SMALL UPSILON
+\mathbf{\varphi},&#x1D6D7;,MATHEMATICAL BOLD SMALL PHI
+\mathbf{\chi},&#x1D6D8;,MATHEMATICAL BOLD SMALL CHI
+\mathbf{\psi},&#x1D6D9;,MATHEMATICAL BOLD SMALL PSI
+\mathbf{\omega},&#x1D6DA;,MATHEMATICAL BOLD SMALL OMEGA
+,&#x1D6DB;,MATHEMATICAL BOLD PARTIAL DIFFERENTIAL
+\mathbf{\epsilon},&#x1D6DC;,MATHEMATICAL BOLD EPSILON SYMBOL
+\mathbf{\vartheta},&#x1D6DD;,MATHEMATICAL BOLD THETA SYMBOL
+,&#x1D6DE;,MATHEMATICAL BOLD KAPPA SYMBOL
+\mathbf{\phi},&#x1D6DF;,MATHEMATICAL BOLD PHI SYMBOL
+\mathbf{\varrho},&#x1D6E0;,MATHEMATICAL BOLD RHO SYMBOL
+\mathbf{\varpi},&#x1D6E1;,MATHEMATICAL BOLD PI SYMBOL
+,&#x1D6E2;,MATHEMATICAL ITALIC CAPITAL ALPHA
+,&#x1D6E3;,MATHEMATICAL ITALIC CAPITAL BETA
+\Gamma,&#x1D6E4;,"= \mathit{\Gamma} (-fourier), = \varGamma (amsmath fourier), MATHEMATICAL ITALIC CAPITAL GAMMA"
+\Delta,&#x1D6E5;,"= \mathit{\Delta} (-fourier), = \varDelta (amsmath fourier), MATHEMATICAL ITALIC CAPITAL DELTA"
+,&#x1D6E6;,MATHEMATICAL ITALIC CAPITAL EPSILON
+,&#x1D6E7;,MATHEMATICAL ITALIC CAPITAL ZETA
+,&#x1D6E8;,MATHEMATICAL ITALIC CAPITAL ETA
+\Theta,&#x1D6E9;,"= \mathit{\Theta} (-fourier), = \varTheta (amsmath fourier), MATHEMATICAL ITALIC CAPITAL THETA"
+,&#x1D6EA;,MATHEMATICAL ITALIC CAPITAL IOTA
+,&#x1D6EB;,MATHEMATICAL ITALIC CAPITAL KAPPA
+\Lambda,&#x1D6EC;,"= \mathit{\Lambda} (-fourier), = \varLambda (amsmath fourier), mathematical italic capital lambda"
+,&#x1D6ED;,MATHEMATICAL ITALIC CAPITAL MU
+,&#x1D6EE;,MATHEMATICAL ITALIC CAPITAL NU
+\Xi,&#x1D6EF;,"= \mathit{\Xi} (-fourier), = \varXi (amsmath fourier), MATHEMATICAL ITALIC CAPITAL XI"
+,&#x1D6F0;,MATHEMATICAL ITALIC CAPITAL OMICRON
+\Pi,&#x1D6F1;,"= \mathit{\Pi} (-fourier), = \varPi (amsmath fourier), MATHEMATICAL ITALIC CAPITAL PI"
+,&#x1D6F2;,MATHEMATICAL ITALIC CAPITAL RHO
+,&#x1D6F3;,MATHEMATICAL ITALIC CAPITAL THETA SYMBOL
+\Sigma,&#x1D6F4;,"= \mathit{\Sigma} (-fourier), = \varSigma (amsmath fourier), MATHEMATICAL ITALIC CAPITAL SIGMA"
+,&#x1D6F5;,MATHEMATICAL ITALIC CAPITAL TAU
+\Upsilon,&#x1D6F6;,"= \mathit{\Upsilon} (-fourier), = \varUpsilon (amsmath fourier), MATHEMATICAL ITALIC CAPITAL UPSILON"
+\Phi,&#x1D6F7;,"= \mathit{\Phi} (-fourier), = \varPhi (amsmath fourier), MATHEMATICAL ITALIC CAPITAL PHI"
+,&#x1D6F8;,MATHEMATICAL ITALIC CAPITAL CHI
+\Psi,&#x1D6F9;,"= \mathit{\Psi} (-fourier), = \varPsi (amsmath fourier), MATHEMATICAL ITALIC CAPITAL PSI"
+\Omega,&#x1D6FA;,"= \mathit{\Omega} (-fourier), = \varOmega (amsmath fourier), MATHEMATICAL ITALIC CAPITAL OMEGA"
+,&#x1D6FB;,MATHEMATICAL ITALIC NABLA
+\alpha,&#x1D6FC;,"= \mathit{\alpha} (omlmathit), MATHEMATICAL ITALIC SMALL ALPHA"
+\beta,&#x1D6FD;,"= \mathit{\beta} (omlmathit), MATHEMATICAL ITALIC SMALL BETA"
+\gamma,&#x1D6FE;,"= \mathit{\gamma} (omlmathit), MATHEMATICAL ITALIC SMALL GAMMA"
+\delta,&#x1D6FF;,"= \mathit{\delta} (omlmathit), MATHEMATICAL ITALIC SMALL DELTA"
+\varepsilon,&#x1D700;,"= \mathit{\varepsilon} (omlmathit), MATHEMATICAL ITALIC SMALL EPSILON"
+\zeta,&#x1D701;,"= \mathit{\zeta} (omlmathit), MATHEMATICAL ITALIC SMALL ZETA"
+\eta,&#x1D702;,"= \mathit{\eta} (omlmathit), MATHEMATICAL ITALIC SMALL ETA"
+\theta,&#x1D703;,"= \mathit{\theta} (omlmathit), MATHEMATICAL ITALIC SMALL THETA"
+\iota,&#x1D704;,"= \mathit{\iota} (omlmathit), MATHEMATICAL ITALIC SMALL IOTA"
+\kappa,&#x1D705;,"= \mathit{\kappa} (omlmathit), MATHEMATICAL ITALIC SMALL KAPPA"
+\lambda,&#x1D706;,"= \mathit{\lambda} (omlmathit), mathematical italic small lambda"
+\mu,&#x1D707;,"= \mathit{\mu} (omlmathit), MATHEMATICAL ITALIC SMALL MU"
+\nu,&#x1D708;,"= \mathit{\nu} (omlmathit), MATHEMATICAL ITALIC SMALL NU"
+\xi,&#x1D709;,"= \mathit{\xi} (omlmathit), MATHEMATICAL ITALIC SMALL XI"
+,&#x1D70A;,MATHEMATICAL ITALIC SMALL OMICRON
+\pi,&#x1D70B;,"= \mathit{\pi} (omlmathit), MATHEMATICAL ITALIC SMALL PI"
+\rho,&#x1D70C;,"= \mathit{\rho} (omlmathit), MATHEMATICAL ITALIC SMALL RHO"
+\varsigma,&#x1D70D;,"= \mathit{\varsigma} (omlmathit), MATHEMATICAL ITALIC SMALL FINAL SIGMA"
+\sigma,&#x1D70E;,"= \mathit{\sigma} (omlmathit), MATHEMATICAL ITALIC SMALL SIGMA"
+\tau,&#x1D70F;,"= \mathit{\tau} (omlmathit), MATHEMATICAL ITALIC SMALL TAU"
+\upsilon,&#x1D710;,"= \mathit{\upsilon} (omlmathit), MATHEMATICAL ITALIC SMALL UPSILON"
+\varphi,&#x1D711;,"= \mathit{\varphi} (omlmathit), MATHEMATICAL ITALIC SMALL PHI"
+\chi,&#x1D712;,"= \mathit{\chi} (omlmathit), MATHEMATICAL ITALIC SMALL CHI"
+\psi,&#x1D713;,"= \mathit{\psi} (omlmathit), MATHEMATICAL ITALIC SMALL PSI"
+\omega,&#x1D714;,"= \mathit{\omega} (omlmathit), MATHEMATICAL ITALIC SMALL OMEGA"
+\partial,&#x1D715;,"= \mathit{\partial} (omlmathit), MATHEMATICAL ITALIC PARTIAL DIFFERENTIAL"
+\epsilon,&#x1D716;,"= \mathit{\epsilon} (omlmathit), MATHEMATICAL ITALIC EPSILON SYMBOL"
+\vartheta,&#x1D717;,"= \mathit{\vartheta} (omlmathit), MATHEMATICAL ITALIC THETA SYMBOL"
+\varkappa,&#x1D718;,MATHEMATICAL ITALIC KAPPA SYMBOL
+\phi,&#x1D719;,"= \mathit{\phi} (omlmathit), MATHEMATICAL ITALIC PHI SYMBOL"
+\varrho,&#x1D71A;,"= \mathit{\varrho} (omlmathit), MATHEMATICAL ITALIC RHO SYMBOL"
+\varpi,&#x1D71B;,"= \mathit{\varpi} (omlmathit), MATHEMATICAL ITALIC PI SYMBOL"
+,&#x1D71C;,MATHEMATICAL BOLD ITALIC CAPITAL ALPHA
+,&#x1D71D;,MATHEMATICAL BOLD ITALIC CAPITAL BETA
+\mathbfit{\Gamma},&#x1D71E;,"= \mathbold{\Gamma} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL GAMMA"
+\mathbfit{\Delta},&#x1D71F;,"= \mathbold{\Delta} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL DELTA"
+,&#x1D720;,MATHEMATICAL BOLD ITALIC CAPITAL EPSILON
+,&#x1D721;,MATHEMATICAL BOLD ITALIC CAPITAL ZETA
+,&#x1D722;,MATHEMATICAL BOLD ITALIC CAPITAL ETA
+\mathbfit{\Theta},&#x1D723;,"= \mathbold{\Theta} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL THETA"
+,&#x1D724;,MATHEMATICAL BOLD ITALIC CAPITAL IOTA
+,&#x1D725;,MATHEMATICAL BOLD ITALIC CAPITAL KAPPA
+\mathbfit{\Lambda},&#x1D726;,"= \mathbold{\Lambda} (fixmath), mathematical bold italic capital lambda"
+,&#x1D727;,MATHEMATICAL BOLD ITALIC CAPITAL MU
+,&#x1D728;,MATHEMATICAL BOLD ITALIC CAPITAL NU
+\mathbfit{\Xi},&#x1D729;,"= \mathbold{\Xi} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL XI"
+,&#x1D72A;,MATHEMATICAL BOLD ITALIC CAPITAL OMICRON
+\mathbfit{\Pi},&#x1D72B;,"= \mathbold{\Pi} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL PI"
+,&#x1D72C;,MATHEMATICAL BOLD ITALIC CAPITAL RHO
+,&#x1D72D;,MATHEMATICAL BOLD ITALIC CAPITAL THETA SYMBOL
+\mathbfit{\Sigma},&#x1D72E;,"= \mathbold{\Sigma} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL SIGMA"
+,&#x1D72F;,MATHEMATICAL BOLD ITALIC CAPITAL TAU
+\mathbfit{\Upsilon},&#x1D730;,"= \mathbold{\Upsilon} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL UPSILON"
+\mathbfit{\Phi},&#x1D731;,"= \mathbold{\Phi} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL PHI"
+,&#x1D732;,MATHEMATICAL BOLD ITALIC CAPITAL CHI
+\mathbfit{\Psi},&#x1D733;,"= \mathbold{\Psi} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL PSI"
+\mathbfit{\Omega},&#x1D734;,"= \mathbold{\Omega} (fixmath), MATHEMATICAL BOLD ITALIC CAPITAL OMEGA"
+,&#x1D735;,MATHEMATICAL BOLD ITALIC NABLA
+\mathbfit{\alpha},&#x1D736;,"= \mathbold{\alpha} (fixmath), MATHEMATICAL BOLD ITALIC SMALL ALPHA"
+\mathbfit{\beta},&#x1D737;,"= \mathbold{\beta} (fixmath), MATHEMATICAL BOLD ITALIC SMALL BETA"
+\mathbfit{\gamma},&#x1D738;,"= \mathbold{\gamma} (fixmath), MATHEMATICAL BOLD ITALIC SMALL GAMMA"
+\mathbfit{\delta},&#x1D739;,"= \mathbold{\delta} (fixmath), MATHEMATICAL BOLD ITALIC SMALL DELTA"
+\mathbfit{\varepsilon},&#x1D73A;,"= \mathbold{\varepsilon} (fixmath), MATHEMATICAL BOLD ITALIC SMALL EPSILON"
+\mathbfit{\zeta},&#x1D73B;,"= \mathbold{\zeta} (fixmath), MATHEMATICAL BOLD ITALIC SMALL ZETA"
+\mathbfit{\eta},&#x1D73C;,"= \mathbold{\eta} (fixmath), MATHEMATICAL BOLD ITALIC SMALL ETA"
+\mathbfit{\theta},&#x1D73D;,"= \mathbold{\theta} (fixmath), MATHEMATICAL BOLD ITALIC SMALL THETA"
+\mathbfit{\iota},&#x1D73E;,"= \mathbold{\iota} (fixmath), MATHEMATICAL BOLD ITALIC SMALL IOTA"
+\mathbfit{\kappa},&#x1D73F;,"= \mathbold{\kappa} (fixmath), MATHEMATICAL BOLD ITALIC SMALL KAPPA"
+\mathbfit{\lambda},&#x1D740;,"= \mathbold{\lambda} (fixmath), mathematical bold italic small lambda"
+\mathbfit{\mu},&#x1D741;,"= \mathbold{\mu} (fixmath), MATHEMATICAL BOLD ITALIC SMALL MU"
+\mathbfit{\nu},&#x1D742;,"= \mathbold{\nu} (fixmath), MATHEMATICAL BOLD ITALIC SMALL NU"
+\mathbfit{\xi},&#x1D743;,"= \mathbold{\xi} (fixmath), MATHEMATICAL BOLD ITALIC SMALL XI"
+,&#x1D744;,MATHEMATICAL BOLD ITALIC SMALL OMICRON
+\mathbfit{\pi},&#x1D745;,"= \mathbold{\pi} (fixmath), MATHEMATICAL BOLD ITALIC SMALL PI"
+\mathbfit{\rho},&#x1D746;,"= \mathbold{\rho} (fixmath), MATHEMATICAL BOLD ITALIC SMALL RHO"
+\mathbfit{\varsigma},&#x1D747;,"= \mathbold{\varsigma} (fixmath), MATHEMATICAL BOLD ITALIC SMALL FINAL SIGMA"
+\mathbfit{\sigma},&#x1D748;,"= \mathbold{\sigma} (fixmath), MATHEMATICAL BOLD ITALIC SMALL SIGMA"
+\mathbfit{\tau},&#x1D749;,"= \mathbold{\tau} (fixmath), MATHEMATICAL BOLD ITALIC SMALL TAU"
+\mathbfit{\upsilon},&#x1D74A;,"= \mathbold{\upsilon} (fixmath), MATHEMATICAL BOLD ITALIC SMALL UPSILON"
+\mathbfit{\varphi},&#x1D74B;,"= \mathbold{\varphi} (fixmath), MATHEMATICAL BOLD ITALIC SMALL PHI"
+\mathbfit{\chi},&#x1D74C;,"= \mathbold{\chi} (fixmath), MATHEMATICAL BOLD ITALIC SMALL CHI"
+\mathbfit{\psi},&#x1D74D;,"= \mathbold{\psi} (fixmath), MATHEMATICAL BOLD ITALIC SMALL PSI"
+\mathbfit{\omega},&#x1D74E;,"= \mathbold{\omega} (fixmath), MATHEMATICAL BOLD ITALIC SMALL OMEGA"
+,&#x1D74F;,MATHEMATICAL BOLD ITALIC PARTIAL DIFFERENTIAL
+\mathbfit{\epsilon},&#x1D750;,"= \mathbold{\epsilon} (fixmath), MATHEMATICAL BOLD ITALIC EPSILON SYMBOL"
+\mathbfit{\vartheta},&#x1D751;,"= \mathbold{\vartheta} (fixmath), MATHEMATICAL BOLD ITALIC THETA SYMBOL"
+,&#x1D752;,MATHEMATICAL BOLD ITALIC KAPPA SYMBOL
+\mathbfit{\phi},&#x1D753;,"= \mathbold{\phi} (fixmath), MATHEMATICAL BOLD ITALIC PHI SYMBOL"
+\mathbfit{\varrho},&#x1D754;,"= \mathbold{\varrho} (fixmath), MATHEMATICAL BOLD ITALIC RHO SYMBOL"
+\mathbfit{\varpi},&#x1D755;,"= \mathbold{\varpi} (fixmath), MATHEMATICAL BOLD ITALIC PI SYMBOL"
+,&#x1D756;,MATHEMATICAL SANS-SERIF BOLD CAPITAL ALPHA
+,&#x1D757;,MATHEMATICAL SANS-SERIF BOLD CAPITAL BETA
+\mathsfbf{\Gamma},&#x1D758;,MATHEMATICAL SANS-SERIF BOLD CAPITAL GAMMA
+\mathsfbf{\Delta},&#x1D759;,MATHEMATICAL SANS-SERIF BOLD CAPITAL DELTA
+,&#x1D75A;,MATHEMATICAL SANS-SERIF BOLD CAPITAL EPSILON
+,&#x1D75B;,MATHEMATICAL SANS-SERIF BOLD CAPITAL ZETA
+,&#x1D75C;,MATHEMATICAL SANS-SERIF BOLD CAPITAL ETA
+\mathsfbf{\Theta},&#x1D75D;,MATHEMATICAL SANS-SERIF BOLD CAPITAL THETA
+,&#x1D75E;,MATHEMATICAL SANS-SERIF BOLD CAPITAL IOTA
+,&#x1D75F;,MATHEMATICAL SANS-SERIF BOLD CAPITAL KAPPA
+\mathsfbf{\Lambda},&#x1D760;,mathematical sans-serif bold capital lambda
+,&#x1D761;,MATHEMATICAL SANS-SERIF BOLD CAPITAL MU
+,&#x1D762;,MATHEMATICAL SANS-SERIF BOLD CAPITAL NU
+\mathsfbf{\Xi},&#x1D763;,MATHEMATICAL SANS-SERIF BOLD CAPITAL XI
+,&#x1D764;,MATHEMATICAL SANS-SERIF BOLD CAPITAL OMICRON
+\mathsfbf{\Pi},&#x1D765;,MATHEMATICAL SANS-SERIF BOLD CAPITAL PI
+,&#x1D766;,MATHEMATICAL SANS-SERIF BOLD CAPITAL RHO
+,&#x1D767;,MATHEMATICAL SANS-SERIF BOLD CAPITAL THETA SYMBOL
+\mathsfbf{\Sigma},&#x1D768;,MATHEMATICAL SANS-SERIF BOLD CAPITAL SIGMA
+,&#x1D769;,MATHEMATICAL SANS-SERIF BOLD CAPITAL TAU
+\mathsfbf{\Upsilon},&#x1D76A;,MATHEMATICAL SANS-SERIF BOLD CAPITAL UPSILON
+\mathsfbf{\Phi},&#x1D76B;,MATHEMATICAL SANS-SERIF BOLD CAPITAL PHI
+,&#x1D76C;,MATHEMATICAL SANS-SERIF BOLD CAPITAL CHI
+\mathsfbf{\Psi},&#x1D76D;,MATHEMATICAL SANS-SERIF BOLD CAPITAL PSI
+\mathsfbf{\Omega},&#x1D76E;,MATHEMATICAL SANS-SERIF BOLD CAPITAL OMEGA
+,&#x1D76F;,MATHEMATICAL SANS-SERIF BOLD NABLA
+\mathsfbf{\alpha},&#x1D770;,MATHEMATICAL SANS-SERIF BOLD SMALL ALPHA
+\mathsfbf{\beta},&#x1D771;,MATHEMATICAL SANS-SERIF BOLD SMALL BETA
+\mathsfbf{\gamma},&#x1D772;,MATHEMATICAL SANS-SERIF BOLD SMALL GAMMA
+\mathsfbf{\delta},&#x1D773;,MATHEMATICAL SANS-SERIF BOLD SMALL DELTA
+\mathsfbf{\varepsilon},&#x1D774;,MATHEMATICAL SANS-SERIF BOLD SMALL EPSILON
+\mathsfbf{\zeta},&#x1D775;,MATHEMATICAL SANS-SERIF BOLD SMALL ZETA
+\mathsfbf{\eta},&#x1D776;,MATHEMATICAL SANS-SERIF BOLD SMALL ETA
+\mathsfbf{\theta},&#x1D777;,MATHEMATICAL SANS-SERIF BOLD SMALL THETA
+\mathsfbf{\iota},&#x1D778;,MATHEMATICAL SANS-SERIF BOLD SMALL IOTA
+\mathsfbf{\kappa},&#x1D779;,MATHEMATICAL SANS-SERIF BOLD SMALL KAPPA
+\mathsfbf{\lambda},&#x1D77A;,mathematical sans-serif bold small lambda
+\mathsfbf{\mu},&#x1D77B;,MATHEMATICAL SANS-SERIF BOLD SMALL MU
+\mathsfbf{\nu},&#x1D77C;,MATHEMATICAL SANS-SERIF BOLD SMALL NU
+\mathsfbf{\xi},&#x1D77D;,MATHEMATICAL SANS-SERIF BOLD SMALL XI
+,&#x1D77E;,MATHEMATICAL SANS-SERIF BOLD SMALL OMICRON
+\mathsfbf{\pi},&#x1D77F;,MATHEMATICAL SANS-SERIF BOLD SMALL PI
+\mathsfbf{\rho},&#x1D780;,MATHEMATICAL SANS-SERIF BOLD SMALL RHO
+\mathsfbf{\varsigma},&#x1D781;,MATHEMATICAL SANS-SERIF BOLD SMALL FINAL SIGMA
+\mathsfbf{\sigma},&#x1D782;,MATHEMATICAL SANS-SERIF BOLD SMALL SIGMA
+\mathsfbf{\tau},&#x1D783;,MATHEMATICAL SANS-SERIF BOLD SMALL TAU
+\mathsfbf{\upsilon},&#x1D784;,MATHEMATICAL SANS-SERIF BOLD SMALL UPSILON
+\mathsfbf{\varphi},&#x1D785;,MATHEMATICAL SANS-SERIF BOLD SMALL PHI
+\mathsfbf{\chi},&#x1D786;,MATHEMATICAL SANS-SERIF BOLD SMALL CHI
+\mathsfbf{\psi},&#x1D787;,MATHEMATICAL SANS-SERIF BOLD SMALL PSI
+\mathsfbf{\omega},&#x1D788;,MATHEMATICAL SANS-SERIF BOLD SMALL OMEGA
+,&#x1D789;,MATHEMATICAL SANS-SERIF BOLD PARTIAL DIFFERENTIAL
+\mathsfbf{\epsilon},&#x1D78A;,MATHEMATICAL SANS-SERIF BOLD EPSILON SYMBOL
+\mathsfbf{\vartheta},&#x1D78B;,MATHEMATICAL SANS-SERIF BOLD THETA SYMBOL
+,&#x1D78C;,MATHEMATICAL SANS-SERIF BOLD KAPPA SYMBOL
+\mathsfbf{\phi},&#x1D78D;,MATHEMATICAL SANS-SERIF BOLD PHI SYMBOL
+\mathsfbf{\varrho},&#x1D78E;,MATHEMATICAL SANS-SERIF BOLD RHO SYMBOL
+\mathsfbf{\varpi},&#x1D78F;,MATHEMATICAL SANS-SERIF BOLD PI SYMBOL
+,&#x1D790;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ALPHA
+,&#x1D791;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL BETA
+\mathsfbfit{\Gamma},&#x1D792;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL GAMMA
+\mathsfbfit{\Delta},&#x1D793;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL DELTA
+,&#x1D794;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL EPSILON
+,&#x1D795;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ZETA
+,&#x1D796;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ETA
+\mathsfbfit{\Theta},&#x1D797;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL THETA
+,&#x1D798;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL IOTA
+,&#x1D799;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL KAPPA
+\mathsfbfit{\Lambda},&#x1D79A;,mathematical sans-serif bold italic capital lambda
+,&#x1D79B;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL MU
+,&#x1D79C;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL NU
+\mathsfbfit{\Xi},&#x1D79D;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL XI
+,&#x1D79E;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL OMICRON
+\mathsfbfit{\Pi},&#x1D79F;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PI
+,&#x1D7A0;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL RHO
+,&#x1D7A1;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL THETA SYMBOL
+\mathsfbfit{\Sigma},&#x1D7A2;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL SIGMA
+,&#x1D7A3;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL TAU
+\mathsfbfit{\Upsilon},&#x1D7A4;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL UPSILON
+\mathsfbfit{\Phi},&#x1D7A5;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PHI
+,&#x1D7A6;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL CHI
+\mathsfbfit{\Psi},&#x1D7A7;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PSI
+\mathsfbfit{\Omega},&#x1D7A8;,MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL OMEGA
+,&#x1D7A9;,MATHEMATICAL SANS-SERIF BOLD ITALIC NABLA
+\mathsfbfit{\alpha},&#x1D7AA;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ALPHA
+\mathsfbfit{\beta},&#x1D7AB;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL BETA
+\mathsfbfit{\gamma},&#x1D7AC;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL GAMMA
+\mathsfbfit{\delta},&#x1D7AD;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL DELTA
+\mathsfbfit{\varepsilon},&#x1D7AE;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL EPSILON
+\mathsfbfit{\zeta},&#x1D7AF;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ZETA
+\mathsfbfit{\eta},&#x1D7B0;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ETA
+\mathsfbfit{\theta},&#x1D7B1;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL THETA
+\mathsfbfit{\iota},&#x1D7B2;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL IOTA
+\mathsfbfit{\kappa},&#x1D7B3;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL KAPPA
+\mathsfbfit{\lambda},&#x1D7B4;,mathematical sans-serif bold italic small lambda
+\mathsfbfit{\mu},&#x1D7B5;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL MU
+\mathsfbfit{\nu},&#x1D7B6;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL NU
+\mathsfbfit{\xi},&#x1D7B7;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL XI
+,&#x1D7B8;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL OMICRON
+\mathsfbfit{\pi},&#x1D7B9;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PI
+\mathsfbfit{\rho},&#x1D7BA;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL RHO
+\mathsfbfit{\varsigma},&#x1D7BB;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL FINAL SIGMA
+\mathsfbfit{\sigma},&#x1D7BC;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL SIGMA
+\mathsfbfit{\tau},&#x1D7BD;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL TAU
+\mathsfbfit{\upsilon},&#x1D7BE;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL UPSILON
+\mathsfbfit{\varphi},&#x1D7BF;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PHI
+\mathsfbfit{\chi},&#x1D7C0;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL CHI
+\mathsfbfit{\psi},&#x1D7C1;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PSI
+\mathsfbfit{\omega},&#x1D7C2;,MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL OMEGA
+,&#x1D7C3;,MATHEMATICAL SANS-SERIF BOLD ITALIC PARTIAL DIFFERENTIAL
+\mathsfbfit{\epsilon},&#x1D7C4;,MATHEMATICAL SANS-SERIF BOLD ITALIC EPSILON SYMBOL
+\mathsfbfit{\vartheta},&#x1D7C5;,MATHEMATICAL SANS-SERIF BOLD ITALIC THETA SYMBOL
+,&#x1D7C6;,MATHEMATICAL SANS-SERIF BOLD ITALIC KAPPA SYMBOL
+\mathsfbfit{\phi},&#x1D7C7;,MATHEMATICAL SANS-SERIF BOLD ITALIC PHI SYMBOL
+\mathsfbfit{\varrho},&#x1D7C8;,MATHEMATICAL SANS-SERIF BOLD ITALIC RHO SYMBOL
+\mathsfbfit{\varpi},&#x1D7C9;,MATHEMATICAL SANS-SERIF BOLD ITALIC PI SYMBOL
+,&#x1D7CA;,MATHEMATICAL BOLD CAPITAL DIGAMMA
+,&#x1D7CB;,MATHEMATICAL BOLD SMALL DIGAMMA
+\mathbf{0},&#x1D7CE;,mathematical bold digit 0
+\mathbf{1},&#x1D7CF;,mathematical bold digit 1
+\mathbf{2},&#x1D7D0;,mathematical bold digit 2
+\mathbf{3},&#x1D7D1;,mathematical bold digit 3
+\mathbf{4},&#x1D7D2;,mathematical bold digit 4
+\mathbf{5},&#x1D7D3;,mathematical bold digit 5
+\mathbf{6},&#x1D7D4;,mathematical bold digit 6
+\mathbf{7},&#x1D7D5;,mathematical bold digit 7
+\mathbf{8},&#x1D7D6;,mathematical bold digit 8
+\mathbf{9},&#x1D7D7;,mathematical bold digit 9
+\mathbb{0},&#x1D7D8;,mathematical double-struck digit 0
+\mathbb{1},&#x1D7D9;,"= \mathds{1} (dsfont), mathematical double-struck digit 1"
+\mathbb{2},&#x1D7DA;,mathematical double-struck digit 2
+\mathbb{3},&#x1D7DB;,mathematical double-struck digit 3
+\mathbb{4},&#x1D7DC;,mathematical double-struck digit 4
+\mathbb{5},&#x1D7DD;,mathematical double-struck digit 5
+\mathbb{6},&#x1D7DE;,mathematical double-struck digit 6
+\mathbb{7},&#x1D7DF;,mathematical double-struck digit 7
+\mathbb{8},&#x1D7E0;,mathematical double-struck digit 8
+\mathbb{9},&#x1D7E1;,mathematical double-struck digit 9
+\mathsf{0},&#x1D7E2;,mathematical sans-serif digit 0
+\mathsf{1},&#x1D7E3;,mathematical sans-serif digit 1
+\mathsf{2},&#x1D7E4;,mathematical sans-serif digit 2
+\mathsf{3},&#x1D7E5;,mathematical sans-serif digit 3
+\mathsf{4},&#x1D7E6;,mathematical sans-serif digit 4
+\mathsf{5},&#x1D7E7;,mathematical sans-serif digit 5
+\mathsf{6},&#x1D7E8;,mathematical sans-serif digit 6
+\mathsf{7},&#x1D7E9;,mathematical sans-serif digit 7
+\mathsf{8},&#x1D7EA;,mathematical sans-serif digit 8
+\mathsf{9},&#x1D7EB;,mathematical sans-serif digit 9
+\mathsfbf{0},&#x1D7EC;,mathematical sans-serif bold digit 0
+\mathsfbf{1},&#x1D7ED;,mathematical sans-serif bold digit 1
+\mathsfbf{2},&#x1D7EE;,mathematical sans-serif bold digit 2
+\mathsfbf{3},&#x1D7EF;,mathematical sans-serif bold digit 3
+\mathsfbf{4},&#x1D7F0;,mathematical sans-serif bold digit 4
+\mathsfbf{5},&#x1D7F1;,mathematical sans-serif bold digit 5
+\mathsfbf{6},&#x1D7F2;,mathematical sans-serif bold digit 6
+\mathsfbf{7},&#x1D7F3;,mathematical sans-serif bold digit 7
+\mathsfbf{8},&#x1D7F4;,mathematical sans-serif bold digit 8
+\mathsfbf{9},&#x1D7F5;,mathematical sans-serif bold digit 9
+\mathtt{0},&#x1D7F6;,mathematical monospace digit 0
+\mathtt{1},&#x1D7F7;,mathematical monospace digit 1
+\mathtt{2},&#x1D7F8;,mathematical monospace digit 2
+\mathtt{3},&#x1D7F9;,mathematical monospace digit 3
+\mathtt{4},&#x1D7FA;,mathematical monospace digit 4
+\mathtt{5},&#x1D7FB;,mathematical monospace digit 5
+\mathtt{6},&#x1D7FC;,mathematical monospace digit 6
+\mathtt{7},&#x1D7FD;,mathematical monospace digit 7
+\mathtt{8},&#x1D7FE;,mathematical monospace digit 8
+\mathtt{9},&#x1D7FF;,mathematical monospace digit 9
