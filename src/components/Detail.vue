@@ -79,11 +79,13 @@
             <input id="default-input w-full" :value="file.mathml"
                    class="bg-gray-50 w-10/12 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5"
                    disabled type="text">
-            <button v-clipboard="file.mathml" class="bg-gray-50 right-auto border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/12 p-2.5"
+            <button v-clipboard="file.mathml"
+                    class="bg-gray-50 right-auto border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/12 p-2.5"
                     @click="showClicked">
                 <div>{{ !copied ? "Copy" : "Copied" }}</div>
             </button>
-            <button class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/12 p-2.5">
+            <button class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/12 p-2.5"
+                    @click="exportDoc">
                 <div>Export Docx</div>
             </button>
         </div>
@@ -92,6 +94,7 @@
 
 <script>
 import {useFileStore} from "@/stores/snips";
+import {exec} from "child_process";
 
 export default {
     name: "Detail",
@@ -102,7 +105,8 @@ export default {
             total2: 0,
             cur: 0,
             fileStore: useFileStore(),
-            copied: false
+            copied: false,
+            mathml: null,
         }
     },
     created() {
@@ -127,6 +131,31 @@ export default {
         },
         showClicked() {
             this.copied = true
+        },
+        exportDoc(e) {
+            e.preventDefault();
+            exec(`pandoc -f latex -o a.docx <(echo "$ ${this.file.latex}$")`, async (error, stdout, stderr) => {
+                if (error) {
+                    console.log(`error: ${error.message}`);
+                    return;
+                }
+                if (stderr) {
+                    console.log(`stderr: ${stderr}`);
+                    return;
+                }
+                // this.mathml = stdout
+                let response = await fetch(`http://localhost:5173/a.docx`);
+                let data = await response.blob();
+                // let metadata = {
+                //     type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+                // };
+                // const file = new File([data], `a.docx`, metadata);
+                let link = document.createElement('a')
+                link.href = window.URL.createObjectURL(data)
+                link.download = 'doc1.docx'
+                link.click()
+                console.log(`stdout: ${stdout}`);
+            });
         }
     }
 }
