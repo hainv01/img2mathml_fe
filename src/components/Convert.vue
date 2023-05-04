@@ -127,7 +127,6 @@ export default defineComponent({
                 this.wait = false
                 return
             }
-            let command = `docker run -i -v "$(pwd)"/imgs:/usr/src/app/test --rm --name my-app hainv01/img2latex:0.0.4 ${this.image}`
             const latex = convertApi.post('/predict/', formData, {
                 headers: {
                     "Content-Type": "multipart/form-data"
@@ -137,32 +136,6 @@ export default defineComponent({
                 console.log(image.data._id, res.data)
                 authApi.patch(`/files/${image.data._id}`, {latex: res.data})
             })
-            if (latex) {
-                console.log(latex)
-            }
-            // let command = `docker run -i -v "$(pwd)"/imgs:/usr/src/app/test --rm --name my-app hainv01/img2latex:0.0.4 a`
-            // exec(command, (error, stdout, stderr) => {
-            //     if (error) {
-            //         this.alert = true;
-            //         console.log(`error: ${error.message}`);
-            //         setTimeout(() => {
-            //             this.alert = false;
-            //         }, 5000);
-            //         this.wait = false
-            //         return;
-            //     }
-            //     if (stderr) {
-            //         console.log(`stderr: ${stderr}`);
-            //     }
-            //     console.log(`stdout: ${stdout}`);
-            //     authApi.patch(`/files/${res.data._id}`, {mathml: stdout})
-            //     let blob = new Blob([stdout], {"type": "text/plain"});
-            //     let link = document.createElement('a')
-            //     link.href = window.URL.createObjectURL(blob)
-            //     link.download = 'output.txt'
-            //     link.click()
-            //     this.wait = false
-            // });
         },
         capture(e) {
             // e.stopPropagation();

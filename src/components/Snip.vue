@@ -26,7 +26,7 @@ export default {
       loading: false,
     }
   },
-  created() {
+  mounted() {
     this.getData()
   },
   methods: {
@@ -36,7 +36,6 @@ export default {
       fileStore.getFiles().then(response => {
         this.files = response
         this.loading = false
-        console.log(this.files[1]._id)
       })
     },
     onClick(index) {

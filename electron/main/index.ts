@@ -1,6 +1,6 @@
-import { app, BrowserWindow, shell, ipcMain, dialog } from 'electron'
-import { release } from 'node:os'
-import { join } from 'node:path'
+import {app, BrowserWindow, ipcMain, shell} from 'electron'
+import {release} from 'node:os'
+import {join} from 'node:path'
 
 // The built directory structure
 //
@@ -121,4 +121,8 @@ ipcMain.on('minimize-win', (_, arg) => {
 })
 ipcMain.on('unhide-win', (_, arg) => {
   win.restore()
+})
+
+ipcMain.on('user-path', async (event, fileName) => {
+    return app.getPath('userData');
 })
