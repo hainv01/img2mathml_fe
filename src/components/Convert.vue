@@ -135,7 +135,7 @@ export default defineComponent({
             }).then(res => {
                 this.wait = false
                 console.log(image.data._id, res.data)
-                authApi.patch(`/files/${image.data._id}`, {mathml: res.data})
+                authApi.patch(`/files/${image.data._id}`, {latex: res.data})
             })
             if (latex) {
                 console.log(latex)
