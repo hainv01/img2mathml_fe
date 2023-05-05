@@ -52,7 +52,10 @@ export const useAuthStore = defineStore({
             localStorage.setItem('user', JSON.stringify(user.data.access_token));
 
             // redirect to previous url or default to home page
-            await router.push(this.returnUrl || '/');
+            router.push(this.returnUrl || '/')
+                .then(() => { // @ts-ignore
+                    router.go()
+                })
         },
         setUser(user: any) {
             this.user = user

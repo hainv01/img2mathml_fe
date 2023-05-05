@@ -115,7 +115,11 @@ export default defineComponent({
         async signout(e: Event) {
             this.users = false
             localStorage.removeItem('user');
-            await router.push('/login');
+            router.push('/login')
+              .then(() => {
+                  // @ts-ignore
+                  router.go()
+              });
         }
     }
 })
