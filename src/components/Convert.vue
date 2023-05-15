@@ -1,7 +1,4 @@
 <template>
-    <div class="relative z-10">
-        <Alert v-if="alert"></Alert>
-    </div>
     <div>
         <div class="container mx-auto mb-4 text-3xl font-bold text-center">
             Convert
@@ -25,7 +22,7 @@
                 <p class="text-sm text-gray-300">
                     <span>File type: jpg, png</span>
                 </p>
-                <p v-if="alert === true" class="text-sm text-red-500">Error</p>
+                <p class="text-sm text-red-500">{{ alert }}</p>
                 <div>
                     <button
                             class="flex justify-center p-5 my-5 w-full font-semibold tracking-wide text-gray-100 bg-blue-500 rounded-full shadow-lg transition duration-300 ease-in cursor-pointer hover:bg-blue-600 focus:outline-none focus:shadow-outline"
@@ -68,17 +65,22 @@ export default defineComponent({
             url: '',
             file: null,
             wait: false,
-            alert: false,
+            alert: '',
         }
     },
     methods: {
         onFileChange(e) {
+            this.alert = '';
             e.stopPropagation();
             e.preventDefault();
             const target = e.target;
             if (!target) return
             const file = target.files;
             if (!file) return
+            if (file[0].size > 512 * 1024) {
+                this.alert = "File's size can not larger than 512KB"
+                return
+            }
             this.file = file[0]
             console.log(this.file)
             this.url = URL.createObjectURL(file[0]);
@@ -193,6 +195,7 @@ export default defineComponent({
         },
         capture(e) {
             // e.stopPropagation();
+            this.alert = "";
             e.preventDefault();
             exec(`mkdir imgs`, (error, stdout, stderr) => {
                 if (error) {
